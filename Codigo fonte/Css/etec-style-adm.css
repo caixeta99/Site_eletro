@@ -1,0 +1,555 @@
+/*fontes da parte admin*/
+html{
+font-size:100%;
+font-size:16px;
+}
+body{
+font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+/*
+*
+*
+ Seção : css do padrao das paginas administrativas (todas faram uso das  mesmas caracateristicas 
+*
+*
+*/
+.etec-admin-pag-padrao{
+width:90%;
+margin:0% 5% 0% 5%;	
+}/*container responsavel por armazenar todo o conteudo da pagina */
+.etec-admin-pad-barlateral{
+width:20%;
+float:left;
+border-right:1px solid rgba(200,200,200,1);
+font-size:17px;
+line-height:24px;
+
+
+}/*container resposanvel por armazenar as informaçoes que o usuario ultiliza para navegar naquele segmento do sit*/
+.etec-admin-pad-barlateral a{
+ color:#000; 
+ text-decoration:none;
+}/* Formataçoes aplicadas ao links dos botoes da aba de navegaçao lateal*/
+  .etec-admin-pad-bar-info{
+	width:90%;
+	margin:2% 0% 25% 0%;
+	word-spacing:-1px;
+  
+	}/*Classe que contem um informativo do que é representa essa pagina */
+	.etec-admin-pad-bar-info strong{
+	 font-size:18px;
+	 color:#F00;
+	 font-weight:100;
+	}/**formataçoes aplicadas a tag strong que exalta uma determinada palavra do texto**/
+	.etec-admin-pad-bar-info p{
+	 margin:3% 0% 4% 0% ;
+	 white-space:pre-wrap;
+	}/*formataçoes aplicadas aos pagrafos que mostrao o esplicativos das opçoes de cada pagina*/
+     .etec-admin-pad-bar-info i{
+	  color:rgba(255,0,0,0.7);
+	  font-size:19px;
+	  font-weight:600;
+	 }/*Formataçoes aplicas ao titulo que indica o siginificado dessa pagina */
+	.etec-admin-pad-barlateral input[type=submit]{
+	 display:none;
+	}
+  .etec-admin-pad-bar-iten{
+   width:90%;
+   margin:10% 0% 10% 0% ;
+   height:30px;
+   /*background-color:rgba(200,200,200,1);*/
+   text-align:center;
+   line-height:30px;
+   border-bottom:1px solid rgba(0,0,0,1);
+   }/*containere resposanvel por armazenar os links de navegação da barra*/
+     .etec-admin-pad-bar-iten a{
+	  text-decoration:none;
+	  color:rgba(0,0,0,8);
+	  width:100%;
+	  
+	 }
+	  .etec-admin-pad-bar-iten:hover {
+		background-color:rgba(255,0,0,0.7);
+		border-top-left-radius:5px;
+		border-top-right-radius:5px;
+		
+	  }
+.etec-admin-pad-conteudo{
+width:75%;
+float:left;
+margin-left:2%;
+}/*container resposanvel por armazenar o conteudo da pagina*/
+.input_typ_subm_none{
+display:none;
+}
+.etec-admin-pad-conteudo a{
+text-decoration:none;
+color:#000;
+}/*formataçoes resposanveis por tirar toda a formataçao de link da parte de conteudo da pagina*/
+.etec-admin-pad-conteudo-unit ,.etec-admin-pad-conteudo-unit-reduces ,.etec-admin-pad-conteudo-unit-alment{
+width:31%;
+float:left;
+height:auto;
+margin:4% 1% 1% 1%;
+border:1px solid rgba(0,0,0,0.2);
+cursor:pointer;
+min-height:350px;
+position:relative;
+color:rgba(0,0,0,0.7);
+word-wrap:break-word;
+}/*container que vai armazenar todo o conteudo de uma determinada informação */
+.etec-admin-pad-conteudo-unit-reduces{
+min-height:320px;
+}
+.etec-admin-pad-cont-unit-info-alment{
+min-height:60px;
+}/*éssa class é usada para alementar o container que armazena uma determinada informaçao*/
+.etec-admin-pad-conteudo-unit-alment{
+min-height:680px;
+}
+/*observaçao: com o decorrer do projeto hove a necessidade de criar algumas variaçoes da class"etec-admin-pad-conteudo-unit" com tamanhos bvariados oks
+sendo que : "etec-admin-pad-conteudo-unit" sera a padrao ; "etec-admin-pad-conteudo-reduces" é uma variaçao da primeira so que com o seu tamanho alementado*/
+.etec-admin-pad-conteudo-unit img{
+width:100%;
+height:100%;
+}
+
+  .etec-admin-pad-cont-unit-title{
+	width:100%;
+	height:40px;
+	text-align:center;
+	line-height:40px; 
+	background-color:rgba(252,144,58,1);
+	font-size:19px;
+	color:rgba(0,0,0,0.8);
+   }/*container que vaia rmazenar o titulo de um determinado dado*/
+   .etec-admin-pad-cont-unit-info ,.etec-admin-pad-cont-unit-dis ,.etec-admin-pad-cont-unit-info-img{
+	 width:98%;
+	 line-height:normal;
+	 height:40px;
+	 margin:3% 1% 3% 1%;  
+    }/*container que vai armazenar uma determinda informação*/
+	  .etec-admin-pad-bar-info h1{
+		 text-align:center;
+		 font:25px Verdana, Geneva, sans-serif;
+		 font-size:25px;
+		 line-height:35px;
+		 font-weight:100;
+		 color:rgba(0,0,0,0.7);
+		 }
+		 
+	  
+    .etec-admin-pad-cont-unit-info-img{
+	height:200px;
+	margin-bottom:100px;
+	}/*Classe resposanvel por armazenar uma deteminad imagm em um container */
+	.etec-admin-pad-cont-unit-info-img img{
+		 width:100%;
+		 height:100%;
+		 
+		 }/*formataçoes aplicadas a foto de uma determinad aprate do site */
+    .etec-admin-pad-cont-unit-info-reduces{
+	 overflow:hidden;
+	 max-height:110px;
+	 position:relative;
+	 min-height:110px;
+	}/*Essa classe so vai ser usada quando ha a necessidade de reduzir o tamanho total do texto*/
+	.etec-admin-pad-cont-unit-info-reduces:before{
+	 content:'...';
+	 right:0px;
+	 bottom:0;
+	 position:absolute;
+	 margin-top:1px;
+	 padding: 0 0 0 0.25px;
+	}
+	.etec-admin-pad-cont-unit-dis{
+	height:50px;
+	}
+	.etec-admin-pad-cont-unit-dis-one{
+	width:49%;
+	float:left;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	}/*container que esta fazendo a divisoa de um container que deveria armazenar um informação(vai armazenar duas)*/
+	.etec-admin-pad-cont-unit-dis-two{
+	width:49%;
+	float:right;
+	margin-left:2%;
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	}
+	.etec_admin-pad-cont-unit-info-aling{
+	text-align:center;
+    }/*Classe responsavel por fazer o alinhamento de um determinado elemento em uma pagina */
+	.admin-pad-unit-desativ-color{
+      background-color:rgba(253,147,144,1);
+      }/*define uma cor salmao caso o elemento esteja desativado do sistema */
+	 .admin-pad-unit-ativar-color{
+	
+	   background-color:rgba(134,252,124,0.9);
+	}/*define uma cor verde caso o eleemento esteja ativo no sistema */
+	.admin-pad-unit-inative-color{
+      background-color:rgba(190,190,190,1);
+      }
+.etec-admin-pad-bar-info etec-admin-pad-espace{
+font-size:17px;
+line-height:40px;
+}/*formataçoes aplicadas ao container que armazana a leganda de cores da parte adminstrativa*/	
+/* Formataçoes palicadas a parte de formularios*/
+
+.etec-admin-pad-bar-iten-btn,.etec-admin-pad-bar-iten-alment{
+ width:60%;
+ margin:2% 20% 2% 20%;
+ background-color:rgba(255,167,152,1);
+ border:none;
+ border-radius:10px;
+ height:40px;
+ line-height:40px;
+ font-size:19px;
+ font-weight:300;
+ color:rgba(0,0,0,0.7);
+}/*container resposnavel por editar o botao que sinaliza algun tipo de ação para o projeto */
+.etec-admin-pad-bar-iten-alment{
+width:90%;
+margin:2% 5% 2% 5%;
+}/*uma verçao almentada da classe "etec-adin-pad-bar-iten-btn"*/
+
+.etec-admin-pad-conteudo fieldset{
+width:60%;
+margin:2% 20% 2% 20%;
+}/*formataçoes aplicadas a tag que armazenar todo o formulario  */
+  .etec-admin-pad-forms{
+    width:80%;
+	margin:2% 10% 0% 10%;
+	background-color:rgba(0,0,0,0.07);
+	border-radius:10px;
+   }/*formataçoes aplicadas ao formulario em si*/
+   .etec-admin-pad-forms-info ,.etec-admin-pad-forms-info-pared{
+	  width:90%;
+	  margin:5% 5% 10% 5%;
+	  height:20px;
+	 
+	}/*essta tag serve par deixar um label ao lado de um texto*/
+   .etec-admin-pad-forms-info p ,.etec-admin-pad-forms-info-pared p{
+	float:left;
+     margin-top:5%;	
+	}
+   .etec-admin-pad-forms-info select {
+	  float:left;
+	  margin-top:5%;
+	  width:20%;
+	  margin-left:1%;
+	  }
+   /*observação: a class" etec-admin-pad-info" so vai ser usada quando uma parte do formulario obrigatoriamente tiver um texto a sua frente */
+    .etec-admin-pad-forms-info-text-are{
+	  width:90%;
+	  margin:5% 5% 10% 5%;
+	  height:auto;
+	
+	 }/*container que vai armazenar um texto que tem relaçao com um textarea*/
+	  .etec-admin-pad-forms-info-text-are {
+		 width:100%;
+		 margin-bottom:10px;
+		 clear:both;
+		 margin-top:5px;
+		 }
+	   
+		
+	  .etec-admin-pad-forms-info-text-are textarea{
+		
+	     min-width:100%;
+	  max-width:100%;
+	  min-height:100px;
+	  max-height:100px;
+		}
+   .etec-admin-pad-forms-info-pared input{
+	 float:left;
+	  margin-top:5%;
+	  margin-left:1%;
+     width:25;
+	 }
+   .etec-admin-pad-forms-info input{
+	  float:left;
+	  margin-top:5%;
+	  margin-left:1%;
+     width:50%;
+	 }/*formataçoes feitas a um determinado input que se emcontra ao lado de um texto*/
+   .etec-admin-pad-forms-element{
+     width:90%;
+	 margin:2% 5% 1% 5%;
+ 	}
+   /*Observação: A class"etec-admin-pad-forms-element" vai ser usada para fazer formataçoes a diferentes tipos de elementos de um formulario */
+     .etec-admin-pad-forms-element textarea{
+	  min-width:100%;
+	  max-width:100%;
+	  min-height:100px;
+	  max-height:100px;
+	 }/*Formataçoes aplicas a um textarea */
+	 .etec-admin-pad-forms-element input{
+		width:100%;
+		margin-top:5%;
+	}/*formataçoes aplicadas a todos os input que estao dentro da seguite classe*/
+	 .etec-admin-pad-forms-enviar{
+	  width:100%;
+	  height:50px;
+	 }/*formataçoes plaicadas ao container que esta armazenado o botao de envio dos dados */
+	.etec-admin-pad-forms-enviar input{
+	background-color:rgba(255,167,152,1);
+	padding:5px;
+	border:none;
+	height:35px;
+	border-radius:10px;
+	margin:2%  4% 2% 5%;
+	 float:right;
+	}/*formataçoes aplicadas ao botao que vai enviar os dados do formulario para o sistema */
+	.etec-admin-pad-forms-enviar input:hover{
+	background-color:rgba(255,0,0,0.7);
+	cursor:pointer;
+	}/*fromatraçaoes aplicadas ao evento a :hover do botao que esta resposnavel por enviar os dados */
+	.etec-admin-pad-forms-enviar-img-btn{
+     height:auto;
+     width:100%;
+     margin-top:5%;
+     margin-bottom:5%;
+	 
+	 
+	 
+     }/*Formataçao aplicada ao container que esta armazenado o botao para "selecionar uma imagen"*/
+   .etec-admin-pad-forms-enviar-img-btn label{	
+	 border-radius: 5px;
+     color: rgba(50,50,50,1) ;
+     cursor: pointer;
+     padding: 6px 20px;
+     background-color:rgba(191,210,255,1);
+     border:none;
+     border-radius:5px;
+     height:35px;
+     margin-left:5%;
+   }
+	.etec-admin-pad-forms-enviar-img-btn input[type='file'] {
+     display: none;
+	
+	}/*faz com que o campo d input fique desativado por padrao*/
+ /*Observação : os codigos abaixo se referen a pagina do perfil do administrador*/
+ 
+.etec-pag-my-perf{
+height:300px;
+}/*container responsavel por armazenar as informaçoes do administrador*/
+.etec-admin-pad-my-dates{
+margin:5% 5% 5% 5%;
+width:90%;
+height:200px;
+}/*classe pai responsavel por unir todos os dados do adm*/
+.etec-pag-my-perf-dados-title  {
+width:50%;
+float:left;
+margin-bottom:2%;
+}/*container que armazena as palavras "nome e senha"*/
+.etec-pag-my-perf-dados-conteud {
+width:45%;
+float:left;
+margin-left:5%;
+}/*formataçoes que ira estelirizar*/
+.etec-pag-my-perf-dados-conteud  input{
+width:80%;
+height:20px;
+}
+.etec-pag-my-perf-dados-btn{
+margin-top:10%;
+float:right;
+margin-right:8%;
+margin-left:auto;
+width:100px;
+}/*formataçoes aplicadas as opçoes da pagina do usuario */
+.etec-pag-my-perf-dados-btn input{
+background-color:rgba(255,76,76,1);
+border:none;
+border-radius:5px;
+height:35px;
+}/*formataçoes aplicadas ao input dos botoes */
+ 
+   
+/*Observaçao : as tags abaixo fazem referencia ao pop up padrao do site */
+
+.etec-pop-up-tela-informacoes-fundo{
+    width:100%;
+	height:100%;
+	top:0px;
+	position:fixed;
+	background-color:rgba(0, 0, 0, 0.9);
+	visibility:hidden;
+	z-index:2;
+}
+
+.etec-pop-p-tela-informacoes-two-op ,.etec-pop-up-tela-informacoes-three-op{
+   height:180px;
+   width:28%;
+   top:60%;
+   left:70%;
+   margin-left:-325px;
+   margin-top:-200px;
+   position:fixed;
+   background:rgba(235,235,235,1);
+   z-index:3;
+}/*formatacao do pop up*/
+
+
+.etec-pop-up-conteud{
+width:100%;
+text-align:center;
+height:40px;
+line-height:20px;
+margin:10% 0% 10% 0%;
+}/*Formataçoes **/
+.etec-pop-up-opcoes-two ,.etec-pop-up-opcoes-three{
+height:auto;
+width:100%;
+}/*container que esta armazenado as opçoes */
+.etec-pop-up-opcoes-two input ,.etec-pop-up-opcoes-three input{
+display:none;
+}/*formataçoes aplicadas aos campos submit do pop up **/
+.etec-pop-up-opcoes-two label ,.etec-pop-up-opcoes-three label{
+width:40%;
+margin:4% 5% 1% 5%;
+float:left;
+background-color:rgba(252,144,58,1);
+border:none;
+border-radius:5px;
+height:35px;
+cursor:pointer;
+line-height:35px;
+text-align:center;
+}/*formataçoes aplicadas aos label que estaoa rmazenado uma palavras que representa uma determinada açao no pop up*/
+.etec-pop-up-opcoes-three label{
+width:30%;
+margin:4% 0% 1% 3%;
+}
+.etec-pop-up-opcoes label:hover{
+background-color:rgba(252,50,58,1);
+}/*quando o mouser for passado sobre o mouse sera feito uma mundaça de cor */
+
+.etec-img-fechar img{
+ 
+  width:20px;
+  right:-2px;
+  top:-2px;
+  height:20px;
+  border-radius:100px;
+  text-align:center;
+  position:absolute;
+  cursor:pointer;
+}/*classe que armazena uma imagen que é usada para fechar o pop up*/
+.etec-img-fechar p:hover{
+  background: rgba(0, 0, 0, 1);
+}/*mudança de opacidade do botao fechar*/
+
+/*as tag abaixo sao referentes a parte da lengenda de registro da barra lateral de cada pagina*/
+.etec-admin-pad-bar-cores-title h1{
+margin:2% 0% 2% 0% ;
+text-align:center;
+font-size:23px;
+color:rgba(252,144,58,1);
+}/*classe resposanvelporarmazenar o titulo do bloco de legendad*/
+.etec-admin-pad-espace{
+margin-top:40px;
+
+}/*classe resposnavel por definir uma espaçamento entre dos elementos da barra letaral*/
+.etec-admin-info-cores-men{
+width:100%;
+margin:5% 0% 5% 0%;
+height:50px;
+}/*Container que esta armazenado um dos estados que oes registros podem asumir no sistema */
+.etec-admin-info-cores-men-img{
+width:20%;
+height:30px;
+float:left;
+margin:10px 0px 10px 0px;
+}/*COntainer resposnavel por amazenar uma imagen que representa o estado de um determinado registro no sistema */
+.etec-admin-info-cores-men-img img{
+width:100%;
+height:100%;
+line-height:50px;
+}/*Formataçoes aplicada a imagens em si , essa representa um estado de um registro do sistema */
+.etec-admin-info-cores-men-name ,.etec-admin-info-cores-men-name-diferent{
+width:66%;
+height:auto;
+float:left;
+margin-left:4%;
+line-height:50px;
+}/*container resposnavel por armazenar o siginifiacado de cada estado de um determinado registro */
+.etec-admin-info-cores-men-name-diferent{
+line-height:25px;
+}
+/*Programaçao voltada a parte de login do adminstrador do site */
+.etec-admin-login-img-fund{
+width:100%;
+height:100%;
+z-index:1;
+position:absolute;
+margin:0;
+padding:0;
+}/*container que vai armazenar a imagem que sera usada como plano de fundo do site*/
+.etec-admin-login-img-fund img{
+width:100%;
+height:100%;	
+}/*Container responsavel por espandir o maximo posssivel a imagem usado como plano de fundo */
+.etec-admin-login-form-center{
+width:24%;
+margin:0% 38% 0% 38%;
+top:20%;
+height:300px;
+z-index:2;
+position:absolute;
+}/*Container geral resposnavel por armazenar todo os elementos que vao fazer parte o formulario de login*/
+.etec-admin-login-form-center fieldset{
+background-color:rgba(240,240,240,1);
+border-radius:10px;
+}/*Formataçoes aplicadas ao corpo do formulario */   
+.etec-admin-login-form-img{
+width:40%;
+margin:5% 30% 5% 30%;
+height:100px;
+}
+.etec-admin-login-form-img img{
+width:100%;
+height:100%;
+}
+.etec-admin-login-form-center h3 ,.etec-admin-login-form-center h1{ 
+font-size:13px;
+text-align:center;
+margin:4% 0% 4% 0%;
+
+}/*formataçoes aplicadas aos titulo h2,h3**/
+.etec-admin-login-form-center h1{
+font-size:23px;
+}
+.etec-admin-login-form-center input{
+width:90%;
+margin:1% 5% 2% 5%;
+opacity:0.8;
+color:#000;
+font-size:16px;
+border-bottom:1px solid #CCCCCC;
+text-transform:inherit;
+}/*formataçoes aplicadas ao inputs de nome e senha do usuario da pagina adminstrativa**/
+#admin_login_btn{
+width:30%;
+float:right;
+margin:5% 5% 5% 0%;
+text-align:center;
+height:30px;
+border-radius:20px;
+background-color:rgba(244,110,64,1);
+border:0;
+color:#000;
+cursor:pointer;
+box-shadow:inset -5px -1px 18px rgba(80,80,80,1);
+}/*Formataçoes aplicaçoes a parte do botao de enviar os dados do formularios*/
+
+

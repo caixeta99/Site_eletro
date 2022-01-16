@@ -1,0 +1,478 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+@media only screen and (max-width:1259px){
+
+
+/*----------------------------------------------------------------Pag 19-----------------------------------------------------------------------*/ 
+
+.cal-sub-text150{
+line-height:17px;
+} 
+
+
+/*
+*
+//programaçao voltada para a pagina de horario das aulas
+*
+*/
+.etec-horario-aulas-download {
+width:45%;
+}
+.etec-horario-aulas-unit{
+width:40%;
+margin-left:5%;
+}
+.etec-horario-aulas-text{
+margin-top:4%;
+}
+}
+@media only screen and (max-width:1100px){}
+@media only screen and (max-width:1000px){
+	
+
+}
+@media only screen and (max-width:950px){
+
+
+/*----------------------------------------------------------------Pag 19-----------------------------------------------------------------------*/
+.cal-sub-text110{
+line-height:17px;
+}
+.cal-sub-text20 , .cal-sub-text50 ,.cal-sub-text90 ,.cal-sub-text110 ,.cal-sub-text150{
+
+width:88%;
+}/*formataçao aplicada ao texto das datas que estao ligadas a um determinado mes*/
+
+.cal-sub-data{
+width:7%;
+
+}/*Formataçao aplicada ao container que armazena a data do determinado acontecimento*/
+
+/*
+*
+//programação voltada para a parte do gremio estudantil
+*
+*/
+.etec-composit-gremir{
+width:100%;
+}
+
+.etec-composit-gremir-unit{
+width:40%;
+margin:2% 5% 2% 5%;
+}
+.etec-composit-gremi-rep{
+margin-bottom:4%;
+} 
+
+
+/*
+*
+//programação voltada para a pagina do inova
+*
+*/
+.etec-container-inova-img{
+width:40%;
+margin:2% 5% 2% 5%;
+}
+.etec-container-inova-img img{
+width:100%;
+}
+.etec-horario-aulas-unit{
+height:300px;
+
+} 
+}
+@media only screen and (max-width:800px){
+
+
+/*----------------------------------------------------------------Pag 19-----------------------------------------------------------------------*/
+
+.cal-sub-text90{
+line-height:17px;
+}	
+.cal-sub-text20 , .cal-sub-text50 ,.cal-sub-text90 ,.cal-sub-text110 ,.cal-sub-text150{
+width:87.7%;
+}/*formataçao aplicada ao texto das datas que estao ligadas a um determinado mes*/
+
+.cal-sub-data{
+width:7.3%;
+}/*Formataçao aplicada ao container que armazena a data do determinado acontecimento*/
+
+/*
+*
+//programaçao voltada para a pagina de horario das aulas
+*
+*/                                                     
+.etec-horario-aulas-download {
+width:38%;
+}
+.etec-horario-aulas-unit{
+width:90%;
+height:300px;
+margin:5%;
+}                                                     
+.etec-horario-aulas-img{
+display:none;
+}
+.etec-horario-aulas-text{
+width:95%;
+margin:2% 0% 4% 5%;
+}
+}
+@media only screen and (max-width:780px){
+
+/*
+*
+//programação voltada para a pagina de vestibular
+*
+*/
+.etec-vesti-video ,.etec-vesti-inform{
+ width:100%;
+ clear:both;
+ }
+
+/*
+*
+//programção voltada para a pagina de regimento , ppg , normas de convivencia
+*
+*/
+  .etec-container-princp-text{
+ width:80%;
+ margin:5% 10% 5% 10%;
+ }
+  .etec-container-princp-img{
+  display:none;	
+ }
+   
+
+.calenda-escolar-c{
+width:100%;
+clear:both;
+}
+
+/*
+*
+//Programação voltada para a pagina de calendario 
+*
+*/
+.calenda-escolar-c{
+width:100%;
+clear:both;
+}
+.cal-sub-text150{
+line-height:15px;
+}
+.cal-sub-text20 , .cal-sub-text50 ,.cal-sub-text90 ,.cal-sub-text110 ,.cal-sub-text150{
+width:86%;
+}/*formataçao aplicada ao texto das datas que estao ligadas a um determinado mes*/
+
+.cal-sub-data{
+width:9%;
+}/*Formataçao aplicada ao container que armazena a data do determinado acontecimento*/
+
+
+
+/*
+*
+//programação voltada para a parte do gremio estudantil
+*
+*/
+.etec-gremio-time-rede ,.etec-gremio-time-img{
+width:96%;
+margin:2%;
+clear:both;
+}
+
+
+}
+@media only screen and (max-width:700px){}
+@media only screen and (max-width:670px){
+/*
+*
+//Programação voltada para a pagina de calendario escolar
+*
+*/
+.cal-sub-iten150{
+height:48px;
+}
+
+.cal-sub-text150{
+line-height:11px;
+}
+.cal-sub-text20 , .cal-sub-text50 ,.cal-sub-text90 ,.cal-sub-text110 ,.cal-sub-text150{
+width:86%;
+}/*formataçao aplicada ao texto das datas que estao ligadas a um determinado mes*/
+
+.cal-sub-data{
+width:9%;
+}/*Formataçao aplicada ao container que armazena a data do determinado acontecimento*/
+.cal-data150{
+margin-top:1%;
+}
+
+/*
+*
+//programação voltada para a pagina do inova
+*
+*/
+.etec-contant-inova-img ,.etec-contant-inova-text{
+width:70%;
+margin:0% 15% 2% 15%;
+}
+
+}
+@media only screen and (max-width:600px){
+
+/*
+*
+//Programação voltada para a pagina de calendario escolar
+*
+*/
+.cal-sub-text20 , .cal-sub-text50 ,.cal-sub-text90 ,.cal-sub-text110 ,.cal-sub-text150{
+width:86.5;
+}/*formataçao aplicada ao texto das datas que estao ligadas a um determinado mes*/
+
+.cal-sub-data{
+width:9.5%;
+}/*Formataçao aplicada ao container que armazena a data do determinado acontecimento*/
+
+/*
+*
+//programação voltada para a parte do gremio estudantil
+*
+*/
+.etec-composit-gremir-unit{
+width:70%;
+margin:2% 15% 2% 15%;
+}
+.etec-composit-gremir{
+height:auto;	
+}
+}
+@media only screen and (max-width:530px){
+/*
+*
+//Programação voltada para a pagina de calendario escolar
+*
+*/
+.cal-sub-text20 , .cal-sub-text50 ,.cal-sub-text90 ,.cal-sub-text110 ,.cal-sub-text150{
+width:85%;
+}/*formataçao aplicada ao texto das datas que estao ligadas a um determinado mes*/
+.cal-sub-text150{
+font-size:15px;
+}
+.cal-sub-iten110{
+height:45px;
+}
+.cal-sub-text110 {
+line-height:14px;
+}
+.cal-sub-text50 {
+line-height:18px;
+}
+.cal-sub-data{
+width:11%;
+}/*Formataçao aplicada ao container que armazena a data do determinado acontecimento*/
+.cal-data110{
+margin-top:1%;
+}
+
+/*
+*
+//programação voltada para a parte do gremio estudantil
+*
+*/
+.etec-composit-gremir-unit{
+width:80%;
+margin:2% 10% 2% 10%;
+}
+
+}
+@media only screen and (max-width:480px){
+
+/*
+*
+//programação voltada para a parte de vestibular
+*/
+.etec-vesti-unit-info{
+margin-bottom:10%;
+}
+ .etec-vesti-unit-info h1 ,.etec-vesti-table-curso h1 ,.etec-vesti-inform h1 ,.etec-vesti-taxa-incri h1 ,.etec-vesti-video h1{
+  margin:3% 0% 4% 0%;
+ }
+.etec-vesti-video-vi{
+   width:90%;
+   margin:0% 5% 2% 5%;	 
+}
+.etec-vesti-table-curso table{
+width:100%;
+margin:2% 0% 1% 0%;
+}
+/*
+*
+//programção voltada para a pagina de regimento , ppg , normas de convivencia
+*
+*/
+  .etec-container-princp-text{
+ width:98%;
+ margin:2%;
+ }
+ 
+ 
+/*
+*
+//Programação voltada para a pagina de calendario escolar
+*
+*/
+.calendar-escolar{
+width:90%;
+margin:0% 5% 0% 5%;
+}
+.cal-sub-text150{
+line-height:10px;
+font-size:14.9px;
+
+}
+.cal-sub-iten20{
+height:80px;
+margin:2% 0% 1% 0%;
+}
+
+.cal-sub-text20 , .cal-sub-text50{
+line-height:20px;
+
+}
+
+
+  
+.calendar-escolar{
+width:80%;
+margin:2% 0% 5% 10%;
+}
+.cal-sub{
+margin-left:0px;
+
+}
+.cal-sub-iten20{
+border-radius:0px 0px 0px 0px;
+width:98%;
+margin:0px;
+margin-left:1%;
+}
+.cal-sub-text20 , .cal-sub-text50 ,.cal-sub-text90 ,.cal-sub-text110 ,.cal-sub-text150{
+width:98%;
+margin:1%;
+}/*formataçao aplicada ao texto das datas que estao ligadas a um determinado mes*/
+.cal-sub-text150{
+
+line-height:13px;
+}
+.cal-sub-data{
+width:100%;
+height:15px;
+line-height:15px;
+margin-bottom:1%;
+margin-top:1%;
+}/*Formataçao aplicada ao container que armazena a data do determinado acontecimento*/
+
+/*
+*
+//programação voltada para a parte do gremio estudantil
+*
+*/
+.etec-composit-gremir-unit{
+width:90%;
+margin:2% 5% 2% 5%;
+}
+.etec-gremio-time-full{
+width:90%;
+margin:2% 5% 2% 5%;
+}
+.etec-gremio-time-img img {
+height:300px;
+}
+.composit-gremir-plano-topico h2{
+margin-left:4%;
+}
+.composit-gremir-plano-topico li{
+margin-left:6%;
+}
+
+/*
+*
+//programação voltada para a pagina do inova
+*
+*/
+.etec-contant-inova-img ,.etec-contant-inova-text{
+width:80%;
+margin:0% 10% 2% 5%;
+}
+.etec-container-inova-img{
+width:80%;
+margin:2% 10% 2% 10%;
+}
+.etec-container-inova-img img{
+width:100%;
+}
+.etec-cont-incri-fal{
+
+text-align:center;
+}
+.etec-horario-aulas-unit{
+width:90%;
+height:200px;
+margin:5%;
+} 
+
+}
+@media only screen and (max-width:400px){
+
+
+/*
+*
+//Programação voltada para a pagina de calendario escolar
+*
+*/
+
+
+
+
+
+/*
+*
+//programação voltada para a pagina do inova
+*
+*/
+.etec-contant-inova-img ,.etec-contant-inova-text{
+width:96%;
+margin:0% 2% 2% 2%;
+}
+.etec-container-inova-img{
+width:86%;
+margin:2% 7% 2% 7%;
+}
+
+}
+@media only screen and (max-width:380px){
+
+
+
+
+/*
+*
+//programação voltada para a pagina do inova
+*
+*/
+.etec-container-inova-img{
+width:90%;
+margin:2% 5% 2% 5%;
+}
+
+}
+@media only screen and (max-width:200px){}
+
+

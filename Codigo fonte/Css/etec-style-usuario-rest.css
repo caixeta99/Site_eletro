@@ -1,0 +1,468 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+*
+Regras aplicadas a pagina 404 
+*
+*/
+.etec-main-erro-404{
+ height:150px;
+ text-align:center;
+ margin-bottom:7%;
+ font-size:18px;
+ width:80%;
+ margin:2% 10% 7% 10%;
+ clear:both;
+
+}
+ .etec-main-erro-404 a{
+  color:rgba(255,0,0,1);
+  text-decoration:none;
+  font-size:20px;
+ }
+  
+  
+
+/**
+*
+*
+Regras que serao aplicadas a pagina  Fotos "fotos.php"   
+*
+*
+**/
+
+/*
+Obesevaçao do programador !!! nessa pagina foram aproveitados muitos recursos da pagina de "eventos itens" com isso  nao ha uma quantidade grande de classe nessa parte do codigo ...
+*/
+
+.etec-event-imgs-main{
+margin-bottom:50px;
+width:100%;
+}/*classe que vai armazenar todas as imagens relaciondas a um determinado album*/
+ .etec-event-imgs-container{
+  margin-top:5%;
+  min-height:340px;
+ 
+ }
+ .albun_title_nul_img{
+	text-align:center;
+	margin-top:10%;
+	font-size:22px;
+	color:rgba(0,0,0,0.6);
+  }
+  .etec-event-imgs-container h1{
+	text-align:center;
+	font-size:26px;
+	margin-bottom:1.5%; 
+  }
+  .etec-event-imgs-unit{
+   width:23.75%;
+   margin:0% 0% 1% 1%;
+   float:left;
+   height:280px;
+   cursor:pointer;
+  }/*container que armazena uma imagen referente ao evento*/
+  .etec-event-imgs-unit img{
+   height:280px;
+   width:100%;
+   z-index:3;
+   position:relative;
+  }/*define a altura e a largura padrao para as imagens*/
+  .etec-btn-img{
+   width:100%;
+   clear:both;
+  }/*Container responsavel por armazenar  uma album (Nessa pagina seram exibidas as 4 primeiras imagens do albun)*/
+   .etec-btn-img a{
+	 text-decoration:none;
+	 color:#000;
+	}
+	.etec-btn-img a:hover .etec-event-imgs-btn{
+	  background-color:rgba(255,55,45,0.7);
+	}
+  .etec-event-imgs-btn{
+   background-color:rgba(255,55,45,1);
+   width:15%;
+   margin:5% 35% 5% 5%;
+   text-align:center;
+   height:38px;
+   border-radius:10px;
+   line-height:38px;
+   cursor:pointer;
+   }/*botao que vai liberar mais imagens */
+   
+/**
+*
+*
+Regras que serao aplicadas a pagina    Albuns "albun.php"
+*
+*
+**/
+.pop_up_fundo{
+    width:100%;
+	height:100%;
+	top:0px;
+	position:fixed;
+	background-color:rgba(0, 0, 0, 0.9);
+	visibility:hidden;
+	z-index:2;
+}
+
+.pop_up{
+	position:fixed;
+	left:23%;
+	top:21%;
+	width:54%;
+	height:58%;
+	border:3px solid #F0F0F0;	
+    visibility:hidden;
+    z-index:4;
+}
+
+.pop_up img{
+	width:100%;
+	height:100%;
+}
+
+
+.fechar-album img{
+  position: absolute;	
+  width:20px;
+  height:20px;
+  right:-10px;
+  top:-10px;
+  cursor:pointer;
+}
+ 
+/**
+*
+*
+Regras que serao aplicadas a pagina   Apostilas "apostilas.php" 
+*
+*
+**/
+.etec-apo-container{
+
+min-height:450px;
+}/*resposanavel por retirar as flutuaçoes laterais */
+.etec_apo_clear{
+clear:both;
+}
+.etec-apo-container h1{
+text-align:center;
+font-size:26px;
+margin-bottom:2%;
+}
+.etec-apo-title-blue-h1{
+color:rgba(91,86,179,1);
+}
+.etec-apo-title-lar-h1{
+color:rgba(246,134,109,1); 
+}
+ .etec-apo-unit-lar ,.etec-apo-unit-blue{
+  float:left;
+  width:23%;
+  margin:1% 1% 4% 1%;
+  height:350px;
+ }/*div quer armazena todo o conteudo referente a uma determina apostila*/
+ .etec-apo-unit-lar a ,.etec-apo-unit-blue a{
+	text-decoration:none;
+  } 
+ .etec-apo-img{
+  height:80%;
+ }/*imagens que representa a apostila */
+ .etec-apo-title-blue ,.etec-apo-title-lar{
+  height:20%;
+  background-color:rgba(248,248,248,1);
+  border-radius: 0px 0px 15px 15px;
+  font-size:19px;
+ }/*Formataçoes aplicadas a div que armazena o titulo da apostilas */
+ .etec-apo-title-blue h2 ,.etec-apo-title-lar h2{
+  display:table-cell;
+  vertical-align:middle;
+  height:50px;
+  text-align:center;
+  
+  }/*Formataçoes aplicadas aos titulos das apostilas*/
+  .etec-apo-title-lar h2{
+	 color:rgba(246,134,109,1); 
+   }
+    .etec-apo-unit-lar h2:hover{
+	 color:rgba(246,134,109,0.5); 
+	}
+  .etec-apo-title-blue h2{
+    color:rgba(91,86,179,1);
+  }
+   .etec-apo-unit-blue h2:hover{
+	 color:rgba(91,86,179,0.5); 
+	}/*formataçoes aplicadas a passagem do mouse sobre o titulo do curso*/
+  .etec-apo-img img{
+   width:100%;
+   height:100%;
+  }/*Definindo a altura e a largura padrao das capas das apostilas*/
+
+
+
+/**
+*
+*
+Regras que serao aplicadas a pagina  de cursos
+*
+*
+**/
+.etec-curso-main{
+height:300px;
+width:80%;
+margin:2% 10% 0% 10%;
+}/*Classe pai que esta armazenando uma imagen de um curso e sua respectivas informaçoes*/
+.etec-curso-main h1{
+text-align:center;
+font-size:26px;
+margin-bottom:20px;
+color:rgba(0,0,0,0.8);
+}/*formataçoes aplicadas ao titulo da pagina*/ 
+ .etec-curso-img{
+  width:30%;
+  margin:2%;
+  float:left;
+  }/*classe resposavel por armazenar a imagen do curso*/
+   .etec-curso-img img{ 
+     width:100%;
+     height:300px;
+     border-radius:20px;
+    }/*definindo tamanho para a imagen do curso*/
+   .etec-curso-text{
+    width:66%;
+    margin:2% 0% 2% 0%;
+    float:left;
+    }/*div que é resposnavel por amrazenar o text que é mostrado ao lado da imagen do ensino medio*/
+     .etec-curso-text h2{
+		font-size:20px;
+		color:rgba(246,134,109,1);
+		margin:2% 0% 2% 1%;
+	 }
+	 .etec-curso-text p{
+		margin:1% 0% 1% 2%;
+		font-size:18px;
+	 }
+
+
+.etec-curso-integrado-contant{
+width:50%;
+float:left;
+}/*container responsavel por armazenar todas as informaçoes sobre o curso*/
+ .etec-curso-integrad-unit{
+  margin:1% 5% 15% 5%;
+  height:375px;
+  
+ }/*Responsavel por armazenar informaçoes com a  imagene e os texto*/
+  .etec-curso-integrad-unit-title{
+   display:none;
+  }/*titulo invisivel que so ira aparece no modo responsivo*/
+  .etec-curso-integrad-unit-img{
+   width:40%;
+   float:left;
+   margin-top:5%;
+   height:250px;
+   margin-right:2%;
+  }/*Div que esta armazenado a imagen referente ao curso*/
+   .etec-curso-integrad-unit-img img{
+    width:100%;
+    height:250px;
+   }/*Definindo a largura e a altura padrao das imagenss*/	 
+  .etec-curso-integrad-unit-text{
+   width:auto;
+  
+   word-wrap:break-word;
+  }/*Container resposanvel por armazenar o texto referente ao curso*/
+   .etec-curso-integrad-unit-text h1 ,.etec-curso-integrad-unit-title{
+    text-align:center;
+    font-size:20px;
+	margin-bottom:2%;
+   }/*Formataçoes aplicadas ao titulo do container text*/
+   .etec-curso-integrad-unit-text p{
+    margin:2% 0% 2% 3%;
+	font-size:18px;
+	color:rgba(0,0,0,0.9);
+    }/*Formataçoes aplicada ao paragrado do container text*/
+  .etec-curso-integrad-ler-mais{
+   float:right;
+   margin:2% 5% 5% 0%;
+   background-color:rgba(246,134,109,1);
+   padding:11px 10px;
+  
+   border-radius:5px;
+  }/*Container responsavel por armazenar o botao quer redireciona a pessoa para a pagina do cursos*/
+   .etec-curso-integrad-ler-mais a:hover  .etec-curso-integrad-ler-mais{
+     background-color:rgba(246,134,109,0.5);
+   }
+   .etec-curso-integrad-ler-mais a{
+     color:rgba(0,0,0,0.9);
+    text-decoration:none;
+   }
+ .etec-curso-backgroud{
+  border-radius:10px;
+  padding:25px;
+  height:360px;
+ }/*Essa class é responavel deixar uma cor de fundo cinza clara*/
+
+
+
+/**
+*
+*
+Regras que serao aplicadas a pagina  Contato "contato.php"  
+*
+*
+**/
+.etec-contat-main{
+width:80%;
+margin:5% 10% 5% 10%;
+}/*classe responsavel por centralizar todas as informaçoes da pagina*/
+ .etec-contat-colun-one ,.etec-contat-colun-two{
+  width:49%;
+  float:left;
+  }/*esse dois containers sao responsaveis por armazenar duas colunas ue dividem o conteudo da tela em das parte */
+  .etec-contat-colun-one{
+  margin-right:2%;
+  }/*classe que altera a primeira coluna de informaçoes*/
+   .etec-contat-colun-one h1{
+     text-align:left;
+     font-size:26px;
+     color:rgba(28,21,255,1);
+     margin-bottom:2%;
+    }/*formataçoes aplicadas ao titulo do container"contat-enderec-main"*/
+    .etec-contat-list li{
+      margin:2% 0% 2% 3%;
+      font-size:20px;
+      color:rgba(0,0,0,0.8);
+    }/*formataçoes aplicadas a lista que armazena os telefones da escola*/
+
+  .etec-contat-colun-one{
+   margin-right:2%;
+  } 
+   .etec-contat-form-man{
+    width:90%;
+    margin:0% 5% 0% 5%;
+	height:400px;
+  
+   }/*Container resposanvel por armazenar o formulario de contato*/
+    .etec-contat-form-mens textarea{
+      min-height:100px;
+      max-height:100px;
+      max-width:96%;
+      min-width:96%;
+      width:96%;
+      margin:2% 2% 1% 2%;
+     }/*formataçoes aplicadas ao textarea */
+    .etec-contat-form-input input{
+     width:96%;
+     height:30px;
+     margin:2% 2% 1% 2%;
+    }/*formataçoes aplicadas ao input do formulario*/
+    .etec-contat-form-select{
+     width:100%;
+     clear:both;
+    }/*classe pai que esta armazendo um texto e um campo de seleção*/
+    .etec-contat-form-select p{
+     width:auto;
+     float:left;
+     margin:3% 0% 1% 2%;
+     height:auto; 
+    }/*formataçoes aplicadas ao container resposnavel por armazenar um palavra relacioda a um campo de seleção*/
+    .etec-contat-form-select select{
+     height:30px;
+     width:70%;
+     margin:2% 0% 1% 2%;
+     float:left;
+    }/*Formataçao aplicada ao select*/
+    .etec-contat-form-btn input{
+     margin-top:4%;
+     float:right;
+     padding:12px;
+     background-color:rgba(255,76,76,1);
+     border:none;
+     border-radius:5px;
+    }/*Formataçoes aplicadas ao input que esta resposnavel por enviar os dados*/
+   .etec-contat-form-btn input:hover{
+    background-color:rgba(62,0,223,1);
+    cursor:pointer;
+    color:#FFF;
+   }/*ao passar o mouse sobre o botao de"Enviar" serao feitas mudanças na coloraçao e no ponteiro do mouse*/
+  .etec-cont-enderec{
+	 width:90%;
+	 margin:5%;
+   }/*classe que armazena o endereço da escola*/
+    .etec-cont-enderec h1{
+	  text-align:left;
+      font-size:26px;
+      color:rgba(28,21,255,1);
+      margin-bottom:2%;
+	}/*formataçoes aplicadas a todos os titulos*/
+   .etec-contat-horario-main{
+    clear:both;
+    height:150px;
+	margin:10% 0% 5% 0%; 
+	
+   }/*Container responsavel por armazenar os horarios de fucionameto da escola*/
+
+.etec-contat-horario-main{
+ width:90%;
+ margin:5%;
+ height:300px;
+}/*classe resposnavel por armazenar todas as informçoes de horario referente a pagina de contato*/
+.etec-contat-horario-main h1{
+text-align:center;
+font-size:26px;
+color:rgba(28,21,255,1);
+margin-bottom:2%;
+}/*formataçoes aplicadas ao titulo da classe "etec-contat-horario-main"*/ 
+ .etec-contat-horario-port ,.etec-contat-horario-dirserv{
+  width:48%;
+  float:left;	
+ }/*dois container que vao dividir o conteudo em duas partes (mesma funçao do ue o de cima)*/
+   .etec-contat-horario-port{
+	  margin-right:1%;
+	}/*vai armazenar todas as informaoes referentes a portaria da escola*/ 
+   .etec-contat-horario-dirserv{
+	   margin-left:1%;
+	}/*vai armazenar todas as informaçoes referentes a parte da diretoria de serviço*/
+     .etec-horari-content-portaria ,.etec-horari-content-servico{
+		width:90%;
+		margin:5%;
+	  }/*essas duas classe sao resposnavei por armazenar todo o conteudo de um determinado segmento */ 
+	    .etec-horari-content-servico h2{
+          font-size:19px;
+          color:rgba(28,21,255,1);
+          margin-bottom:2%;
+		  margin-top:2%;
+		}
+	.etec-horario-tablet-font{
+     font-size:14px;
+    }/*ajusta o tamanho do texto da tabela  para que esse fique um tamanho legivel mais que nao interfira na estrutura da pagina */
+    .etec-horari-content-portaria p{
+	 margin-left:4%;
+	 margin-bottom:2%;
+	}/*formataçoes aplicadas ao texto na parte do horario da portaria da etec*/
+    .etec-horario-tablet-font table{
+	 width:100%;
+	 
+    } 
+	.etec-horario-tablet-font td{
+	 border:1px solid rgba(0,0,0,0.1);
+	}
+      .etec-horario-tablet-font tr:nth-child(2n+1) td{
+		 background-color:rgba(252,144,58,1);
+		 }
+ 	.etec-table-title{
+	 height:40px;
+	 background-color:rgba(252,144,58,1);
+     color:rgba(40,40,40,1);
+	 text-align:center;
+	 line-height:40px;
+	}
+	.etec-table-conteudo{
+	 line-height:40px;
+	}
+
+

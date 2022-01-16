@@ -1,0 +1,366 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@media only screen and (max-width:1259px){
+/*
+*
+//proramaçao da parte de contato(nen p)
+*
+*/
+.etec-table-title{
+line-height:20px;
+}
+.etec-table-conteudo{
+line-height:30px;
+
+}
+
+
+
+
+
+ /*
+*
+//programação voltada para a pagina de cursos
+*
+*/ 
+
+
+.etec-curso-integrad-unit{
+height:420px;
+
+}
+
+}
+@media only screen and (max-width:1100px){
+/*
+*
+//proramaçao da parte de contato(nen p)
+*
+*/
+.etec-contat-main{
+width:90%;
+margin:5%;
+}/*classe responsavel por centralizar todas as informaçoes da pagina*/
+.etec-curso-img{
+  width:40%;
+  margin:2%;
+  float:left;
+  }/*classe resposavel por armazenar a imagen do curso*/
+  .etec-curso-text{
+    width:56%;
+    margin:2% 0% 2% 0%;
+    float:left;
+   }/*div que é resposnavel por amrazenar o text que é mostrado ao lado da imagen do ensino medio*/
+   
+
+ /*
+*
+//programação voltada para a pagina de cursos
+*
+*/
+.etec-curso-integrado-contant{
+width:80%;
+margin:0% 10% 0% 10%;
+} 
+.etec-curso-backgroud{
+}
+.etec-curso-integrad-unit{
+height:350px;
+  margin:1% 5% 5% 5%;
+}
+
+}
+@media only screen and (max-width:1000px){
+/*
+*
+//pagina de cursos
+*
+*/
+.etec-curso-main{
+height:300px;
+width:90%;
+margin:2% 5% 0% 5%;
+}/*Classe pai que esta armazenando uma imagen de um curso e sua respectivas informaçoes*/
+
+
+}
+@media only screen and (max-width:950px){
+
+/*
+*
+///programação voltada para a parte fotos
+*
+*/
+.etec-event-imgs-unit{
+width:48%;
+margin:0% 0% 2% 1%;
+}
+
+
+
+
+
+}
+@media only screen and (max-width:800px){
+/*
+*
+//pagina de cursos
+*
+*/
+.etec-curso-main{
+height:300px;
+width:100%;
+margin:2% 0% 0% 0%;
+}/*Classe pai que esta armazenando uma imagen de um curso e sua respectivas informaçoes*/
+ /*
+*
+//programação voltada para a pagina de cursos
+*
+*/
+
+.etec-curso-integrad-unit{
+height:380px;
+
+}
+}
+@media only screen and (max-width:780px){
+/*
+*
+Regras aplicadas a pagina 404 
+*
+*/
+.etec-main-erro-404{
+ width:96%;
+ margin:2% 2% 7% 2%;
+ height:300px;
+}
+/*
+*
+//proramaçao da parte de contato(nen p)
+*
+*/.etec-contat-colun-one,.etec-contat-colun-two {
+width:80%;
+margin:0% 10% 0% 10%;
+}
+.etec-contat-horario-port ,.etec-horari-content-servico ,.etec-contat-horario-dirserv{
+width:80%;
+margin:2% 10% 3% 10%;
+clear:both;
+}
+/*
+*
+//proramaçao da parte de apostilas(nen p)
+*
+*/
+.etec-apo-unit-lar ,.etec-apo-unit-blue{
+width:45%;
+}
+
+/*
+*
+//programaçao voltada a parte de cursos
+*
+*/
+.etec-curso-img{
+display:none;
+}
+.etec-curso-text{
+width:90%;
+margin:2% 5% 2% 5%;
+}
+
+
+ /*
+*
+//programação voltada para a pagina de cursos
+*
+*/
+.etec-curso-integrado-contant{
+
+width:100%;
+margin:0% 0% 0% 0%;
+} 
+.etec-curso-backgroud{
+}
+.etec-curso-integrad-unit{
+height:400px;
+  margin:1% 5% 5% 5%;
+}
+
+}
+@media only screen and (max-width:700px){
+/*
+*
+///programação voltada para a pagina de fotos
+*
+*/	
+.etec-event-imgs-unit{	
+cursor:auto;
+}
+}
+@media only screen and (max-width:600px){
+	/*
+*
+//programação voltada para a pagina de cursos
+*
+*/
+
+.etec-curso-integrad-unit{
+height:450px;
+}
+
+
+}
+@media only screen and (max-width:530px){
+/*
+*
+//programação voltada para a pagina de cursos
+*
+*/
+
+.etec-curso-integrad-unit{
+height:500px;
+}
+}
+@media only screen and (max-width:480px){
+
+/*
+*
+//proramaçao da parte de contato(nen p)
+*
+*/
+.etec-contat-main{
+width:100%;
+margin:0;
+}
+.etec-contat-colun-one,.etec-contat-colun-two {
+width:90%;
+margin:0% 5% 2% 5%;
+}
+.etec-contat-horario-port ,.etec-horari-content-servico ,.etec-contat-horario-dirserv{
+width:90%;
+margin:2% 5% 3% 5%;
+clear:both;
+}
+
+
+
+/*
+*
+//proramaçao da parte de apostilas(nen p)
+*
+*/
+.etec-apo-unit-lar ,.etec-apo-unit-blue{
+width:70%;
+margin-left:15%; 
+}
+/*programação voltada para a parte de foto */
+.etec-event-imgs-unit{
+width:90%;
+margin:2% 5% 1% 5%;
+}
+.etec-event-imgs-btn{
+width:30%;
+}
+ .etec-event-imgs-container{
+  margin-top:10px;
+ }
+ .etec-event-imgs-unit{
+   width:48%;
+   margin:0% 1% 1% 1%;
+   float:left;
+   height:140px;
+   cursor:pointer;
+  }/*container que armazena uma imagen referente ao evento*/
+.etec-event-imgs-unit img{
+   height:140px;
+   width:100%;
+  }/*define a altura e a largura padrao para as imagens*/
+  
+  
+/*
+*
+//programação voltada para a pagina de cursos
+*
+*/
+.etec-curso-integrado-contant{
+width:100%;
+
+} 
+.etec-curso-backgroud{
+}
+.etec-curso-integrad-unit{
+height:660px;
+  margin:1% 1 5% 1%;
+
+}
+.etec-curso-integrad-unit-img{
+width:100%;
+margin-bottom:5%;
+
+}
+.etec-curso-integrad-unit-text{
+width:100%;
+clear:both;
+}
+.etec-curso-integrad-unit-text h1{
+display:none;
+}
+ .etec-curso-integrad-unit-text p{
+    margin:2% 0% 2% 0%;
+	font-size:18px;
+	color:rgba(0,0,0,0.9);
+
+    }/*Formataçoes aplicada ao paragrado do container text*/
+
+.etec-curso-integrad-unit-title{
+display:block;
+}
+}
+@media only screen and (max-width:400px){
+
+/*
+*
+//proramaçao da parte de contato(nen p)
+*
+*/
+.etec-contat-horario-port ,.etec-horari-content-servico ,.etec-contat-horario-dirserv{
+width:100%;
+margin:2% 0% 3% 0%;
+clear:both;
+}
+
+  
+
+/*----------------------------------------------------------------Pag 30,31,32-----------------------------------------------------------------------*/
+
+.cont-divisor-text{
+margin:2% 2% 2% 2%;
+width:96%;
+}
+.cont-divisor-text h1 ,.cont-divisor-text p{
+font-size:15px;
+margin:2% 0% 2% 0%;
+}
+.cont-division-grad-curi{
+margin:2% 2% 0% 2%;
+}
+
+}
+@media only screen and (max-width:380px){
+/*
+*
+//programação voltada para a pagina de cursos
+*
+*/
+
+.etec-curso-integrad-unit{
+height:800px;
+}
+
+  
+}
+@media only screen and (max-width:200px){}
+

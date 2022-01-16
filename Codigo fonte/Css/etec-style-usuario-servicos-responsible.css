@@ -1,0 +1,582 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (max-width:1259px){}
+@media only screen and (max-width:1100px){}
+@media only screen and (max-width:1000px){}
+@media only screen and (max-width:950px){
+/*
+*
+//programação voltada para a pagina de coordenacao
+*
+*/
+
+.etec-cordenacao-ptd-emt ,.etec-cordenacao-ptd-et{
+width:90%;
+margin:5%;
+}
+/*
+*
+//programação voltada para a pagina de parceria microsoft 
+*
+*/
+.etec-parceria-container{
+width:90%;
+margin:2% 5% 2% 5%;
+}
+/*----------------------------------------------------------------Pag 13-----------------------------------------------------------------------*/
+.cont-cpnselho-img{
+width:29%;
+margin:2% 2% 2% 2%;
+}
+
+
+/*----------------------------------------------------------------Pag 15-----------------------------------------------------------------------*/
+
+.cont-emprego-clik {
+width:65%;
+}
+ .etec-cordenacao-mp-pc-one ul{
+	margin-left:8%;
+ }
+}
+@media only screen and (max-width:800px){
+/*
+*
+//programação voltada para a pagina de Biblioteca
+*
+*/
+.etec-biblioteca ,.etec-biblioteca-text{
+width:90%;
+margin:5%;
+
+}
+.etec-biblioteca-img{
+width:60%;
+margin:0% 20% 0% 20%;
+}
+/*
+*
+//programação voltada para a pagina de coordenacao
+*
+*/
+.etec-cordenacao-ptd-et-s1 ul li , .etec-cordenacao-ptd-et-s2 ul li{
+ margin:2% 0% 0.5% 5%;
+
+}/*formataçoes aplicadas a parte das listas do ensino tecnico*/
+
+
+/*
+*
+//programação voltada para a pagina de parceria da microsoft
+*
+*/
+.etec-parceria-container{
+width:98%;
+margin:2% 0% 2% 2%;
+}
+
+
+/*----------------------------------------------------------------Pag 15-----------------------------------------------------------------------*/
+
+.cont-emprego-op-img ,.cont-emprego-empre-img{
+display:none;
+}
+.cont-emprego-empre-text ,.cont-emprego-op-text{
+width:95%;
+margin-left:5%;
+}
+.cont-emprego-op-text{
+margin-bottom:50px;
+
+}
+.cont-emprego-empre{
+height:auto;
+margin-bottom:150px;
+}
+.cont-blog-prof{
+display:block;
+}
+
+}
+@media only screen and (max-width:780px){
+/*
+*
+//programação voltada para a parte de parceria microsoft
+*
+*/
+.etec-empreg-img,.etec-empreg-op-img{
+display:none;
+}
+.etec-empreg-cont-op-text, .etec-empreg-text{
+width:80%;
+margin:2% 10% 2% 10%;
+}
+.etec-empreg-cont-main-1{
+height:150px;
+}
+/*
+*
+//programação voltada para a pagina de parceria microsoft
+*
+*/
+.etec-parceria-container-img-escond{
+display:block;
+width:36%;
+margin:2% 32% 2% 32%;
+}
+.etec-parceria-container-img{
+display:none;
+}
+.etec-parceria-container-text{
+width:90%;
+margin:2% 5% 2% 5%;
+}
+.etec-parceria-container-text h1{
+display:block;
+}
+/*
+*
+//programação voltada para a pagina de secretaria academica
+*
+*/
+.etec-secreacademic-con1 ,.etec-secreacademic-info-add ,.etec-secreacademic-reque-praz ,.etec-secreacademic-programacao ,.etec-secreacademic-con2{
+width:90%;
+margin:5%;
+
+}
+ .etec-secreacademic-info-add{
+height:450px;
+
+ }
+/*----------------------------------------------------------------Pag 12-----------------------------------------------------------------------*/
+.cont-biblioteca{
+width:100%;
+
+}
+
+.cont-biblioteca-img{
+width:80%;
+margin:5% 10% 5% 10%;
+}
+.cont-biblioteca-img img {
+width:100%;
+}
+
+.cont-biblioteca-pc{
+width:80%;
+margin:0% 10% 0% 10%;
+}
+
+/*----------------------------------------------------------------Pag 14-----------------------------------------------------------------------*/
+
+.cont-cordenacao-ptd-et{
+width:100%;
+clear:both;
+}/*Div que agloba  o 1 e o 2 semestres*/
+.cont-cordenacao-ptd-emt-cont {
+margin-left:0%;
+}
+.cont-cordenacao-ptd-emt-cont ul li{ 
+margin-left:5%;
+}
+.cont-cordenacao-ptd-emt{
+width:100%;
+margin-left:0%;
+margin-right:0%;
+clear:both;
+}/*div que armazena o plano de trabalho*/
+.cont-cordenacao-ptd-et-s1 ,.cont-cordenacao-ptd-et-s2{
+width:50%;
+margin:0;
+}
+.cont-cordenacao-ptd-et-s1 ul , .cont-cordenacao-ptd-et-s2 ul {
+margin:10%;
+}
+/*----------------------------------------------------------------Pag 13-----------------------------------------------------------------------*/
+.cont-cpnselho-img{
+width:40%;
+margin:2% 4% 2% 4%;
+}
+
+
+
+
+/*----------------------------------------------------------------Pag 17-----------------------------------------------------------------------*/
+
+.cont-secretaria-con1-horario ,.cont-secretaria-con1-semestrel {
+width:98%;
+margin-right:0%;
+margin-left:2%;
+}
+.cont-50-1 {
+width:94%;
+margin-left:5%;
+}
+.cont-50-2 {
+width:94%;
+margin-left:5%;
+}
+.cont-container-iten{
+width:95%;
+}
+.cont-secretaria-con1-horario{
+margin:1% 0% 4% 5%;
+}
+.cont-direserv-sub-title , .cont-direserv-sub-title{
+margin:0% 0% 4% 4%;
+}
+.cont-direserv-sub-title , .cont-direserv-sub-title ,.cont-50-1 ,.cont-50-2 ,.cont-text-p {
+margin:0% 0% 4% 4%;
+width:94%;
+}
+.cont-50-1 ul{
+margin-left:0%;
+}
+
+/*
+*
+//programação voltada para a pagina do refeitorio
+*
+*/
+.etec-refeitorio-img{
+width:90%;
+clear:both;
+margin:1% 5% 1% 4%;
+}
+.etec-refeitorio-horario-funci{
+width:90%;
+margin:0% 5% 0% 5%;
+}/*classe resposnavel por armazenar todo conteudo relacionado com o horario de funcionamento do refeitorio*/
+.etec-refeitorio-horario-funci ul{
+  margin-top:3%;
+ }/*formatação aplicada a lista */
+  .etec-refeitorio-horario-funci li{
+  margin:2% 0% 2% 3%;
+  }/*formatação aplicada aos itens da listas*/
+ 
+ /*
+ *
+ *Programaçao voltad apara a parte de secretaria academica 
+ *
+ */
+ .etec-secreacademic-con1{
+  height:360px;
+
+  margin-bottom:0%;
+  }
+}
+@media only screen and (max-width:700px){}
+@media only screen and (max-width:670px){}
+@media only screen and (max-width:600px){}
+@media only screen and (max-width:530px){
+	
+
+/*
+*
+//programação voltada para a pagina de secretaria academica
+*
+*/
+ .etec-secreacademic-info-add{
+height:500px;
+
+ }
+}
+@media only screen and (max-width:480px){
+/*
+*
+//programação voltada para a biblioteca 
+*
+*/
+ .etec-biblioteca ul li{
+  list-style:decimal;
+  margin:4% 0% 1% 5%;
+ }/*formataçoes aplicadas a lista que fica dentro do container da biblioteca online*/
+/*
+*
+//programação voltada para a pagina de coordenacao
+*
+*/
+.etec-table-mobile{
+display:none
+}/*suminodo com a tabela de matrizes curriculares no mode responsivo*/
+.etec-mobil-conrdenacao{
+display:block;	
+}/*aparecendo com os itens refrentes ao seu respctivo ano*/
+.etec-cordenacao-ptd-et-s1  , .etec-cordenacao-ptd-et-s2  ,.etec-cordenacao-bnc ,.etec-cordenacao-od ,.etec-cordenacao-mp ,.etec-cordenacao-pc{
+width:90%;
+margin:5%;
+
+}/*formataçoes aplicadas a parte das listas do ensino tecnico*/
+.etec-cordenacao-mp-cont ul ,.etec-cordenacao-pc-cont ul{
+   margin-left:10%;
+  }/*Formataçao aplicada as listas do "modelo de planos " e do "planos de Cursos"*/
+ 
+.etec-table-elemento-reduces table{
+font-size:15px;
+}
+.etec-cordenacao-download h2{
+margin-bottom:5%;
+}
+
+/*
+*
+//programação voltada para a parte de parceria microsoft
+*
+*/
+
+.etec-empreg-cont-op-text, .etec-empreg-text{
+width:90%;
+margin:2% 5% 2% 5%;
+}
+.etec-empreg-cont-main-1{
+height:150px;
+}
+.etec-empreg-cont-main-2{
+height:420px;
+}
+/*
+*
+//programação voltada para a pagina de parceria microsoft
+*
+*/
+.etec-parceria-container-img-escond{
+display:block;
+width:50%;
+margin:2% 25% 2% 25%;
+
+
+}
+.etec-parceria-container-img{
+display:none;
+}
+.etec-parceria-container-text{
+width:90%;
+margin:2% 5% 2% 5%;
+word-wrap:break-word;
+}
+/*
+*
+//programação relacionada com a parte de secretaria academica
+*
+*/
+ .etec-secreacademic-programacao ul {
+  margin:4% 0% 1% 10%;
+  
+ }/*Formataçao aplicada a lista da  class"cont-direserv-sub-title"*/
+ .etec-secreacademic-info-add{
+height:700px;
+
+ }
+ .etec-secreacademic-con1{
+  height:370px;
+
+  }
+.etec-secreacademic-programacao h1{
+ text-align:center;
+}
+/*----------------------------------------------------------------Pag 14-----------------------------------------------------------------------*/
+
+.cont-cordenacao-ptd-et-s1 ,.cont-cordenacao-ptd-et-s2{
+width:100%;
+}
+.cont-cordenacao-mp , .cont-cordenacao-pc{
+ width:100%;
+ clear:both;
+}
+.cont-cordenacao-bnc ,.cont-cordenacao-od{
+width:100%;
+height:auto;	
+}
+.cont-cordenacao-download h1{
+margin-bottom:10%;
+}
+
+/*----------------------------------------------------------------Pag 16-----------------------------------------------------------------------*/
+.cont-parceria-content-img{
+margin-left:28%;
+}
+
+/*----------------------------------------------------------------Pag 17-----------------------------------------------------------------------*/
+.cont-direserv-sub-title , .cont-direserv-sub-title ,.cont-50-1 ,.cont-50-2 ,.cont-text-p {
+margin:0% 0% 4% 6%;
+width:94%;
+}
+
+.cont-text-p p{
+margin:1% 0% 4% 0%;
+}  
+/*
+*
+//programação voltada para a pagina de coordenacao
+*
+*/
+.
+   
+}
+@media only screen and (max-width:400px){
+/*
+*
+//programação voltada para a pagina de parceria microsoft
+*
+*/
+.etec-parceria-container-img-escond{
+display:block;
+width:70%;
+margin:2% 15% 2% 15%;
+}
+.etec-parceria-container-text{
+width:96%;
+margin:2%;
+}
+
+/*
+*
+//programação relacionada com a parte de secretaria academica
+*
+*/
+ .etec-secreacademic-programacao ul {
+  margin:4% 0% 1% 10%;
+  
+ }/*Formataçao aplicada a lista da  class"cont-direserv-sub-title"*/
+ .etec-secreacademic-info-add{
+height:700px;
+
+ }/*
+*
+//programação relacionada com a parte de secretaria academica
+*
+*/
+
+ .etec-secreacademic-info-add{
+height:750px;
+
+ }
+/*----------------------------------------------------------------Pag 12-----------------------------------------------------------------------*/
+
+.cont-biblioteca-img img{
+height:100px;
+}
+.cont-biblioteca-img {
+margin-left:10%;
+
+}
+
+.cont-font-resp {
+font-size:9px;
+color:#F00;
+}
+
+.cont-font-resp-22{
+font-size:22px;
+}
+
+/*----------------------------------------------------------------Pag 14-----------------------------------------------------------------------*/
+.cont-cordenacao-reps{
+margin:4% 0% 4% 0%;
+}
+
+.cont-cordenacao-ptd-emt-cont ul{
+margin-left:5%;
+}
+
+.cont-cordenacao-cordenador{
+margin-bottom:4%;
+}
+/*----------------------------------------------------------------Pag 13-----------------------------------------------------------------------*/
+.cont-cpnselho-img{
+width:80%;
+margin:2% 10% 4% 10%;
+}
+.cont-conselho-title{
+color:#00F;
+margin-bottom:5%;
+}
+ 
+/*----------------------------------------------------------------Pag 15-----------------------------------------------------------------------*/
+
+.cont-emprego-op-text ul{
+margin-left:5%;
+}
+
+/*----------------------------------------------------------------Pag 18-----------------------------------------------------------------------*/
+
+
+.refeitorio-cardapio{
+margin-left:0%;
+}
+.refeitorio-cardapio ul{
+margin-left:4%;
+}
+.refeitorio-cardapio ul li{
+margin:1% 0% 3% 0%;
+}
+}
+@media only screen and (max-width:380px){
+/*
+*
+//programação voltada para a parte de parceria microsoft
+*
+*/
+.etec-empreg-img,.etec-empreg-op-img{
+display:none;
+}
+.etec-empreg-cont-op-text, .etec-empreg-text{
+width:90%;
+margin:2% 5% 2% 5%;
+}
+.etec-empreg-cont-main-1{
+height:200px;
+}
+.etec-empreg-cont-main-2{
+height:450px;
+}
+/*
+//programação relacionada com a parte de secretaria academica
+*
+*/
+
+ .etec-secreacademic-info-add{
+height:830px;
+
+ }
+ 
+.container-indicator-item{
+margin-left:5px;
+font-size:22px;
+}
+
+/*----------------------------------------------------------------Pag 12-----------------------------------------------------------------------*/
+
+.cont-td-nun ,.cont-td-doc{
+font-size:13px;
+}
+
+/*----------------------------------------------------------------Pag 16-----------------------------------------------------------------------*/
+
+.cont-parceria-content-img{
+width:75%;
+margin:0% 0% 5% 12%;
+}
+.cont-parceria-content-text{
+margin:0% 0% 10% 4%;
+}
+.cont-marg-reps-350-left10{
+margin-left:10%;
+}
+.cont-marg-reps-350-top10{
+margin-top:10%;
+}
+.cont-marg-reps-350-bot10{
+margin-bottom:10%;
+}
+/*Formataçoes aplicada a pagina Vestibulinho*/
+.recomendacoes-exame ul{
+margin-left:6%;
+}
+
+ .etec-secreacademic-con1{
+  height:430px;
+  } 
+}
+@media only screen and (max-width:200px){}

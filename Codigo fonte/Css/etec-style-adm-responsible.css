@@ -1,0 +1,450 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Essa pagina é destinada a toda programação responsiva do site .. a estrutura dessa pagina foi dividida em varias media query que sao:
+
+
+pag 0 = *Todas as pagina do sit*      
+pag 1 = *algumas paginas do sit*     
+
+pag 2 = home "index.php"             
+pag 34 = Programas relacionado "programas-relacionados.php" 
+
+        Escola
+pag 3 = APM "APM.php"                
+pag 4 = Mural de avisos "mural-avisos.php" 
+pag 5 = eventos "Eventos.php"    
+pag 6 = eventos iten "Evento-iten.php " 
+pag 7 = conselho "conselho.php"  
+pag 8 = corpo docente "corpo-docente.php" 
+pag 9 = direção "direcao.php"
+pag 10 = diretoria de serviçoes"diretoria-servico.php"
+pag 11 = historia "historia.php" 
+pag 37 = Alanos Graduados "graduaçoes.php" 
+        
+		 Serviços
+pag 12 = Biblioteca "biblioteca.php" 
+pag 13 = Conselho de classe"conselho-classe.php" 
+pag 14 = Cordenação "cordenacao.php"  
+pag 15 = Emprego e serviço "emprego-servico.php" 
+pag 16 = parceria microsoft "parceria-microsoft.php"
+pag 17 = Secretaria academica "secretaria-academica.php" 
+pag 18 = Refeitorio "Refeitório" 
+
+         Informações
+pag 19 = Calendario escolar "calendario-escolar.php "
+pag 20 = Gremio Estudantil "gremio-estudantil.php" 
+pag 21 = Horario das aulas "horario-aulas.php" 
+pag 22 = Normas de convivencia "normas-convivencia.php" 
+pag 23 = Plano plurial de gestao "plano-plurianal.php" 
+pag 24 = Regimento escolar "regimento.php"   
+pag 25 = Vestibulinho "vestibulinho.php" 
+pag 26 = Inova paulo souza "inova-paulo-souza.php" 
+   
+        Fotos
+pag 27 = Fotos "Fotos.php" 
+pag 28 = Albuns "Albun.php" 
+       
+	   Apostilas
+pag 29 = Apostilas "apostilas.php"
+
+       Cursos
+pag 30 = Ensino medio "cursos-medio.php"
+pag 31 = Cursos modulares "cursos-modulares.php" 
+pag 32 = Cursos Integrados "cursos-integrados.php" "reaproveitamento de codigo"
+  
+       Contato 
+Pag 33 = Contato "contato.php"
+
+       pagina em contrução
+pag 35 = pagina em contruçao "pagina_contrucao.php" 
+
+       pagina de erro 
+pag 36 = erro404 "erro404" 
+
+      Paginas ADM(administrativas)
+pag 38 = login "login.php" 
+pag 39 = paginas de cadastro e ediçao(Todas a programaçao da pagina de cadastro e ediçao sao similares)
+pag 40 = pagina dos dados do adm "my-dados.php"
+pag 41 = paginas que fazem algum tipo de exibiçao de dados 
+*/
+
+
+
+/*query 1*//*--------------------------------------------------------------------------------------------------------------------------*//*query 1*/
+@media only screen and (max-width:1259px){
+
+.etec-pop-p-tela-informacoes-two-op ,.etec-pop-up-tela-informacoes-three-op{
+left:0%;
+width:30%;
+top:30%;
+margin:0% 35% 0% 35%;
+}
+
+
+
+}
+/*query 2*//*--------------------------------------------------------------------------------------------------------------------------*//*query 2*/
+@media only screen and (max-width:1000px){
+
+
+}
+@media only screen and (max-width:1100px){
+/*
+*
+*Seção programaçao volta a pagina de login da parte administrativa
+*
+*/
+.etec-pop-p-tela-informacoes-two-op ,.etec-pop-up-tela-informacoes-three-op{
+left:0%;
+width:32%;
+margin:0% 34% 0% 34%;
+top:30%;
+}/**formataçoes aplicadas aos pop up que estaa presentes em varias partes do segmento adminstrativo*/
+
+.etec-admin-login-form-center{
+width:26%;
+margin:0% 37% 0% 37%;
+
+
+}
+/*
+
+*Seçao :novo padrao para a pagina adminsitrativas
+
+*/
+.etec-admin-info-cores-men-name{
+line-height:25px;
+}
+
+/*
+*
+*
+**Seção : programaçao voltada ao padrao que sera presente em toda a parte adminitrativas 
+*
+*
+*/
+
+.etec-admin-pad-conteudo-unit {
+min-height:260px;
+}/*faz com que aja uma quebra no alinhamento das unidades de conteudo (de 3 passa para 2)*/
+.etec-admin-pad-conteudo fieldset{
+width:80%;
+margin:2% 10% 2% 10%;
+}/*formataçoes aplicadas a tag que armazenar todo o formulario  */
+/*----------------------------------------------------------------Pag 39-----------------------------------------------------------------------*/
+
+.etec-admin-pad-conteudo-unit ,.etec-admin-pad-conteudo-unit-reduces ,.etec-admin-pad-conteudo-unit-alment{
+min-height:400px;
+}
+
+}
+
+@media only screen and (max-width:1000px){
+
+/*
+*
+*
+**Seção : programaçao voltada ao padrao que sera presente em toda a parte adminitrativas 
+*
+*
+*/
+
+.etec-admin-pag-padrao{
+width:96%;
+margin:0% 2% 0% 2%;
+}
+.etec-admin-pad-conteudo-unit ,.etec-admin-pad-conteudo-unit-reduces{
+width:45%;
+}/*faz com que aja uma quebra no alinhamento das unidades de conteudo (de 3 passa para 2)*/
+
+
+
+}
+
+/*query 4*//*--------------------------------------------------------------------------------------------------------------------------*//*query 4*/
+@media only screen and (max-width:950px){
+.etec-admin-pad-barlateral{
+width:35%;
+}/*container resposanvel por armazenar as informaçoes que o usuario ultiliza para navegar naquele segmento do sit*/
+.etec-admin-pad-conteudo{
+width:60%;
+
+}/*container resposanvel por armazenar o conteudo da pagina*/
+
+.etec-pop-p-tela-informacoes-two-op ,.etec-pop-up-tela-informacoes-three-op{
+left:0%;
+width:38%;
+margin:0% 31% 0% 31%;
+top:30%;
+}/**formataçoes aplicadas aos pop up que estaa presentes em varias partes do segmento adminstrativo*/
+/*
+
+*Seçao :novo padrao para a pagina adminsitrativas
+
+*/
+.etec-admin-info-cores-men-name{
+line-height:25px;
+}
+ 
+/*
+*
+*Seção programaçao volta a pagina de login da parte administrativa
+*
+*/
+.etec-admin-login-form-center{
+width:30%;
+margin:0% 35% 0% 35%;
+}
+
+
+/
+}
+/*query 5*//*--------------------------------------------------------------------------------------------------------------------------*//*query 5*/
+@media only screen and (max-width:800px){
+.etec-pop-p-tela-informacoes-two-op ,.etec-pop-up-tela-informacoes-three-op{
+width:42%;
+margin:0% 29% 0% 29%;
+left:0%;
+top:30%;
+
+}/**formataçoes aplicadas aos pop up que estaa presentes em varias partes do segmento adminstrativo*/
+/*
+*
+*
+**Seção : programaçao voltada ao padrao que sera presente em toda a parte adminitrativas 
+*
+*
+*/
+
+
+.etec-admin-pad-conteudo-unit ,.etec-admin-pad-conteudo-unit-reduces{
+width:80%;
+margin:3% 10% 4% 10%;
+}/*faz com que aja uma quebra no alinhamento das unidades de conteudo (de 2 passa para 1)*/
+/*----------------------------------------------------------------Pag 39-----------------------------------------------------------------------*/
+
+
+
+}
+
+@media only screen and (max-width:780px){
+
+.etec-pop-p-tela-informacoes-two-op ,.etec-pop-up-tela-informacoes-three-op{
+width:50%;
+margin:0% 25% 0% 25%;
+left:0%;
+top:30%;
+}/**formataçoes aplicadas aos pop up que estaa presentes em varias partes do segmento adminstrativo*/
+
+/*
+*
+*
+**Seção : programaçao voltada ao padrao que sera presente em toda a parte adminitrativas 
+*
+*
+*/
+/**formataçoes aplicadas ao pop up adminstrativo**/
+.etec-pop-p-tela-informacoes-two-op{
+left:80%;
+
+}
+
+
+.etec-admin-pad-conteudo fieldset{
+width:90%;
+margin:2% 5% 2% 5%;
+}/*formataçoes aplicadas a tag que armazenar todo o formulario  */
+
+/**-------------*/
+
+.adm-horaio-aula-unit{
+width:40%;
+margin:0% 5% 10% 5%;
+}
+
+/*
+*
+*Seção programaçao volta a pagina de login da parte administrativa
+*
+*/
+.etec-admin-login-form-center{
+width:35%;
+margin:0% 30% 0% 30%;
+
+}
+
+}
+/*query 7*//*--------------------------------------------------------------------------------------------------------------------------*//*query 7*/
+@media only screen and (max-width:700px){
+/*
+*
+*
+**Seção : programaçao voltada ao padrao que sera presente em toda a parte adminitrativas 
+*
+*
+*/
+.etec-admin-pad-conteudo fieldset{
+width:100%;
+margin:2% 0% 2% 0%;
+}/*formataçoes aplicadas a tag que armazenar todo o formulario  */
+
+
+}
+/*query 8*//*--------------------------------------------------------------------------------------------------------------------------*//*query 8*/
+@media only screen and (max-width:670px){
+
+}
+/*query 9*//*--------------------------------------------------------------------------------------------------------------------------*//*query 9*/
+@media only screen and (max-width:600px){
+.etec-pop-p-tela-informacoes-two-op ,.etec-pop-up-tela-informacoes-three-op{
+left:70%;
+width:60%;
+margin:0% 20% 0% 20%;
+left:0%;
+top:30%;
+}/**formataçoes aplicadas aos pop up que estaa presentes em varias partes do segmento adminstrativo*/
+.adm-horaio-aula-unit{
+width:90%;
+margin:0% 5% 10% 5%;
+}
+/*
+*
+*Seção programaçao volta a pagina de login da parte administrativa
+*
+*/
+.etec-admin-login-form-center{
+width:50%;
+margin:0% 25% 0% 25%;}
+
+}
+/*query 10*//*--------------------------------------------------------------------------------------------------------------------------*//*query 10*/
+@media only screen and (max-width:530px){
+/*
+*
+*
+**Seção : programaçao voltada ao padrao que sera presente em toda a parte adminitrativas 
+*
+*
+*/
+.etec-pop-p-tela-informacoes-two-op ,.etec-pop-up-tela-informacoes-three-op{
+left:70%;
+width:62%;
+margin:0% 19% 0% 19%;
+left:0%;
+top:30%;
+}/**formataçoes aplicadas aos pop up que estaa presentes em varias partes do segmento adminstrativo*/
+.etec-admin-pad-forms{
+    width:90%;
+	margin:2% 5% 0% 5%;
+	
+   }/*formataçoes aplicadas ao formulario em si*/
+
+
+
+}
+/*query 11*//*--------------------------------------------------------------------------------------------------------------------------*//*query 11*/
+@media only screen and (max-width:480px){
+.etec-pop-p-tela-informacoes-two-op ,.etec-pop-up-tela-informacoes-three-op{
+margin:0% 8% 0% 8%;
+width:84%;
+left:0%;
+top:30%;
+height:250px;
+}/**formataçoes aplicadas aos pop up que estaa presentes em varias partes do segmento adminstrativo*/
+.etec-pop-up-opcoes-two label ,.etec-pop-up-opcoes-three label{
+width:80%;
+clear:both;
+margin:2% 10% 2% 10%;
+}
+/*
+*
+*Seção programaçao volta a pagina de login da parte administrativa
+*
+*/
+.etec-admin-login-form-center{
+width:40%;
+margin:0% 30% 0% 30%;
+
+
+}
+.etec-admin-pad-forms-enviar-img-btn{
+margin-top:30px;
+}
+/*
+*
+*
+**Seção : programaçao voltada ao padrao que sera presente em toda a parte adminitrativas 
+*
+*
+*/
+
+/**formataçoes aplicadas ao pop up adminstrativo**/
+.etec-pop-p-tela-informacoes-two-op{
+width:90%;
+margin:0% 10% 0% 10%;
+left:-5%;
+}
+
+.etec-admin-pad-barlateral{
+width:98%;
+float:left;
+
+border-right:none;
+
+}/*container resposanvel por armazenar as informaçoes que o usuario ultiliza para navegar naquele segmento do sit*/
+.etec-admin-pad-conteudo{
+width:98%;
+float:left;
+
+}/*container resposanvel por armazenar o conteudo da pagina*/
+
+.etec-admin-pad-bar-info, .etec-admin-pad-bar-iten{
+	width:80%;
+	margin:2% 10% 25% 10%;
+	
+	 
+	}/*Classe que contem um informativo do que é representa essa pagina */
+    
+ 
+
+.etec-admin-pad-conteudo-unit ,.etec-admin-pad-conteudo-unit-reduces{
+width:90%;
+margin:3% 5% 4% 5%;
+}
+
+}
+/*query 12*//*--------------------------------------------------------------------------------------------------------------------------*//*query 12*/
+@media only screen and (max-width:400px){
+	
+
+
+/*
+*
+*Seção programaçao volta a pagina de login da parte administrativa
+*
+*/
+.etec-admin-login-form-center{
+width:90%;
+margin:0% 5% 0% 5%;
+
+
+}
+
+
+}
+/*query 13*//*--------------------------------------------------------------------------------------------------------------------------*//*query 13*/
+@media only screen and (max-width:380px){
+
+
+}
+/*query 14*//*--------------------------------------------------------------------------------------------------------------------------*//*query 14*/
+@media only screen and (max-width:200px){
+
+
+}
+@media only screen and (max-width:100px){
+
+}
+

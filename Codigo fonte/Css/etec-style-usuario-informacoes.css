@@ -1,0 +1,563 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/**
+*
+*
+Regras que serao aplicadas a pagina    Calendario escolar "calendario_escolar.php "
+*
+*
+**/
+
+
+ .calendar-unit{
+  width:95%;
+  margin:0% 2% 0% 3%;
+  border: 1px solid rgba(231,234,225,1);
+  height:40px;
+  line-height:40px;
+  margin-top:1%;
+ }/*Classe reponsavel por armazenar um determinado mes  */
+  .calendar-unit-text{
+    float:left;
+    width:99%;
+    position:relative;
+    margin-left:1%;
+  }/*Formataçao aplicada ao texto de cada mes */
+ .calendar-unti-img{
+  right:0px;
+  width:20px;
+  position:absolute;
+  margin-right:2%;
+  cursor:pointer;
+ }/*container que armazena as duas imagens de seta "triangulo para cima " e "triangulo para baixo"*/
+  .calendar-unti-img img{
+   float:left;
+   margin-top:80%;
+  }/*Formataçao reponsavel por definir a largura e a altura da imagens*/
+ .cal-sub{
+  display:none;	
+  margin-left:4%;
+  margin-top:1%;
+}/*classe que armazena todos os itens . por padrao os iten vao ficar sempre desativados e so serao ativado ao clicar naimagen do "triangulinho" */
+/*
+Lenbrete do programador !!! nessa pagina eu optei por  fazer uma abordagen com 5 classe diferente que serao usadas para tratar o que for mandado pelo ususario .Parte dessa pagina é responsiva com isso vai ser necesario fazer uma programaçao que calcule a quantidade de letras e use as classe certas 
+*/
+
+.cal-sub-iten20 {
+height:40px;
+width:97%;
+line-height:40px;
+border-bottom: 1px solid rgba(200,200,200,1);
+background-color:rgba(240,240,240,1);
+margin-bottom:2%;
+border-radius:50px 0px 0px 50px;
+}/*container que armazena  uma data referente ha uma ocasiao especificada do mes em que ela esta vinculada*/
+
+.cal-sub-text20 , .cal-sub-text50 ,.cal-sub-text90 ,.cal-sub-text110 ,.cal-sub-text150{
+float:left;
+width:90%;
+margin-left:1%;
+word-wrap:break-word;
+line-height:40px;
+
+}/*formataçao aplicada ao texto das datas que estao ligadas a um determinado mes*/
+
+.cal-sub-data{
+float:left;
+width:5%;
+text-align:center;
+height:38px;
+border-radius:15px 15px 15px 15px;
+line-height:38px;
+font-size:19px;
+color:rgba(0,0,0,0.8);
+margin-left:1%;
+}/*Formataçao aplicada ao container que armazena a data do determinado acontecimento*/
+.calenda-escolar-c{
+width:50%;
+float:left;
+}/*Classe reposnavel por armazenar dois anos (dentro dele ha dois codigo do "calendar-escola")*/
+.calendar-escolar{
+width:46%;
+float:left;
+position:relative;
+margin:1% 2% 3% 2%;
+}/*Class responsavel por armazenar todo o codigo de um determindado ano*/
+ .calendar-escolar a{
+	text-decoration:none;
+  }
+.calendario_img_ano{
+position:absolute;
+width:100%;
+text-align:center;
+top:40%;
+}
+.calendar-escolar img{
+width:100%;
+height:150px;
+}/*Definindo o altura e a largura padrao das imagens */
+.cont-btn-download{
+border: 1px solid rgba(231,234,225,1);
+text-align:center;
+margin-top:2%;
+}/*Formataçao aplicada ao botao "especificamente foi colocado uma borda nele"*/
+
+.cont-btn-download {
+background-color:rgba(215,215,215,1);
+color:rgba(255,55,45,1);
+padding:15px;
+
+}
+.calendar-escolar a:hover{
+text-decoration:underline;
+color:rgba(255,55,45,1);
+}
+.calendario_img_ano{
+font-size:25px;
+}
+.etec-title-calendar-escolar{
+margin:2% 0% 2% 3%;
+font-size:24px;
+color:rgba(255,55,45,1);
+}
+/**
+*
+*
+Regras que serao aplicadas a pagina    Gremio Estudantil "gremio_estudantil.php"
+*
+*
+**/
+
+
+/*Observaçao do programador !!! Nessa pagina eu fiz um esquema de 50% por 50% ,isso quer dizer que a um container que pega duas imagens e esse tem width de 50 , e as imagens dentro dele tem um windth de 50% fazedo com queeu consiga organzar melhor as imagens "nao foi considerado nesse exemplo nenhum tipo de margem , elas foram colocadas em praticas na programaçao desta pagina" este é so um lenbrete para uma melhor comprensao do codigo  */
+
+.etec-composit-menbre-gremio h1{
+text-align:center;
+  font-size:26px;
+  color:rgba(62,0,223,1);
+  margin:2% 0% 2% 0%;
+}
+ .etec-composit-gremir{
+  width:48.75%;
+  float:left;
+  height:380px;
+ }/*container que armazena duas imagens de integrantes do gremio */
+ .etec-composit-gremir-unit{
+  width:45%;
+  float:left; 
+  margin-left:5%;	
+  background-color:rgba(230,230,230,1);
+  border-radius:5px;
+ }/*Container que armazena as informaçoes sobre um menbro do gremio estudantil*/
+  .etec-composit-gremir-unit img{
+   width:95%;
+   margin:0% 2.5% 0% 2.5%;
+   height:250px;
+  }/*definindo a altura e a largura da imagen dos menbros do gremio */
+  .etec-composit-gremir-funcao{
+    text-align:center;
+    margin:3% 0% 3% 0%;
+  }/*Formataçoes aplicada na funçao do menbro do gremio estudantil*/
+  .etec-composit-gremir-inf{
+   margin:2% 2.5% 2% 2.5%;
+  }/*Formataçoes aplicada ao nome de cada menbro do gremio estudantil*/
+  
+ .etec-gremio-plano-trabalho h1{
+  text-align:center;
+  font-size:26px;
+  color:rgba(62,0,223,1);
+  margin:2% 0% 2% 0%;
+ }
+  .etec-composit-gremir-clear{
+  clear:left;
+  }/*linpando a flutuaçao  laterais*/
+  .etec-gremio-time-full{
+  width:100%;
+  clear:both;	
+  }/*Container que armazena uma foto de todos os menbros do gremio estudantil*/
+
+.composit-gremir-plano-topico{
+clear:both;
+margin-bottom:2%;
+margin-top:1%;
+}
+ .composit-gremir-plano-topico h2{
+  font-size:20px;
+  text-align:left;  
+  color:rgba(246,134,109,1);
+   margin-left:2%;
+   margin-bottom:1%;
+ }
+ .composit-gremir-plano-topico li{
+ margin:0% 4% 1% 5%;	
+ list-style-type:disc;
+ }  
+.etec-gremio-time-full h1{
+  text-align:center;
+  font-size:26px;
+  color:rgba(62,0,223,1);
+  margin:2% 0% 2% 0%;
+}
+ .etec-gremio-time-img{
+  width:90%;
+  /*float:left;*/
+  margin:2% 5% 1% 5%; 
+ }
+ .etec-gremio-time-rede-icon{
+  float:left;
+  margin:1% 2% 1% 2%;
+ }
+ .etec-gremio-time-rede{
+  width:20%;
+  float:left;
+  margin:0% 3% 0% 2%;	
+ }
+ .etec-gremio-time-img img{
+  width:100%;
+  height:500px;
+ }/*Definindo a largura e a altura da imagen "de todos os menbros do gremio"*/
+/**
+*
+*
+Regras que serao aplicadas a pagina    Horario das aulas "horario_aulas.php"
+*
+*
+**/
+
+
+.etec-horario-aulas-unit{
+width:41%;
+float:left;
+margin:2% 4% 1% 4%;
+height:350px;
+border:1px solid rgba(0,0,0,0.1);
+background-color:rgba(245,245,245,1);
+}/*Div "pai" que esta armazenado outras divs "filhas" que estao armazenado o conteudo do horario das aulas*/
+ 
+ .etec-horario-aulas-unit h1{
+  width:100%;
+  height:30px;
+  text-align:center;
+  margin-bottom:10%;
+  color:rgba(62,0,223,1);
+  font-size:24px;
+  margin-top:5%;
+ }/*Formataçoes aplicadas aos titulos de cada container */
+ .etec-horario-aulas-content{
+	width:90%;
+	margin:0% 5% 0% 5%;
+  }
+ .etec-horario-aulas-img {
+  width:40%;
+  margin-right:2%;
+  float:left;
+  height:40%;
+ }/*container que armazena a imagagen referente a pagina*/
+ .etec-horario-aulas-img img{
+  width:100%;
+  height:100%;
+ }/*Formataçao que definea largura e a altuea da imagens */
+ .etec-horario-aulas-text{
+  width:58%;
+  float:left;
+  margin-top:8%;
+ }/*Formataçoes aplicadas ao texto que se encontra ao lado da imagen*/
+ .etec-horario-aulas-download {
+  width:25%;
+  clear:both;
+  float:right;
+  text-align:center;
+  margin-right:5%;
+  margin-top:5%;
+ }/*Fomataçao aplicada a div que armazena o botao de "Download" */
+ .etec-horario-aulas-download a{
+ text-decoration:none;
+ color:rgba(0,0,0,1);	
+ }
+ .etec-horario-aulas-download a:hover .etec-horario-aulas-download-a{
+	  background-color:rgba(255,74,39,0.8);
+ }
+ .etec-horario-aulas-download-a{
+  padding:10px 10px;
+  background-color:rgba(255,74,39,1);
+  border-radius:5px;
+ }/*Formataçao aplicaca ao botao em si de Download*/
+
+
+/**
+*
+*
+Regras que serao aplicadas a pagina   Regimento escolar "regimento.php" ,Plano plurial de gestao "plano-plurianal.php" , norma de convivencia "normas_convivencia.php"
+*
+*
+**/
+.etec-container-princp{
+width:90%;
+margin:2% 5% 4% 5%;
+height:340px;
+} 
+ .etec-container-princp h1,.etec-container-princp-text h2{
+  text-align:center;
+  font-size:26px;
+  color:rgba(62,0,223,1);
+  margin:2% 0% 2% 0%;
+  
+ }
+ .etec-container-princp h1 {
+	display:none;
+	}
+ .etec-container-princp-img{
+  width:30%;
+  float:left;
+  margin-right:1%;	
+ }
+  .etec-container-princp-img img{
+	width:100%;
+	height:100%; 
+	}
+ .etec-container-princp-text{
+ width:68%;
+ margin-left:1%;
+ float:left;	
+ }
+ 
+ .etec-container-princp-text p{
+  line-height:20px;	
+ } 
+  .etec-btn-download{
+   float:right;
+   margin:3% 5% 0% 0%;
+  }/*container filho da class"cont-class-text" que vai armazenar o botao de "download"*/
+  .etec-btn-download a{
+	text-decoration:none;
+	color:rgba(0,0,0,1); 
+   }
+    .etec-btn-download a:hover .etec-btn-download-a{
+	  background-color:rgba(255,55,45,0.8);
+	}
+  .etec-btn-download-a {
+   padding:12px 10px;
+   border-radius:5px;
+   background-color:rgba(255,55,45,1);
+  }/*definindo o tamanho do botao e sua borda*/
+  
+/**
+*
+*
+Regras que serao aplicadas a pagina  Vestibulinho "vestibulinho.php" 
+*
+*
+**/
+
+.etec-vesti-unit-info{
+height:auto;
+margin-left:5%;
+margin-bottom:5%;
+}/*classe resposanvel por armazenar as informaçoes referentes ao vestibulinho atual*/
+ .etec-vesti-unit-info h1 ,.etec-vesti-table-curso h1 ,.etec-vesti-inform h1 ,.etec-vesti-taxa-incri h1 ,.etec-vesti-video h1{
+  text-align:center;
+  font-size:26px;
+  color:rgba(62,0,223,1);
+  margin:2% 0% 2% 0%;
+ }/*formataçoes aplicadas aos titulos dessa pagina*/
+ .etec-vesti-inform h1 ,.etec-vesti-taxa-incri h1 ,.etec-vesti-video h1{
+	font-size:20px;
+	text-align:left;  
+ 
+     margin-left:2%;
+  }
+ .etec-vesti-unit-info mark{
+  background-color:#FFF;
+  color:#F00;
+  font-size:18px
+ }
+ .etec-vesti-unit-info li{
+  margin:1% 0% 0.5% 0%;
+ }
+ .etec-vesti-unit-info a{
+ text-decoration:none;
+ color:rgba(0,0,0,1);	
+ }
+ .etec-vesti-unit-info a:hover{
+  color:rgba(246,134,109,1);
+ }
+
+.etec-vesti-table-curso table{
+width:90%;
+margin:2% 5% 1% 5%;
+}
+.etec-vesti-table-curso caption{
+text-align:left;
+margin:0% 0% 1% 1%;
+}
+.etec-vesti-table-curso td{
+border:1px solid rgba(235,235,235,1);
+padding:10px
+}
+
+.etec-vesti-table-curso tr:first-child{
+	background-color:rgba(246,134,109,1);
+	}
+
+.etec-vesti-infor-main{
+height:auto;
+width:90%;
+margin:2% 5% 1% 5%;
+} 
+  .etec-vesti-inform{
+	width:49%;
+	margin-right:1%;
+	float:left;
+	height:auto;
+   }
+    .etec-vest-inform-processe{
+	 margin-bottom:5%;
+	 
+	}
+	.etec-vest-inform-processe input[type='checkbox']{
+	 display:none;
+	}
+     .etec-vest-inform-processe ul:first-child li{
+      color:#F00;
+	 }
+     .etec-vest-inform-processe ul:last-child li{
+	   margin-left:4%;
+	 }
+	 .etec-vest-inform-processe ul{
+	  margin-left:6%;	
+	 }
+	  .etec-vest-inform-processe li{
+		list-style-type:disc; 
+		}
+    .etec-vesti-taxa-incri{
+	 margin-bottom:30px;
+	 margin-top:30px;	
+    }
+	.etec-vesti-taxa-incri p{
+	margin-left:4%;
+	}
+	 .etec-vesti-taxa-incri li{
+	  margin-left:4%;	
+	 }
+  .etec-vesti-video{
+	width:49%;
+	margin-left:1%;
+	float:left;
+	height:auto; 
+   }
+  
+    
+	
+  .etec-vesti-video-vi{
+   width:80%;
+   margin:0% 10% 2% 10%;	 
+	}
+  .etec-vesti-video-video {
+   width:100%;
+   height:100%;
+  }/*Formataçoes aplicadas diretamente ao video*/
+.regulamento{
+
+display:none;
+
+}
+
+   
+
+.ler{
+cursor:pointer;
+width:90px;
+text-align:center;
+margin-left:4%;
+background-color:rgba(246,134,109,1);
+padding:10px 15px;
+border-radius:5px;
+margin-bottom:5%;
+}/* formatacao dos botoes ler mais e ler menos*/
+
+.ler-menos{
+display:none;
+}/* faz o btn ler menos desaparecer*/
+
+#ler-regulamento:checked ~ .regulamento {
+display:block;
+}/* faz o regulamento aparecer quando o checkbox estiver ativo */
+
+#ler-regulamento:checked ~ .ler-menos{
+display:block;
+}/* faz o btn ler menos aparecer quando o checkbox estiver ativo */
+
+#ler-regulamento:checked ~ .ler-mais{
+display:none;
+}/* faz o btn ler mais desaparecer quando o checkbox estiver ativo */
+
+/*-------------------------------**/
+
+/**
+*
+*
+Regras que serao aplicadas a pagina    Inova paulo souza "inova_paulo_souza.php"
+*
+*
+**/
+
+
+.etec-contant-inova{
+height:250px;
+}/*Container que esta armazenado toda a programaçao sobre o inova (isso nao incluir as imagens do Ultimo evento)*/
+  .etec-contant-inova-img{
+   width:20%;
+   float:left;
+   margin:2% 10% 1% 5%;
+  }/*container que armazena o logo do inova */
+   .etec-contant-inova-img img{
+    width:100%;
+    height:200px;	
+   }/*definindo uma altura e uma largura padrao para a imagen*/
+  .etec-contant-inova-text{
+   width:60%;
+   float:left;
+   }/*Container que esta armazenado  o texo referente ao evento */
+    .etec-contant-inova-text h1{
+	 text-align:center;
+	 font-size:26px;
+	 color:rgba(62,0,223,1);
+	 margin-bottom:3%;
+	}
+	.etec-contant-inova-text p{
+	font-size:19px;
+	margin:2% 5% 1% 5%;
+	color:rgba(0,0,0,0.9); 
+	}
+.etec-container-inova{
+clear:both;
+height:600px;
+margin:5% 0% 5% 0%;
+}/*Container que armazena todas as imagens referente ao ultimo evento*/
+.etec-container-inova h1{
+text-align:center;
+	 font-size:26px;
+	 color:rgba(62,0,223,1);
+	 margin-bottom:3%;
+}
+ .etec-container-inova-img{
+  width:30.3%;
+  float:left;
+  margin:0% 1% 1% 2%;
+ }/*Dei=finindo as dimensoes padroes de cada imagen*/
+  .etec-container-inova-img img{
+   width:100%; 
+   height:250px;
+ 
+  }/*Definindo largura e altura padrao para todas as imagens */
+ .etec-cont-incri-fal i{
+  color:rgba(255,0,0,1);
+  font-size:21px;
+  float:right;	
+  margin-top:5%;
+  } 
+  
+  

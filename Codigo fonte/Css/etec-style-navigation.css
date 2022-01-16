@@ -1,0 +1,351 @@
+@charset "utf-8";
+/*novo padrao de tags css*/
+
+.etec-title-princip  h1{
+  font-size:26px;
+  color:rgba(62,0,223,1);
+}/*classe resposnavel por estilirizar o titulo de grande parte das pagina do site*/
+.etec-title-princip h2{
+ font-size:20px;
+ color:rgba(62,0,223,1);
+}/*classe resposnavel por estilirizar os sub titulos das pagina*/
+/*
+*
+*primeira parte do menu 
+*
+*/
+.etec-menu-one{
+background-color:rgba(62,0,223,1);
+height:40px;
+margin-top:-20px;
+color:#FFF;
+}/*container pai que esta armazenado a primeira parte do menu do site */
+/*observação o menu do site e dividido em 3 partes*/
+/*Observação a primeira parte do menu foi dividida em outras duas paginas**/
+.etec-menu-one-par-one {
+width:20%;
+float:left;
+margin-top:10px;
+}/*container responsavel por armazenar a primeira inforção da pimeira parte do menu*/
+.etec-menu-one-par-one-img{
+margin:0% 8% 0% 10%;
+width:10%;
+float:left;
+}/*container resposnavel por armazenar primeira imagen da primeira parte do menu  */
+.etec-menu-one-par-one-info{
+width:70%;
+float:left;
+margin:1% 0% 0% 0% ;
+}/*container resposnavel por armazenar primeira informação da primeira parte do menu  */
+
+.etec-menu-one-par-two{
+width:60%;
+float:left;
+margin-top:10px;
+}
+.etec-menu-one-par-two-img{
+width:5%;
+float:left;
+margin:0% 0% 0% 0%;
+
+}/*container resposnavel por armazenar segunda imagen da primeira parte do menu  */
+.etec-menu-one-par-two-info{
+width:70%;
+float:left;
+
+}/*container resposnavel por armazenar segunda informação da primeira parte do menu  */
+
+/*
+*
+segunda parte do menu
+*
+*/
+
+.slider{
+    display: block;
+    width: 100%;
+    float: left;
+	margin-bottom:10px;
+}/* define as configurações da caixa onde o slide ira rodar */
+
+.slider .slider_item{
+   display: block;
+   float: left;
+   width: 100%;
+   background-size: cover;
+   background-position: center;
+   background-color: #fff;
+   position: absolute;
+   transition-property: all;
+   transition-duration: .5s;
+   transition-timing-function: ease-in;
+   transition-delay: 0.3s;
+   opacity: 0;
+}/* define as configuracoes de tamanho,posicionamento e animacao dos articles do slide  */
+
+.slider .slider_item.active{
+   opacity: 1;
+}/* ativa a primeira imagem do slide */
+
+.slider .slider_item img{
+   width: 100%;
+   display: block;
+   float: left;
+}/* configuracao da imagem do slide  */
+
+.slider .slider_content{
+   float: left;
+   width: 100%;
+   height: 100%;
+   position: relative;
+}/* configuracao da div onde fica alocadas as imagens */
+
+.slider-next,
+.slider-prev{
+   width: 50px;
+   height: 50px;
+   color:#fff;
+   text-align: center;
+   font-size: 3em;
+   line-height: 40px;
+   font-weight: lighter;
+   border-radius: 100px;
+   background: rgba(0, 0, 0, 0.5);
+   position: absolute;
+   left: 20px;
+   z-index: 99;
+ 
+}/* configuracao dos botoes de avancar e voltar  */
+.slider-next{
+   right: 20px;
+   left: auto;
+   z-index: 100;
+	
+}/* configuracao do botao avancar */
+.slider-next:hover,
+.slider-prev:hover{
+   background: rgba(0, 0, 0, 0.8);
+   transition-property: all;
+   transition-duration: .5s;
+   transition-timing-function: ease-out;
+   transition-delay: 0.2s;
+   cursor: pointer;
+}/* animacao ao passar o mouse por cima dos botoes de avancar e voltar */
+
+/*
+*
+*terceira parte do menu
+*/
+
+
+.etec-menu-tree{
+margin-bottom:50px;
+position:relative;
+z-index:2;
+}/*container resposanvel por armazenar todo o menu 3*/
+.etec-menu-tree-main{
+height:84px;
+margin:2% 0% 0% 4%;
+}/*container resposavel por armazenar o menu e o logo*/
+#btn-menu{  
+display:none;
+}/* aqui o botao esta sendo escondido em telas grandes*/
+label[for="btn-menu"]{
+display:none;
+}/* nesta parte o label vai ser escondido*/
+.etec-menu-tree-main-img{
+float:left;
+width:250px;
+position:absolute;
+height:80px;
+margin-right:2%;
+}/* container resposavel por armazenar a imagens do logo*/
+.etec-menu-tree-main-img img{
+width:100%;
+height:100%;
+}
+.etec-menu-tree-logo-img{
+width:100%;
+height:80px;
+}/*ajuste da imagen do logo dainstituiçao*/
+.etec-menu-tree-main-link{
+float:left;
+width:100%;
+height:100%;
+background-color:#fff;
+}/*container resposavel por armazenar */
+
+.etec-menu-tree-main-link ul{
+ position:relative;
+ margin-left:250px;
+
+}/*formataçao das  ul da lista*/
+
+.etec-menu-tree-main-link ul ul{
+ margin-left:0px;
+
+}/* formatacao da sublistas*/
+
+.etec-menu-tree-main-link ul li{
+float:left;
+width:12%;
+}/*formatacoes aplicadas as linhas da primeira lista */
+
+
+#informacoes{
+  width:16%;
+}
+
+
+.etec-menu-tree-main-link ul li a{
+display:block;
+text-align:center;
+text-decoration:none;
+color:#000;
+padding:28px 0px ;
+
+}/* formataçao do texto da lista */
+.etec-menu-tree-main-link ul li a:hover{
+background-color:rgba(211,8,8,1);
+cursor:pointer;
+}/*rpogramaçao ao passar o mouse por sima das letras do menu "muda a cor de fundo do texto"*/
+.etec-menu-tree-main-link ul li ul {
+/*visibility:hidden;*/
+display:none;
+}/*programaçao que esconde os "sub menus"*/
+.etec-menu-tree-main-link ul li:hover ul  {
+/*visibility:visible;*/
+display:block;
+position:static;
+}/*Programaçao  que deixar visivel a segunda lista "sub menus"*/
+.etec-menu-tree-main-link ul li ul li{
+float:none;
+margin-left:0%;
+border:0px;
+border-radius:0px;
+}
+.etec-menu-tree-main-link ul li ul li a{
+width:200px;
+background-color:#F9F9F9; 
+text-align:left;
+padding:12px;
+border-radius:0px;
+}/*formataçao aplicada a segunda lista */
+.etec-menu-tree-main-link ul li ul li a:hover{
+background-color:rgba(220,220,220,1);
+}/*formataçao que ao passar o mouse sobre os "sub itens" esse terao o seu fundo alterado*/
+.etec-menu-tree-main-link ul li ul li a:hover  ,.etc-primer-iten{
+border-top:2px solid rgba(211,8,8,1);
+}	                      
+.etc-primer-iten{
+border-top:2px solid rgba(211,8,8,1);
+}/*defini uma borda vermelha a todos os primeiros elemento das "sub listas"*/
+#uni-logo{
+display:none;
+}
+#informacoes   li a{
+width:250px;
+}  
+
+/*
+*
+*programação voltada para a parte do rodape
+*
+*/   
+.etec-rodape-main{
+width:100%;
+
+background-color:rgba(31,30,29,1);
+height:80px;
+bottom:0px;
+clear:left;
+color:#FFF;
+}/*div geral que esta armazenado todo o rodape do site*/
+ .etec-rodape-main a{
+	text-decoration:none;
+	color:#FFF;
+  }/*formataçoes aplicadas aos links da parte do rodape*/
+  .etec-rodape-main a:hover{
+	color:rgba(246,134,109,1);
+  }/*formataçoes aplicadas ao passar sobre algum link na area do menu*/
+.etec-rodape-unit-inf{
+width:70%;
+float:left;
+}/*formataçoes aplicadas a div que esta armazenado algumas informaçoes referentes ao direitosaltorair e aos criadores */
+ .etec-rodape-unit-infos{
+	width:100%;
+	height:10px;
+	margin:2% 0 2% 2%;
+	line-height:10px;
+	}/*div resposanvel por armazenar algumas informaçoes no rodape*/
+.etec-rodape-unit-links{
+width:30%;
+float:left;
+}/*formataçoes aplicadas a div ue esta armazenado alguns linkes referentes ao site*/
+.etec-rodape-unit-links li{
+float:right;
+margin:8% 1% 0% 0%;
+}
+
+.etec-rodape-unit-links li:first-child{
+margin-right:20px;
+}
+
+html , body{
+height:auto;
+}/*Formataçoes que seram aplicada a todo o documento da pagina*/
+.main-conteiner{
+height:auto;
+width:100%;
+
+}/*Div que ira armazenar todo o conteudo da pagina respectiva*/
+
+/*
+*
+* Observação:O codigo abaixo c  esta formatando  a barra de navegaçao ,que esta presente em toda as pagina
+*
+*/
+.etec-container-indicator{
+width:100%;
+margin-bottom:5%;
+height:150px;
+
+background-color:rgba(31,30,29,1);
+}/*classe que esta armazenado a barra de navegaçao ,que esta presente em toda as pagina do ususario*/
+ .etec-container-indicator a{
+  text-decoration:none;	
+  color:#FFF;
+ }/*formataçoes aplicadas ao links*/
+ .etec-container-indicator a:hover{
+  color:rgba(246,134,109,1);	
+  }
+.etec-container-indicator-item{
+margin-left:30px;
+font-size:26px;
+line-height:150px;
+font-size:26px;
+color:#FFF;
+}/*Class contida dentro de "container-indicador" essa organiza o texto dentro da classe pai*/
+
+
+/*
+*
+// logo abaixo estao presentes algumas classe ue fazem partede alguns determinados documentos e desempenham um papel inportante na pagina 
+*
+*/
+
+.etec-cont-backgroud{
+background-color:rgba(235,235,235,1);
+border-radius:10px;
+height:auto;
+padding:2% ;
+margin-bottom:5%;
+
+}/*Classe resposnavel por definir uma cor de fundo envolta de um determinado elemento  elemento*/
+
+
+/*
+*
+* Observação : o codigo abaixo é resposanvel por retirar o .html e o .php de todos os arquivos do projeto
+*
+*/

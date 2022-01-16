@@ -1,0 +1,381 @@
+@charset "utf-8";
+/* CSS Document */
+@media only screen and (max-width:1259px){
+
+/*
+*
+//programaçao voltada para a pagina de 
+*
+*/
+.etec-container-program-3{
+margin-top:3%;
+}
+
+/*
+*
+//Programaçao voltada para a parte de eventos do index
+*
+*/
+.etec-event-content-list-unit-info{
+   line-height:30px;
+   
+  }/*classe que vai armazenar asinformaçoes referente ao evento */
+  
+  
+}
+@media only screen and (max-width:1100px){
+/*
+*
+/programaçao voltada para a parte de programas relacionados 
+*
+*/
+.container-program-3{
+margin-top:4%;
+}
+/*
+*
+//Programaçao voltada para a parte dos eventos 
+*
+*/
+.etec-event-content-list-link{
+width:41%;
+}
+
+/*
+*
+//Programação voltada para a parte de mural de avisos/calendario escolar
+*
+*/
+  .etec-ver-mais-tes{
+  width:60%;
+  }
+
+}
+@media only screen and (max-width:1000px){
+/*
+*
+//Programação voltada para a pagina de programas relacioandos 
+*
+*/
+.container-program-3{
+margin-top:5%;
+}
+
+/*
+*
+//Programaçao voltada para a parte dos eventos 
+*
+*/
+.etec-event-content-list-link{
+width:44%;
+}
+.etec-event-title{
+line-height:30px;
+
+}
+/*
+*
+Programação voltada para a parte de programas relacionados 
+*
+*/  
+.etec-program-unit-link{
+	 width:60%;
+  }
+}
+@media only screen and (max-width:950px){
+/*
+*
+//Programaçao voltada para a parte dos eventos 
+*
+*/
+.etec-event-content-list-link{
+width:50%;	
+}
+
+/*
+*
+//Programaçao voltada para a parte dos eventos 
+*
+*/
+.etec-event-content-list-link{
+width:52%;
+}
+/*
+*
+Programação voltada para a parte de programas relacionados 
+*
+*/  
+.etec-program-unit-link{
+	 width:70%;
+  }
+  
+
+}
+@media only screen and (max-width:800px){
+
+/*
+*
+//Programação voltada para a parte de programas relacionados
+*
+*/
+.etec-container-program-3{
+margin-top:15%;
+}
+.etec-container-program-3 img{
+height:150%;
+}
+
+.etec-program-unit-2{
+margin-top:25%;
+}	
+.etec-program-unit img  ,.etec-program-unit-1 img ,.etec-program-unit-2 img {
+width:80%;
+height:100%;
+margin:0% 10% 0% 10%;
+}/*Programaçao resposnavel por fazer com que a imagem fique com um tamanho maior , ocupando assi toda a area disponivel do dispositivo*/
+
+/*
+*
+//Programaçao voltada para a parte dos eventos 
+*
+*/
+.etec-event-content-list-link{
+width:56%;
+
+}
+
+}
+@media only screen and (max-width:780px){
+/*
+*
+//Programação voltada para a parte de eventos da pagina index
+*
+*/
+.etec-event-content-list{
+display:none;
+}/*O container referente a descricao do evento e sua data sera retirado*/
+.etec-event-content-list-pont{
+display:block;
+}/*os botoes para navegaçao dos  eventos sera  abilitados */
+.etec-event-resp-title{
+display:block;
+}/*mostra o titulo reponsivo na tela */
+.etec-event-content-main{
+height:380px;
+}/*Container que vai armazenar todas as classe + informaçoes referentes aos eventos*/
+.etec-event-content-img{
+width:70%;
+margin:0% 15% 0% 15%;
+height:300px;
+}
+/*
+*
+//Programação voltada para a parte de porgramas relacionados 
+*
+*/
+.etec-container-program-2{
+margin-top:25px;
+}	
+.etec-container-program-3{
+ width:90%;
+ margin:2% 5% 2% 5%;
+}
+.etec-program-unit {
+ margin:10% 0% 5% 0%;
+}
+.etec-program-unit-1 img{ 
+ margin-top:20%;
+}
+.etec-main-conteiner-program-3{
+ height:1030px;
+ width:100%;
+ 
+}
+.etec-main-conteiner-program-1{
+ height:320px;
+}
+.etec-main-conteiner-program-2{
+ height:800px;
+}
+.etec-container-program-2 {
+ width:70%;
+ margin:2% 15% 2% 15%;
+}
+
+/*
+*
+//Programação voltada para a parte de mural de avisos /calendario escolar
+*
+*/
+.etec-container-calendar-warnings{
+min-height:900px;	
+}
+ .etec-container-calendar , .etec-container-warning{
+   clear:both;
+   width:80%;
+   margin:3% 10% 1% 10%;
+  }/*Programaçao aplicada ao calendario e ao quadro de avisos*/
+  
+  .etec-warning-title h1{
+	text-align:center;  
+	margin-top:3%;
+    }
+    .etec-warning-sub-title p{
+   color:rgba(255,55,45,1);
+   font-size:20px;
+   margin-left:3%;
+   margin-right:3%;
+ }/*defini as formataçoes que vao ocorer no tituo do mural de avisos*/
+ 
+ /*
+*
+Programação voltada para a parte de programas relacionados 
+*
+*/  
+.etec-program-unit-link{
+	 width:97%;
+	 padding:0px;
+	 font-size:15px;
+	
+  }
+}
+
+
+
+@media only screen and (max-width:530px){
+ .etec-event-content-list-pont{
+  
+ 
+  width:50%;
+  margin-left:45%;
+  margin-right:0%;
+ }/*classe resposnavel por armazenar a lista contendo os pontinhos que irao aparecer no modo reponsivo */
+/*
+*
+//programação voltada para a parte de programa relacionados "pagina"(
+*
+*/
+.etec-program-main-imagens-img-unit{
+width:80%;
+margin:2% 10% 2% 10%;
+}
+
+.etec-main-conteiner-program-3{
+ height:900px;
+ width:100%;
+ 
+}
+
+}
+@media only screen and (max-width:480px){
+/*
+*
+Programaçao voltada para a parte de eventos
+*
+*/
+.etec-event-content-img{
+width:90%;
+margin:0% 5% 0% 5%;
+height:300px;
+}
+/*
+*
+//programação voltada para a parte de programa relacionados "pagina"(
+*
+*/
+.etec-program-main-imagens-img-unit{
+width:90%;
+margin:2% 5% 2% 5%;
+}
+.etec-container-program-2{
+ width:80%;
+ margin:2% 10% 2% 10%;
+}
+
+/*
+*
+//programação referente aosprogramas relacionados da pagina
+*
+*/
+ .etec-event-content-list-pont{
+  
+ 
+  width:50%;
+  margin-left:35%;
+  margin-right:0%;
+ }/*classe resposnavel por armazenar a lista contendo os pontinhos que irao aparecer no modo reponsivo */
+.etec-main-conteiner-program-2{
+ height:650px;
+}
+.etec-container-program-1{
+ width:96%;
+ margin:2% 2% 2% 2%;
+}
+
+/*
+*
+//Programaçao voltada para a parte de mural de avisos / calendario escolar 
+*
+*/
+.etec-container-calendar-warnings{
+min-height:990px;	
+}
+.etec-container-calendar , .etec-container-warning{
+   clear:both;
+   width:90%;
+   margin:3% 5% 4% 5%;
+   height:auto;
+  }/*Programaçao aplicada ao calendario e ao quadro de avisos*/
+  .etec-calendar-iten{
+   height:80px;
+  } 
+   .etec-item-nun{
+      width:18%;
+      border-radius:15px;
+      margin-top:2%;
+     }/*essa div ira armazenar um dia de um determinado acontecimento na escola*/
+     .etec-item-descricao{
+      width:80%;
+      text-align:left;
+     }/*esssa divi ira armazenar a descriaçao */
+ .etec-ver-mais-tes{
+  width:60%;
+  }  
+
+
+
+/*
+*
+//Programação voltada para a parte de mural de avisos /calendario escolar
+*
+*/
+.etec-container-calendar-warnings{
+min-height:960px;	
+}
+ .etec-container-calendar , .etec-container-warning{
+   clear:both;
+   width:100%;
+   margin:3% 0% 5% 0%;
+  }/*Programaçao aplicada ao calendario e ao quadro de avisos*/
+  
+  
+ /*
+*
+Programação voltada para a parte de programas relacionados 
+*
+*/
+ .etec-program-main-img ,.etec-program-main-text{
+clear:both;
+width:90%;
+margin:0% 5% 2% 5%;
+}
+.etec-program-unit-link{
+	 width:100%;
+	 padding:0px;
+	 margin:5% 0% 5% 0%;
+  } 
+  .etec-main-conteiner-program-3{
+ height:860px;
+}
+}
+

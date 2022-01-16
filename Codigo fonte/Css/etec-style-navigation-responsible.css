@@ -1,0 +1,364 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@media only screen and (max-width:1259px){
+/*----------------------------------------------------------------Pag 1-----------------------------------------------------------------------*/
+.cont-title{
+margin-bottom:1%;
+}
+	
+}
+
+
+@media only screen and (max-width:1000px){
+/*
+* Seção :parte 2 do menu
+*/
+.etec-menu-tree-main-link ul{
+  margin-left:100px;
+}
+
+.etec-menu-tree-main-img{
+  width:100px;
+}
+
+
+ #uni-logo{
+display:block;
+
+}
+
+#ful-logo{
+display:none;
+}
+
+/*----------------------------------------------------------------Pag 1-----------------------------------------------------------------------*/
+.cont-title{
+margin-bottom:2%;
+}	
+}
+@media only screen and (max-width:950px){
+
+ .etec-rodape-unit-infos{
+
+	height:14px;
+	margin:2% 0 3% 2%;
+	
+	}/*div resposanvel por armazenar algumas informaçoes no rodape*/
+	
+	
+
+/*----------------------------------------------------------------Pag 1-----------------------------------------------------------------------*/
+.cont-text-font-2{
+font-size:25.5px;
+margin-left:1%;
+}
+
+}
+@media only screen and (max-width:768px){
+
+.etec-menu-one{
+margin-top:-60px;
+}
+.etec-rodape-unit-links{
+display:none;
+}/*formataçoes aplicadas a div ue esta armazenado alguns linkes referentes ao site*/
+.etec-rodape-unit-inf{
+width:98%;
+}/*formataçoes aplicadas a div que esta armazenado algumas informaçoes referentes ao direitosaltorair e aos criadores */
+.etec-menu-tree-main label{
+float:right;
+text-align:center;
+line-height:50px;
+margin-right:2%;
+padding:10px 15px;
+height:50px;
+width:50px;
+margin-top:0px;
+}/*Formataçao aplicada ao label , que no caso é o botao que ativa o menu reponsivo*/
+.etec-menu-tree-main label:hover{
+background-color:rgba(0,0,0,0.2);
+cursor:pointer;
+}/*ao passar o mouse sobre o label(menu responsivo) a sua cor de fundo sera alterada elen de que o curso do mousevai ser alterado */
+label[for="btn-menu"]{
+display:block;
+}/* faz com que o o label fique visivel*/
+.etec-menu-tree-main-link ul{
+  margin-left:0px;
+  width:100%;
+}
+#informacoes{
+  width:100%;
+}
+
+#informacoes li a{
+  width:100%;
+}
+
+#btn-menu{
+float:right;
+}/* faz com que o botao do menu fique  pozicionado a direita da tela "isso ocore apenas em modo responsivo"*/
+
+#btn-menu:checked ~ .etec-menu-tree-main-link{
+margin-left:0;
+    height:auto !important;
+	position:static;
+	width:100%;
+}/*quando o botao for clicado ele faz com que o menu apareça na tela*/
+	
+.etec-menu-tree-main-link{
+width:100%;
+margin-top:25px;
+margin-left:-150%;
+ clear:both;
+}/*container responsavel por armazernar o menu em si*/
+.etec-menu-tree-main-link ul{
+width:104%;
+margin-left:-4%;
+ 
+}/*formataçao das  ul da lista*/
+.etec-menu-tree-main-link ul li{
+border-bottom:1px solid #FFF;
+width:100%;
+float:none;
+
+}/*formataçao aplicada as listas do menu  */
+
+.etec-menu-tree-main-link ul li a{
+background-color:#000;
+color:#FFF;
+padding:18px 0px;
+cursor:pointer;
+}/*formataçao aplicada ao texto do menu*/
+
+.etec-menu-tree-main-link ul ul{
+position: static;
+overflow:hidden;
+max-height:0px;
+transition: all .4s;
+margin-left:0px;
+width:100%;
+}/*formataçao aplicada a segunda lista do menu "sub itens"*/
+
+.margem-menu-inferior{
+  margin-bottom:50px;
+}
+
+.etec-menu-tree-main-link ul li ul li a{
+width:100%;
+color:#000;
+}/*formataçao aplicada ao texto dos sub itens "lista de numero 2"*/
+
+/*
+.secundar-menu ul li ul li:last-child{
+margin-bottom:25px;
+}*/
+
+.etec-menu-tree-main-link ul li ul {
+display:block;
+
+}/*programaçao que esconde os "sub menus"*/
+
+/*
+* Seção : pagina do rodape
+*/
+.etec-rodape-unit-infos{
+  height:10px;
+  margin:2% 0 3% 2%;
+}/*div resposanvel por armazenar algumas informaçoes no rodape*/
+
+/*
+*
+* programaçao voltada para abarra de navegação
+*
+*/	
+.etec-container-indicator{
+display:none;
+}
+
+
+/*----------------------------------------------------------------Pag 1-----------------------------------------------------------------------*/
+.cont-donwload-unit{
+width:30%;
+
+float:left;
+margin:2% 0% 2% 3%;
+}
+.cont-separt-num1 ,.cont-separt-num2 ,.cont-class-text {
+width:95%;
+}/*faz com que o containers que deveriam ficar lado a lado ocupem todo o espaço definifo da tela */
+.cont-class-img{
+width:80%;
+margin:5% 10% 5% 10%;
+}
+.adm-horaio-aula-unit{
+width:45%;
+margin-left:5%;
+}
+}
+@media only screen and (max-width:670px){
+/*----------------------------------------------------------------Pag 1-----------------------------------------------------------------------*/
+
+
+.conteudo{
+	height:42px;
+}/*Container que armazena a linha aonde fica armazenado um dado do BD*/
+}
+@media only screen and (max-width:600px){
+/*----------------------------------------------------------------Pag 1-----------------------------------------------------------------------*/
+.cont-text-font-2{
+font-size:18px;
+margin-left:2%;
+}
+
+.cont-marg-left2{
+margin-left:5%;
+}	
+
+.cont-title-left-resp{
+font-size:20px;
+margin-top:80px;
+}
+.container-indicator{
+display:none;
+}
+
+
+}
+@media only screen and (max-width:530px){
+/*----------------------------------------------------------------Pag 1-----------------------------------------------------------------------*/
+.cont-text-font-2{
+font-size:14px;
+margin-left:1%;
+}
+/*Classes usasas em pagina aonde o texto da barra de navegaçao "barra preta que serve para indicar em qual pagina a pessoa se encontra " esta sendo cortado**/
+.cont-text-font-4{
+font-size:20px;
+color:#00F;
+}
+
+	
+}
+
+
+@media only screen and (max-width:480px){
+.etec-menu-tree-main-img{
+margin-top:5%;
+}
+
+.cont-class-img{
+width:90%;
+margin:5%;
+}.
+etec-menu-tree{
+margin-top:30px;
+}
+.etec-rodape-unit-infos{
+  height:30px;
+  margin:2% 0 2% 2%;
+  text-align:center;
+  line-height:15px;
+}/*div resposanvel por armazenar algumas informaçoes no rodape*/
+	
+/*----------------------------------------------------------------Pag 1-----------------------------------------------------------------------*/
+.tabela{
+font-size:11px;
+}
+
+.conteudo{
+	height:33px;
+}/*Container que armazena a linha aonde fica armazenado um dado do BD*/
+
+.cont-text-font-2{
+font-size:13px;
+margin-left:1%;
+}
+.cont-table td{
+font-size:15px;
+}
+.cont-marg-bot2{
+margin-bottom:4%;
+margin:2% 0% 6% 0%;
+}
+.cont-donwload-unit{
+width:40%;
+margin-left:4%;
+}/*essa div é reponsavel por definir o tamanho da imagens que guarda um link de download (ela esta presente em varias paginas por isso ela se encontra aqui"*/
+.cont-title-h2{
+margin-left:4%;
+}
+.cont-title-left{
+margin-left:5%;
+}
+.cont-marg-left2{
+margin-left:5%;
+}	
+.cont-marg-top2{
+margin-top:10%;
+}
+#cont-ppg{
+	font-size:20px;
+}	
+
+/*Classes usasas em pagina aonde o texto da barra de navegaçao "barra preta que serve para indicar em qual pagina a pessoa se encontra " esta sendo cortado**/
+.cont-text-font-4{
+font-size:18px;
+color:#FFF;
+}
+
+
+.cont-table table {
+width:90%;
+}	
+
+.cont-table-red-marg table{
+width:100%;
+margin:0% 0% 0% 0%;
+}
+
+}
+@media only screen and (max-width:400px){
+	
+/*----------------------------------------------------------------Pag 1-----------------------------------------------------------------------*/
+.cont-text-font-3{
+font-size:20px;	
+margin-left:4%;
+}
+.cont-text-font-1{
+font-size:24px;
+margin-left:4%;
+}
+.cont-text-font-2{
+font-size:11.5px;
+margin-left:0%;
+
+}
+
+.cont-table td{
+font-size:11px;
+}
+.cont-title{
+margin-bottom:4%;
+}
+	
+
+#cont-ppg{
+font-size:16px;
+}	
+#cont-adm{
+font-size:24px;
+}
+
+/*Classes usasas em pagina aonde o texto da barra de navegaçao "barra preta que serve para indicar em qual pagina a pessoa se encontra " esta sendo cortado**/
+.cont-text-font-4{
+font-size:16px;
+color:#00F;
+}
+}
+
+
+
+
+
+

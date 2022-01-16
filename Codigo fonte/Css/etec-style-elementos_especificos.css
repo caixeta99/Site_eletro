@@ -1,0 +1,130 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+/*
+* Projeto - Site da eletro 
+* Pagina css do site 
+*
+* Nesssa pagina contentem todas as tags que 
+* realizam formataçoes em algumas paginas do 
+* site somente,nao sendo incluida em todas as 
+* paginas
+*
+*/
+
+
+/*
+ Seção:Formataçoes aplicadas as tabelas do site
+*
+*/
+
+.cont-table-bibli,.etec-table-elemento{
+width:100%;
+margin-top:20px;
+font-size:18px;
+color:rgba(0,0,0,0.8);
+}/*formataçoes aplicadas a todos os iten tabulados*/
+.cont-table-bibli caption{
+text-align:center;
+}
+.cont-table-bibli caption:hover{
+cursor:pointer;
+}
+.cont-table-bibli table,.cont-table table ,.cont-table-red-marg table ,.etec-table-elemento table {
+width:90%;
+margin:2% 5% 3% 5%;
+}/*define  formataçoes para a tabela em si*/
+.etec-table-elemento table {
+word-break:break-word;
+}
+.cont-table caption ,.cont-table-red-marg caption ,.etec-table-elemento caption{
+text-align:left;
+margin:0% 0% 1% 1%;
+font-size:22px;
+}/*formataçao aplicada ao titulo da tabela*/
+.cont-table-bibli td,.cont-table td ,.cont-table-red-marg td ,.etec-table-elemento td{
+border:1px solid rgba(235,235,235,1);
+padding:10px
+
+}/*formataçoes aplicada as linhas da tabela*/
+
+.etec-table-elemento a{
+text-decoration:none;
+font-size:16px;
+color:rgba(255,0,0,0.8);
+}
+.etec-table-elemento a:hover{
+color:rgba(246,134,109,1);
+}
+.etec-table-elemento tr:nth-child(2n+0) td{
+ background-color:rgba(0,0,0,0.1);	
+ }
+ .etec-table-title{
+	 background-color:rgba(252,144,58,1);
+     color:rgba(40,40,40,1);
+	 text-align:center;
+	 
+	}
+ 
+/*
+* Seção:Formataçoes aplicadas aos botoes de downloads
+*
+*/
+
+/*Programaçao aplica as pagina que  possuem botoem de Download com imagens*/
+.etec-donwload-units{
+width:100%;
+min-height:170px;	
+}
+
+.etec-donwload-unit {
+width:22%;
+float:left;
+margin:10px 1% 10px 1%;
+}
+.etec-donwload-unit-title{
+width:22%;
+margin:2% 5% 2% 3%;
+}
+.etec-donwload-unit img ,.etec-donwload-unit-title img{
+width:100%;
+height:150px;
+}
+/*Class que que aplicam formataçoes a listas*/
+.cont-ul-li-espace li{
+margin:1% 0% 1% 0%;
+}
+.cont-ul-li-cicle li{
+list-style-type:circle;
+}
+
+@media only screen and (max-width:800px){
+.etec-donwload-unit ,.etec-donwload-unit-title{
+width:40%;
+margin:2% 5% 5% 2%;
+}
+}
+@media only screen and (max-width:480px){
+.etec-donwload-unit ,.etec-donwload-unit-title{
+margin:5% 20% 5% 20%;
+width:60%;
+clear:both;
+}
+.etec-table-elemento table {
+width:100%;
+margin:2% 0% 2% 0%;
+font-size:16px;
+
+}
+.etec-tabel-lin-none{
+display:none;
+}
+.etec-table-reduces{
+font-size:13px;
+
+}
+}
+@media only screen and (max-width:400px){
+
+}

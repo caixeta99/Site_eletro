@@ -1,0 +1,659 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/**
+*
+*
+Regras que serao aplicadas a pagina    Biblioteca "biblioteca.php"
+*
+*
+**/
+
+
+.etec-biblioteca{
+width:30%;
+float:right;
+margin:0% 2% 0% 2%;
+font-size:18px;
+  color:rgba(0,0,0,0.8);
+}/*Classe que armazena as informaçoes sobre a biblioteca online */
+ .etec-biblioteca h2{
+   margin:2% 0% 2% 0%;
+   text-align:center;	
+ } 
+ .etec-biblioteca-img{
+   width:100%;
+   height:150px;
+ }/*Formataçoes aplicadas ao container que vai guardar a imagen sobre a biblioteca online*/
+  .etec-biblioteca-img img{
+   width:100%;
+   height:100%;
+  }/*Formataçoes aplicadas a altura e a largura da imagen ultilizada*/
+ .etec-biblioteca ul li{
+  list-style:decimal;
+  margin:4% 0% 1% 0%;
+ }/*formataçoes aplicadas a lista que fica dentro do container da biblioteca online*/
+ .etec-biblioteca p{
+  text-align:right;
+  margin-top:3%;
+ }/*formataçoes aplicadas ao paragrafo do container da biblioteca online */
+ .etec-biblioteca-pc-title{
+  text-align:center;
+  margin:1% 0% 1% 0%;
+ }
+.etec-biblioteca-text{
+width:60%;
+float:left;
+margin:1.4% 2% 0% 4%;
+height:auto;
+} 
+ .etec-biblioteca-text p{
+  margin:2% 0% 0.4% 0%;
+  font-size:18px;
+  color:rgba(0,0,0,0.8);	
+ }
+.etec-biblioteca-horarios{
+width:100%;
+clear:right;
+margin-bottom:4%;
+}/*Class responsavel por armzenar os horarios dos funcionarios da Biblioteca*/
+
+.etec-biblioteca-horarios h2{
+text-align:center;
+margin-bottom:4%;
+}/*Formataçoes aplicadas ao titulos da class"biblioteca-horarios"*/
+
+
+.etec-biblioteca-horarios{
+height:auto;
+}
+.etec-biblioteca-info{
+clear:both;
+}
+.etec-biblioteca-info h2{
+text-align:center;
+}
+/**
+*
+*
+Regras que serao aplicadas a pagina Conselho de classe"conselho-classe.php"   
+*
+*
+**/
+.etec-coore-ori-curi{
+width:96%;
+margin:2%;
+}
+ .etec-coore-ori-curi h1{
+  text-align:center;
+  margin-bottom:2%;	
+ }
+ .etec-coore-ori-curi h3{
+  margin:1% 0% 1% 3%;
+  font-size:19px;
+  color:rgba(0,0,0,0.9);
+  }	
+
+/**/				 
+.cont-conselho-subtitle{
+margin-left:2%;
+}/*Programaçao aplicada aos sub-titulos*/
+.cont-conselho-title{
+margin:1% 0% 0% 2%;
+}/*Alteraçoes nas margens dos titulos da pagina*/
+.cont-cpnselho-img{
+width:20%;
+margin:2% 2.5% 2% 2.5%;
+float:left;
+}
+.cont-cpnselho-img img {
+width:100%;
+height:100px;
+}
+.cont-conselho-integrado,.cont-conselho-medio,.cont-conselho-noturno{
+ clear:both;
+}
+/**
+*
+*
+Regras que serao aplicadas a pagina  Cordenação "cordenacao.php"  
+*
+*
+**/
+
+
+.etec-cordenacao-ptd{
+clear:left;
+}/*Classe reponsavel por armazenar :"plano de trabalho docente-ensino medio e integrado " e "planos de trabalho Docente -ensino tecnico "*/
+ .etec-cordenacao-ptd-emt{
+  width:30%;
+  height:auto;
+  float:left;
+  margin:0% 6% 0% 2%;
+ }/*essa div vai armazenar os medios e integrados*/
+  /*programaçao relacionada com o ensino medio e tecnico*/
+   .etec-cordenacao-ptd-emt h1{
+	margin-bottom:5%;
+	}
+   .etec-cordenacao-ptd-emt a , .etec-cordenacao-ptd-et a{
+	 color:rgba(255,0,0,0.8);
+	 text-decoration:none;
+	 margin-left:1%;
+	}/*formataçoes plaicadas ao links dos 3 containers*/
+	.etec-cordenacao-ptd-emt a:hover , .etec-cordenacao-ptd-et a:hover{
+	 color:rgba(246,134,109,1);
+	}/*evento a hover dos tre containers"lins"*/
+  .etec-cordenacao-ptd-emt-cont{
+   margin-left:5%;
+  }
+   .etec-cordenacao-ptd-emt-cont ul li{
+     list-style-type:upper-roman;
+     margin:2% 0% 0.5% 25%;
+    }/*formataçoes aplicadas a parte das listas do ensino tecnico*/
+  .etec-cordenacao-ptd-et{
+   width:60%;
+   float:left;
+  }/*essa div vai armazenar os tecnicos*/
+   /*programaçoa aplicada ao plano de trabalho docente do tecnico*/
+   .etec-cordenacao-ptd-et-s1{
+     height:auto;
+     width:44%;
+     margin-right:4%;
+     float:left;
+	 
+    }/*Classe respondavel por Armazenar o 1 Semestre do"plano de trabalho Docente - ensino Tecnico "*/
+    .etec-cordenacao-ptd-et-s2{
+     width:44%;
+     float:left;
+     margin-bottom:50px;
+	 margin-right:4%;
+    }/*Classe respondavel por Armazenar o 2 Semestre do"plano de trabalho Docente - ensino Tecnico "*/
+	.etec-cordenacao-ptd-et-s1 h2 ,.etec-cordenacao-ptd-et-s2 h2{
+	  margin:3% 0% 5% 0% ;
+	  text-align:center;	
+	  
+	
+	}
+    .etec-cordenacao-ptd-et-s1 ul li , .etec-cordenacao-ptd-et-s2 ul li{
+      list-style-type:upper-roman;
+       margin:2% 0% 0.5% 0%;
+    }/*Formataçoes aplicadas aos itens da  listas do 1 semestre e do 2 segundo semestre*/
+    .etec-cordenacao-ptd-et-s1 ul , .etec-cordenacao-ptd-et-s2 ul {
+      margin-left:25%;
+     }/*Formataçao aplicada as lista do 1 semestre e do Segundo semestre*/
+ 
+ 
+.etec-cordenacao-mc{
+clear:left;
+
+}/*Programaçao aplicada ao modelos de planos e planos de cursos*/
+   .etec-cordenacao-mc h1{
+	 margin-left:5%; 
+	}
+	.etec-cordenacao-mc-table a{
+	font-size:14px;
+	color:rgba(255,0,0,0.8);
+	}
+  /*programaçao aplicada as matrizes curiculares */
+  
+.etec-cordenacao-mp-pc{
+clear:left;
+margin-top:50px;
+height:300px;
+}/*Classe pai que armazena tudo que for referente ao modelo de planos*/
+
+ .etec-cordenacao-mp-pc h2{
+  margin:1% 0% 3% 0%;
+  text-align:center;
+    }
+ .etec-cordenacao-mp {
+  width:48%;
+  height:auto;
+  float:left;
+  margin-right:2%;
+
+ }/*Classe que define  varios elementos que fazem parte com a div que armazena conteudo . filha da div "cont-cordenaçao-mp-pc*/
+  .etec-cordenacao-mp-cont ul ,.etec-cordenacao-pc-cont ul{
+   margin-left:20%;
+  }/*Formataçao aplicada as listas do "modelo de planos " e do "planos de Cursos"*/
+  .etec-cordenacao-mp-cont ul li , .etec-cordenacao-pc-cont ul li{
+   margin:2% 0% 0.5% 0%;
+   list-style-type:upper-roman;	
+  }/*Formataçao aplicada oas itens da listas do "modelo de planos " e do "planos de Cursos"*/
+  .etec-cordenacao-mp-cont a , .etec-cordenacao-pc-cont a{
+    color:rgba(255,0,0,0.8);
+	text-decoration:none;
+  }/*formataçoes palicadas ao links da parte de modelo de plano e de plano de curso*/
+   .etec-cordenacao-mp-cont a:hover , .etec-cordenacao-pc-cont a:hover{
+    color:rgba(246,134,109,1);
+  }
+ .etec-cordenacao-pc{
+  width:48%;
+  float:left;
+  margin-bottom:5%;
+ }/*Formataçoes que definen a div que esta armazenando o "plano de Cursos"*/
+
+.etec-cordenacao-mp-pc-one{
+width:100%;
+
+
+}
+ .etec-cordenacao-mp-pc-one ul{
+	margin-left:5%;
+ }
+
+/*programaçao aplicada a parte de cordenadoresda base nacional e a orientacao educacional*/
+.cont-cordenacao-bc h2{
+text-align:center;
+margin-bottom:2%;
+}
+ .etec-cordenacao-bnc{
+  width:48%;
+  float:left;
+  margin-bottom:3%;
+ }/*Formataçoes aplicadas a div que armazena o nome do cordenador da base nacional comun*/
+  .etec-cordenacao-bnc h3 ,.etec-cordenacao-od h3{
+	margin-left:6%;
+	 }
+ .etec-cordenacao-od{
+  width:48%;
+  float:left;
+   margin-bottom:3%;
+ }/*Formataçao aplicad a div que armazena o nome do orientador educacional*/
+/*Programaçao aplicada a pagina da cordenaçao "downloads das fichas"*/
+
+.etec-cordenacao-download{
+width:90%;
+clear:left;
+margin:2% 1% 0% 0%;
+}/*Formataçao aplicda a div que armazena os links para os download de fichas*/
+ .etec-cordenacao-download h3{
+	font-size:18px;
+	margin-bottom:2%;
+	color:rgba(62,0,223,1);
+	margin-left:5%;
+ }
+.etec-cordenacao-download h2{
+text-align:center;
+margin-bottom:3%;
+}/*Formataçoes aplicdas aos titulos das fichas que estao postas para Downloads*/
+
+.etec-mobil-conrdenacao{
+ width:80%;
+ height:auto;
+ margin:5%;
+ display:none;
+}
+ .etec-mobil-conrdenacao a{
+	text-decoration:none;
+	color:rgba(255,0,0,1);
+	 } 
+	 
+	 .etec-mobil-conrdenacao a:hover{
+	text-decoration:none;
+	color:rgba(255,0,0,0.6);
+	 } 
+.etec-mobil-modalit{
+ text-align:center;
+ margin-bottom:1%;
+ width:100%;
+ }
+ .etec-mobil-conrdenacao h1{
+  margin-left:2%;
+  font-size:20px;
+  }
+ .etec-mobil-modalit,.etec-mobil-semes{
+	width:100%;
+	position:static;
+	margin-bottom:1%;
+	font-size:18px;
+  }
+
+  .etec-mobil-item-semes,.etec-mobil-item-completo{
+	width:50%;
+	float:left;
+	margin-bottom:10%;
+	 text-align:center;
+  } 
+  .etec-mobil-item-completo{
+	 width:100%;
+  }
+  
+/*
+Programaçao voltada para as tabelas no modo resposnasiv
+*/
+
+/**
+*
+*
+Regras que serao aplicadas a pagina Emprego e serviço "emprego_servico.php"   
+*
+*
+**/
+.etec-empreg-estag-title-none{
+display:none;
+}
+.etec-empreg-cont-main-1 {
+ margin-bottom:5%;
+ height:280px;
+}/*Div pai que armazen todas as outras divs que fazem parte da pagina*/
+.etec-empreg-cont-main-2{
+margin-bottom:5%;
+ height:350px;
+
+}
+.etec-empreg-img { 
+  width:30%;
+  float:left;
+  margin: 0% 2% 0% 2%;	
+ }/*div que esta armazenado a 1 imagen*/
+  .etec-empreg-img img{
+   height:100%;
+   width:100%;
+  }/*Definido o tamanho e a altura padrao da imagen numero 1*/
+ .etec-empreg-text{
+  float:left;
+  width:62%;
+ }
+  .etec-empreg-text h2{
+	margin-bottom:2%; 
+   }
+  .etec-empreg-text a , .etec-empreg-cont-op-text a{
+	color:rgba(255,0,0,0.8); 
+   text-decoration:none;
+   }
+     
+  .etec-empreg-text a:hover ,.etec-empreg-cont-op-text a:hover{
+	color:rgba(246,134,109,1);
+	
+	}
+ .etec-empreg-op-img{
+  width:30%;
+  float:right;
+  margin: 0% 2% 0% 2%;	
+ } 
+  .etec-empreg-op-img img{
+    height:100%;
+    width:100%;
+  }
+ .etec-empreg-cont-op-text{
+    float:right;
+    width:62%;
+  }
+   .etec-empreg-cont-op-text p{
+	  margin:2%;
+    }
+   .etec-empreg-cont-op-text ul{
+	  margin:0% 0% 2% 5%;
+	}
+   .etec-empreg-cont-op-text li{
+	  margin:1% 0% 0.5% 0%;
+	  list-style-type:disc;
+	}
+.cont-emprego-op{
+clear:left;
+height:400px;
+}/*div que armazena o conteudo da "oportunidade de emprego e estagio"*/
+
+.cont-emprego-op-img{
+width:25%;
+height:80%;
+float:right;
+margin:0% 2% 0% 4%;
+}/*div que esta armazenando a imagen numero 2*/
+
+.cont-emprego-op-img img{
+height:100%;
+width:100%;
+}/*Definido o tamanho e a altura padrao da imagen numero 2*/
+.cont-emprego-op-text{
+width:65%;
+float:left;
+margin-left:3%;
+}/*div que esta armazendo o texto da "oportunidade de emprego e estagio"*/
+.cont-emprego-op-text h1{
+margin-bottom:10px;
+}/*Formataçoes aplicadas aos titulos da pagina(titulos do h1)*/
+
+.cont-emprego-op-text ul li{
+list-style-type:disc;
+margin-top:5px;
+}/*formataçoes aplicadas as listas  do container que esta armazenado a"oportunidade de emprego e estagio"*/
+.cont-emprego-op-text ul li:first-child{
+margin-top:10px;
+}/*Formataçao aplicada ao 1 iten da lista */
+.cont-emprego-op-text ul li:last-child{
+margin-bottom:15px;
+}/*Formataçao aplicada ao ultimo iten da lista*/
+/**
+*
+//programação voltada para a pagina de parceria da microsoft
+*
+*/
+.etec-parceria-container{
+ width:80%;
+ margin:2% 10% 2% 10%;
+ height:300px;
+}/*container resposnavel por armazenar uma imagen que ira ficar lado a lado de um determinado texto*/
+ .etec-parceria-container-img ,.etec-parceria-container-img-escond{
+  width:18%;
+  height:auto;
+  float:left;
+  margin: 0% 1% 2% 2%;
+ }/*Div que vai armazenar a imagen referente a parceria entre a  escola e a microsoft*/
+ .etec-parceria-container-img img ,.etec-parceria-container-img-escond img{
+  width:100%;
+  height:100%;
+ }/*Formataçao que ira definir a altura e a largura padrao da imagens*/
+ .etec-parceria-container-img-escond{
+  display:none;	
+ }
+.etec-parceria-container-text{
+width:76%;
+margin-right:1%;
+float:left;
+font-size:18px;
+color:rgba(0,0,0,0.8);
+}/*Formataçao aplicada ao container que esta armazenado todo o texto da pagina*/
+ .etec-parceria-container-text p{
+  margin:2%;
+ }/*formataçoes aplicadas a todos os paragrafos da pagina*/
+ .etec-parceria-container-text h2{
+  margin-left:2%;	
+ }
+ .etec-parceria-container-text a{
+	color:rgba(255,0,0,0.9);
+    cursor:pointer;
+	
+ }
+ .etec-parceria-container-text h1{
+	display:none;
+	}
+ .etec-parceria-container-text a:hover{
+  color:rgba(246,134,109,1);
+ }
+/**
+*
+*
+Regras que serao aplicadas a pagina    Secretaria academica "secretaria_academica.php"
+*
+*
+**/
+.etec-container-horari{
+margin-left:1%;
+height:350px;
+
+}/*classe reposavel por limpar as flutuaçoes e definir um container */
+ .etec-secreacademic-con1{
+  float:left;
+  width:60%;
+  
+  margin:0% 3% 0% 3%;
+  height:350px;
+ }/*Class que esta resposavel por armazenar o "horario de expediente" da Secretaria academicas*/
+  .etec-secreacademic-con1 h1 , .etec-secreacademic-con2 h1 {
+   margin-bottom:4%;
+   text-align:center;
+  }/*faz com que o titulo tenha um espaçamento abaixo ,para que o texto e ele nao fiquem juntos*/
+.etec-secreacademic-con2 {
+float:left;
+width:30%;
+margin-right:4%;
+height:260px;
+
+}/*Class que esta reposavel por armazenar o "Semetre letivo" da Secretaria a cademica*/
+ .etec-secreacademic-con2 h3{
+  text-align:center;
+  margin:2% 0% 2% 0%;
+ }/*formataçao aplicada aos titulos "h3" da parte do semestre letivo*/
+
+.etec-secreacademic-programacao{
+ width:98%;
+
+ margin-left:1%;
+ margin-bottom:2%;
+}/*container do "acao jovem" "renovaçao e matricula" "solicitaçao de documento"*/
+ .etec-secreacademic-programacao h1{
+  margin-bottom:1%;
+ }/*Formataçao aplicada aos titulos  da class"cont-direserv-sub-title"*/
+ .etec-secreacademic-programacao p{
+  margin-bottom:1%;	
+ }/*Formataçao aplicada aos paragrafos  da class"cont-direserv-sub-title"*/
+ .etec-secreacademic-programacao ul {
+  margin:1% 0% 1% 2%;
+ }/*Formataçao aplicada a lista da  class"cont-direserv-sub-title"*/
+  .etec-secreacademic-programacao ul li{
+   list-style-type:upper-alpha;
+   margin:1% 0% 0.5% 0%;
+ }/*Formataçao aplicada aos itens da lista  da class"cont-direserv-sub-title"*/
+.etec-list-roman ul li {
+list-style-type:upper-roman;
+margin:1% 0% 0% 5%;
+}/*estelirizaçao usada para lista com icone da lista em letras romanas*/
+.etec-list-roman ul li ul li{
+list-style-type:disc;
+margin:1% 0% 0% 1%;
+}/*estelirizaçao aplicada ao sub itens da lista em letras romanas*/
+.etec-secreacademic-reque-praz-man{
+
+height:380px;
+}
+ .etec-secreacademic-reque-praz{
+  width:46%;
+  float:left;
+  margin:0% 2% 0% 2%;
+ }/*classe resposnavel por criar uma divisao no conteudo da pagina(criar conteudo lada a lado)(essa é a primeira parte)*/
+
+  .etec-secreacademic-reque-praz ul{
+	margin:2% 2% 4% 2%; 
+  }
+  .etec-secreacademic-reque-praz ul li{
+    margin:2% 2% 2% 4%;
+  }
+  .etec-secreacademic-reque-praz a{
+   color:rgba(255,0,0,0.9);
+   text-decoration:none;
+  }
+  .etec-secreacademic-reque-praz a:hover{
+	color:rgba(246,134,109,1)
+  }
+  .etec-secreacademic-solict h1{
+	 margin:5% 0% 2% 0%;
+	 text-align:center;
+  }
+  .etec-secreacademic-solict p{
+	width:90%;
+	margin:0% 5% 0% 5%; 
+  }
+.etec-secreacademic-info-add{
+width:96%;
+margin:0% 2% 0% 2%;
+
+height:350px;
+}
+ .etec-secreacademic-info-add h1{
+  text-align:center;
+  margin-bottom:2%;	
+ }
+ .etec-secreacademic-info-add p{
+  margin:2% 0% 1% 2%;
+ }
+ .etec-secreacademic-info-add strong{
+  font-size:20px;	
+ }
+/**
+*
+*
+Regras que serao aplicadas a pagina    Refeitorio "Refeitório"
+*
+*
+**/
+.etec-refeitorio-horario-funci{
+width:94%;
+margin:0% 2% 0% 4%;
+font-size:18px;
+}/*classe resposnavel por armazenar todo conteudo relacionado com o horario de funcionamento do refeitorio*/
+ .etec-refeitorio-horario-funci h1 ,.etec-refeitorio-content-img h1 ,.etec-refeitorio-prestacoes-conts h1{
+ font-size:26px;
+ color:rgba(62,0,223,1);
+ 
+ }/*formataçoes aplicadas aos titulos principais da pagina*/
+ .etec-refeitorio-horario-funci h3{
+  font-size:20px;
+  margin-bottom:2%;
+ }/*formatação aplicada ao titulo*/
+ .etec-refeitorio-horario-funci ul{
+  margin-top:1%;
+ }/*formatação aplicada a lista */
+  .etec-refeitorio-horario-funci li{
+  margin:1% 0% 1% 2%;
+  }/*formatação aplicada aos itens da listas*/
+  
+.etec-refeitorio-content-img{
+height:350px;
+width:98%;
+margin:0% 0% 4% 2%;
+}/*Class responsavel por armazenar a imagens do refeitorio da escola */
+ .etec-refeitorio-content-img h1 ,.etec-refeitorio-prestacoes-conts h1{
+	margin:1% 0% 2% 4%;
+  }
+ .etec-refeitorio-img{
+  width:32%;
+  height:auto;
+  float:left;
+  margin-right:1%;
+ }/*Classe responsavel por armazenar uma imagen sobre o refeitorio*/
+ .etec-refeitorio-img img{
+  width:100%;
+  height:300px;
+ }/*Formataçoes que definem a altura e a largura */
+
+
+.cont-sub {
+font-size:20px;
+}/*Classe que agloba o 1 semestre e o segundo semestre */
+.cont-cordenacao-download h1{
+font-size:19px;
+}/*Formataçoes aplicdas aos titulos das fichas que estao postas para Downloads*/
+
+.cont-a-vinho-hov a:hover{
+text-decoration:underline;
+color:rgba(62,0,223,1);
+}
+
+.cont-direserv-sub-title h1{
+margin-bottom:1%;
+color:rgba(255,55,45,1);
+}/*Formataçao aplicada aos titulos  da class"cont-direserv-sub-title"*/
+.cont-text-p strong{
+font-size:22px;
+}/*Aplicaçao de formataçao as linhas que estao com o seu textoem negrito*/
+                                                
+.cont-td-doc a:hover{
+color:rgba(62,0,223,1);
+}
+.cont-marg-realt h1{
+margin:10% 0% 2% 0%;
+}

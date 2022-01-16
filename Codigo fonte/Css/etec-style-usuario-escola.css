@@ -1,0 +1,479 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+* Titulo : css da parte do usuario 
+* 
+* Descrição: Nessa pagina estao todas as tags que fazem algum tipo
+* de alteração na parte que o usuariove do site
+
+*/
+
+
+/**
+*
+*
+Regras que serao aplicadas a pagina APM   "apm.php"
+*
+*
+**/
+.etec-apm-compisit h1{
+	text-align:center;
+}
+.etec-apm-plano-trabalho h1{
+text-align:center;
+margin-bottom:1%;
+}
+.etec-apm-estuto-tile h1{
+text-align:center;
+margin:1.5% 0% 1.9% 0%;
+}
+  .etec-apm-plano-trabalho ul{
+    margin:0% 4% 0% 6%;
+   }/*formataçaao aplicada a lista */
+  .etec-apm-plano-trabalho ul li{
+   margin-top:8px;	
+   list-style-type:disc;
+  }/*formataçoes aplicada as linhas da lista*/
+ 
+ .etec-apm-iten{
+  margin:2% 2% 2% 3%;
+ }/*define um iten referente ao plano de trabalho proposto pela Apm*/
+
+.etec-apm-capitulo{
+margin-bottom:20px;
+}/*container resposavel por armazenar todo o conteudo de um capitulo */
+ .etec-apm-capitulo h1{
+   text-align:center;
+   font-size:26px;
+   color:rgba(255,0,0,0.9);
+   }
+  .etec-apm-capitulo h2{
+  margin:1% 0% 1% 2%;
+  color:rgba(0,0,0,0.6);
+  font-size:20px;	 
+  }
+  .etec-apm-capitulo h3{
+   font-size:22px;
+   color:rgba(255,0,0,0.9);
+   margin:1% 0% 1% 3%;
+  }
+  .etec-apm-capitulo h4{
+	font-size:18px;
+	margin:0% 0% 1% 4%;
+    color:rgba(0,0,0,0.8);
+   }
+  .etec-apm-capitulo p{
+   width:90%;
+   margin:1% 5% 1% 5%;
+   font-size:16px;
+  }
+  .etec-apm-capitulo ul{ 
+   margin-left:6%; 
+  }
+   .etec-apm-capitulo li{ 
+   margin:0.3% 5% 0.6% 6%; 
+   width:89%;
+   list-style:upper-roman; 
+   font-size:16px;
+  }
+  .etec-apm-capitulo ul ul{
+   margin:0.4% 0% 1% 2%;
+  }
+   .etec-apm-capitulo ul ul li{ 
+   margin:0.3% 5% 0.6% 0%; 
+   width:89%;
+   list-style:disc; 
+  }
+  .etec-apm-p-unic {
+   margin:2% 0% 2% 0%;	 
+   }
+  
+/**
+*
+*
+Regras que serao aplicadas a pagina  Mural de avisos "mural_avisos.php"
+*
+*
+**/
+.etec-avi-estudante-etc {
+	margin-bottom:50px;
+}/*classe resposnavel por armazenar todos os avisos de determinado segmento*/
+.etec-avi-estudante-etc h1{
+margin:1% 0% 1% 2%;
+}
+ .etec-mural-avi{
+  margin-left:3%;
+  margin-right:2%;
+  }
+  .etec-mural-avi-fix ,.etec-avi-sub-ocu{
+   background-color:rgba(230,230,230,1);
+   margin:1% 0% 1% 0%;
+   
+  }/*formataçoes aplicadas a cada linha dos itens e dos sub-itens*/
+  .etec-mural-avi-fix p ,.etec-avi-sub-ocu p{
+    margin: 0;
+    position:absolute;
+    top:50%;
+    transform:translate(0,-50%);
+    margin-left:10px;
+	font-size:15px;
+	margin-right:10px;
+	
+  }/*formataçoes aplicadas ao texto de cala iten do mural de avisos*/
+   .etec-avi-sub{
+    display:none;
+   }/*faz com que o restante dos avisos fique escondido*/
+   .etec-avi-fix{ 
+    cursor:pointer;
+   }/*define a area clicavel do botao */
+  .etec-mural-avi-fix ,.etec-avi-sub-ocu{
+    min-height:3em;
+    background-color:rgba(230,230,230,1);
+    position:relative;
+    width:98%;
+    border-bottom: 1px solid rgba(200,200,200,1);
+   }/*formataçoes aplicadas a cada linha dos itens e dos sub-itens*/
+   .etec-btn-ver{
+    float:right;
+    width:120px;
+    margin-right:2%;
+    text-align:center;
+    border-bottom: 1px solid rgba(200,200,200,1);
+    height:2.3em;
+    margin-bottom:auto;
+    line-height:2.3em;
+   }/*formataçoes aplicadas ao botao que libera os sub-itens do mural de avisos*/
+   .etec-mural-avi-fix ,.etec-avi-sub-ocu{
+     border-bottom: 1px solid rgba(200,200,200,1);
+    }/*formataçoes aplicadas a cada linha dos itens e dos sub-itens*/
+   .etec-btn-ver{
+    background-color:rgba(230,230,230,1);
+   }/*formataçoes aplicadas ao botao que libera os sub-itens do mural de avisos*/
+   .etec-btn-ver:hover .etec-avi-fix{
+    background-color:rgba(230,230,230,1);
+   }/*ao passar o muose por cima do botao ele espande a sua area  clicavel*/
+   .etec-btn-ver label:hover {
+    /*background-color:rgba(250,250,250,1);*/
+   }/*ao passar o mouse sobre o eleemnto */
+   
+/***************************************/
+
+#mural-avi-separet{
+margin-bottom:8%;
+}/*Id resposnavel por criar um espaço de semparaçao entre os contreudo (ou o conteudo e o final da pagina)*/
+
+
+
+/**
+*
+*
+Regras que serao aplicadas a pagina  eventos "eventos.php"
+*
+*
+**/
+ .etec-eve-ano h2{
+  margin-bottom:1%;
+  text-align:center;	
+ }
+
+.etec-eve-bloque{
+height:550px;
+margin-top:1%;
+}/*bloco que é responsavel por armazenar um determinado evento*/
+ .etec-eve-bloque a{
+	text-decoration:none;
+	color:#000;
+  }
+  .etec-eve-bloque a:hover .etec-eve-content-unit-ler{
+	
+     background-color:rgba(255,0,0,0.6);
+  }
+ .etec-eve-content-unit{
+   width:24%;
+   margin:2%;
+   float:left;
+   height:620px;
+   
+ }/*unidade padrao que armazena a imagen e as infromaçoes do evento*/
+  .etec-eve-content-unit-img{
+   height:50%;
+  }/*container quer armazena a imagen referente ao evento*/
+   .etec-eve-content-unit-img img{
+    width:100%;
+    height:100%;
+   }/*define a altura e a largura padrao das imagens */
+  .etec-eve-content-unit-texte{
+   height:50%;
+   word-wrap:break-word;
+  }/*container que armazena o texto sobre os eventos*/
+   .etec-eve-content-unit-texte h1{
+    margin:2% 0% 1% 0% ;
+   }/*formataçoes aplicadas ao titulos do container "eve-content-unit-texte*/
+   .etec-eve-content-unit-texte h2{
+    margin:1% 0% 2% 0% ;
+   }/*formataçoes aplicadas ao sub titulos do container "eve-content-unit-texte*/
+    .etec-eve-content-unit-ler{
+     float:right;
+     margin:4% 2% 0% 0%;
+     padding:10px;
+     border-radius:5px;
+	 background-color:rgba(255,0,0,0.8);
+	 
+     }  /*formataçao aplicada aos botoes que levam para a pagina do evento */
+
+.etec-even-backgroud{
+border-radius:10px;
+padding:28px 25px ;
+background-color:rgba(0,0,0,0.1);
+}/*cria uma  margem bem fraca ao redor do container dos eventos*/
+/**
+*
+*
+Regras que serao aplicadas a pagina  eventos iten "evento_iten.php "
+*
+*
+**/
+
+.etec-event-iten{
+width:80%;
+margin:2% 10% 5% 10%;
+clear:both;
+height:250px;
+
+} 
+ .etec-event-iten-img{
+  width:40%;
+  float:left;
+  margin-right:2%;
+  height:250px;
+  margin-bottom:2%;
+  
+ }
+  .etec-event-iten-img img{
+	width:100%;
+	height:100%;
+	 }
+ .etec-event-iten-text{
+	width:56%;
+	float:left;
+	margin-right:2%;
+	font-size:18px;
+	color:rgba(0,0,0,0.9);
+  }
+  .etec-event-iten-text h1{
+	text-align:center;
+	margin-bottom:2%;
+	font-size:20px;
+	 
+	
+  }
+  
+ 
+
+/*
+*
+//programação relacionada a pagina conselho
+*
+*/
+.etec-conselho{
+width:90%;
+margin:5%;
+font-size:18px;
+color:rgba(0,0,0,0.8);
+}/*classe resposnavel por armazenar tudo referente a definição do conelho*/
+ .etec-conselho h1{
+	text-align:center;
+	margin-bottom:2%;
+  }
+ .etec-conselho p{
+  text-indent:15px;
+  margin-bottom:1%;	
+ }
+ .etec-conselho ul{
+	margin-left:5%;
+  }
+ .etec-conselho ul ul{
+  margin-left:3%;
+ }
+ .etec-conselho ul li{
+  margin:0.5% 0% 0.7% 0%;	
+  list-style:upper-roman;
+ }
+ .etec-conselho ul ul li{
+  list-style:upper-alpha;	
+ }
+.etec-composit-consel h2{
+text-align:center;
+margin-bottom:1%;
+}
+.etec-conselho-nur ul{
+margin-left:12%;
+margin-top:-55px;
+margin-bottom:3%;
+}/*classe resposnavel por ajustar duas lista com conteudo igual so que com uma limitação no codigo*/
+.etec-conselho-nur ul li{
+  margin:0.5% 0% 0.7% 0%;
+  list-style:disc;
+ }
+ .etec-conselho-dowload h2{
+	 margin-left:5%;
+     margin-top:2%;
+   }
+/**
+*
+*
+Regras que serao aplicadas a pagina  direção "direcao.php"
+*
+*
+**/
+.etec-direcao-fot-tex{
+width:35%;
+height:auto;
+float:left;
+margin:0% 1% 5% 2%;
+}/*container resposnavel por armazenar a foto da atual diretora da escola*/
+ .etec-direcao-fot-tex h2{
+  text-align:center;	
+ }
+ .etec-direcao-foto img{
+  width:100%;
+  height:400px;
+ }
+ .etec-direcao-funçao{
+  text-align:left;
+  margin:0% 0% 1% 1%;
+ }
+ .etec-foto-name{
+  text-align:center;
+  margin-top:1%;
+ }
+.etec-direcao-text{
+width:55%;
+float:left;
+height:auto;
+margin:0% 5% 0% 1%;
+}/*classe resposnavel por armazenar o texto referente aso valores da escola*/
+ .etec-direcao-text h2{
+	text-align:center;
+	margin-bottom:2%;
+	margin-top:3%;
+ }
+ .etec-direcao-text p{
+  margin:0.5% 0% 0.8% 0%;
+  text-indent:15px;	
+ }
+.etec-direcao-regimento{
+clear:left;
+width:90%;
+margin:2% 5% 5% 5%;
+}
+.etec-direcao-regimento h1{
+text-align:center;
+margin-bottom:1%;
+}
+ .etec-direcao-regimento ul{
+  margin:1% 0% 0% 5%;	
+ }
+ .etec-direcao-regimento li{
+	margin:0.4% 0% 0.5% 0%;
+	list-style:lower-roman;
+  }
+ .etec-direcao-regimento ul ul {
+  margin-left:5%;	
+ }
+
+
+
+
+
+.eve-content-unit-texte{
+font-size:18px;
+}/*container que armazena o texto sobre os eventos*/
+.eve-content-unit-texte h1{
+font-size:19px;
+color:rgba(255,55,45,1);
+}/*formataçoes aplicadas ao titulos do container "eve-content-unit-texte*/
+.eve-content-unit-texte h2{
+font-size:15px;
+color:rgba(62,0,223,1);
+}/*formataçoes aplicadas ao sub titulos do container "eve-content-unit-texte*/
+.even-backgroud{
+background-color:rgba(249,249,249,1);
+}/*cria uma  margem bem fraca ao redor do container dos eventos*/
+
+/*
+*
+//programaçao voltada para a pagina de corpo docente
+*
+*/
+.etec-corpo-docente h1{
+text-align:center;
+}
+/*
+*
+//programação voltada para a diretoria de serviço
+*
+*/
+.etec-diret-serve {
+width:90%;
+margin:5%;
+}
+ .etec_regulamento{
+  clear:left;	
+ }
+ .etec-diret-serve h1{
+  margin-bottom:2%;
+ }
+ .etec-diret-serve h2{
+  margin:1.5% 0% 1.9% 0%;
+ }
+.etec-dire-serv-presta h2{
+text-align:center;
+margin-bottom:2%;
+}
+
+.etec-dire-serv-presta a:hover{
+color:rgba(246,134,109,1);
+text-decoration:none;
+}
+.etec-dire-serv-presta h3{
+margin-left:4%;
+font-size:17px;
+color:rgba(0,0,0,0.8);
+
+}
+/*
+*
+//programação voltada para a pagina da historia da etec
+*
+*/
+.etec-historia-text{
+width:90;
+margin:5%;
+}
+.etec-historia-text p{
+margin:0.8% 0% 0.4% 0%;
+text-indent:10px;
+}
+.etec-historia-text h1{
+text-align:center;
+}
+.etec-histori-cont-unit{
+width:32%;
+float:left;
+margin:0% 0% 1% 1%;
+}/*Defineo tamanho padrao do container que armazena a imagen usada*/
+.etec-histori-cont-unit img ,.etec-histori-cont-turma img{
+width:100%;
+height:350px;
+}/*definido aqui a altura e a largura da imagen usada*/
+.etec-histori-cont-turma {
+width:48%;
+float:left;
+margin:0% 1% 1% 1%;
+}/*Formataçao aplicada ao container que armazen a imagen da 1 turma*/
+.etec-histori-cont-fuu h2{
+text-align:center;
+clear:both;
+margin:2% 0% 1.5% 0%;
+}

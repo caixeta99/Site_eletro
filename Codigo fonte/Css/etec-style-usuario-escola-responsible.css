@@ -1,0 +1,323 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@media only screen and (max-width:1259px){
+/*
+*
+//programaçao voltada para a parte de conslho
+*
+*/
+.etec-conselho-nur{
+margin-top:-30px;
+}
+}
+@media only screen and (max-width:1100px){
+/*
+*
+//programaçao voltada para a parte de conslho
+*
+*/
+.etec-conselho-nur ul{
+margin-top:-40px;
+
+}
+}
+
+@media only screen and (max-width:950px){
+/*
+*
+//programaçao voltada para a parte de conslho
+*
+*/
+.etec-conselho-nur ul{
+margin-top:-20px;
+}
+/*
+*
+//programação voltada para a pagina de eventos
+*
+*/
+.etec-eve-content-unit{
+width:38%;
+margin:2% 1% 2% 4%;
+float:left;
+height:600px;
+}
+.etec-eve-content-unit-texte{
+height:60%;
+}
+.etec-eve-content-unit-img{
+   height:40%;
+  }/*container quer armazena a imagen referente ao evento*/
+.etec-eve-bloque{
+margin-top:-1%;
+}
+
+/*
+*
+//programação voltada para a pagina de Evento_iten
+*
+*/
+.etec-event-iten{
+width:94%;
+margin:3% 3% 3% 3%;
+}
+
+/*pagina de eventos itens*/
+.eve-iten-img{
+margin:0% 1% 0% 2%;
+width:28%;
+}
+.eve-iten-text{
+width:67%;
+margin-right:0px;
+}
+}
+@media only screen and (max-width:780px){
+/*
+*
+//programação voltada para a pagina de eventos
+*
+*/
+.etec-eve-content-unit{
+width:36%;
+margin:2% 1% 2% 4%;
+float:left;
+height:580px;
+}
+
+/*
+*
+//formataçoes aplicada a pagina de conslho
+*
+*/
+.etec-conselho p{
+  text-indent:15px;
+  margin-bottom:5%;	
+ }
+ 
+/*
+*
+//formataçoes aplicada a pagina de direção 
+*
+*/
+.etec-direcao-text{
+width:90%;
+margin:5%;
+}
+.etec-direcao-fot-tex{
+width:60%;
+margin:2% 20% 0% 20%;
+}
+/*
+*
+//programação voltada para a pagina de mural de avisos
+*
+*/
+.etec-mural-avi-fix ,.etec-avi-sub-ocu{
+min-height:3.5em;
+margin:2% 0% 2% 0%;
+}
+.etec-btn-ver{
+margin-top:1%;
+}
+#mural-avi-separet{
+margin-bottom:11%;
+}
+
+/*
+*
+//Programação voltada para a pagina de Eventos_Itens
+*
+*/
+ .etec-event-iten-img{
+  width:90%;
+  margin:0% 5% 5% 5%;
+  clear:both;
+ }
+ .etec-event-iten-text{
+	width:90%;
+	margin:0% 5% 5% 5%;
+    clear:both;
+  }
+/*
+*
+//programação voltada para a pagina de historia do site
+*
+*/
+.etec-histori-cont-unit{
+width:48%;
+}
+}
+@media only screen and (max-width:700px){
+/*
+*
+//programaçao voltada para a parte de conslho
+*
+*/
+.etec-conselho-nur ul{
+margin-top:0px;
+
+}
+}
+@media only screen and (max-width:600px){
+/*
+*
+//programaçao voltada para a parte de conslho
+*
+*/
+.etec-conselho-nur {
+margin-top:0.5%;
+}
+.etec-conselho-nur ul{
+margin-top:-15px;
+}
+/*
+*
+//programaçao voltada para a parte dos eventos do site
+*
+*/
+.etec-eve-content-unit{
+width:80%;
+margin:2% 4% 4% 7%;
+float:left;
+height:580px;
+}
+.etec-even-backgroud{
+border-radius:10px;
+padding:10px 10px ;
+}
+.etec-eve-iten-img {
+width:86%;
+margin:2% 6% 0% 8%;
+}
+.etec-eve-iten-text{
+width:86%;
+margin:3% 6% 3% 8%;
+}
+
+/*
+*
+//programação voltada para a pagina de historia
+*
+*/
+.etec-histori-cont-unit ,.etec-histori-cont-turma{
+width:90%;
+margin:0% 5% 2% 5%;
+}
+}
+@media only screen and (max-width:530px){
+/*
+*
+//programaçao voltada para a pagina de mural de avisos
+*
+*/
+.etec-mural-avi-fix p ,.etec-avi-sub-ocu p{
+font-size:15px;
+}
+}
+@media only screen and (max-width:480px){
+/*
+*
+//programaçao voltada para a pagina de apm
+*
+*/
+.etec-apm-plano-trabalho h1{
+ margin-bottom:5%;
+ margin-top:4%;
+}
+ .etec-apm-capitulo ul{
+	margin:2% 4% 3% 6%;
+  }
+ .etec-apm-capitulo h1 ,{
+	margin:2% 0% 6% 0%;
+	}
+ .etec-apm-capitulo h3{
+	margin:2% 0% 3% 3%;
+	}
+  .etec-apm-capitulo h4{
+	 margin:2% 0% 3% 4%;
+	 }
+.etec-apm-capitulo ul ul li{ 
+   margin:0.3% 5% 0.6% 3%; 
+   
+  }
+/*
+*
+//formataçoes aplicada a pagina de direção 
+*
+*/
+
+.etec-direcao-fot-tex{
+width:90%;
+margin:5%;
+}
+/*
+*
+//programação voltada para a pagina de historia do site
+*
+*/
+.etec-histori-cont-fuu h2{
+margin:3% 0% 2% 0%;
+}
+.etec-historia-text p{
+margin:0.8% 0% 1% 0%;
+text-indent:20px;
+}
+ .etec-direcao-regimento li{
+	margin:0.4% 0% 0.5% 1%;
+	list-style:lower-roman;
+  }
+
+/*
+*
+//programação voltada para a pagina de mural de avisos
+*
+*/
+.etec-mural-avi-fix p ,.etec-avi-sub-ocu p{
+font-size:14px;
+}
+.etec-mural-avi-fix ,.etec-avi-sub-ocu{
+margin:3% 0% 4% 0%;
+min-height:6em;
+}
+#mural-avi-separet{
+margin-bottom:13%;
+}
+.etec-avi-estudante-etc h1{
+margin:5% 0% 1% 2%;
+text-align:center;
+}
+.etec-avi-estudante-etc {
+	margin-bottom:100px;
+}/*classe resposnavel por armazenar todos os avisos de determinado segmento*/
+
+
+
+}
+@media only screen and (max-width:400px){
+/*
+*
+//programaçao voltada para a pagina de mural de avisos
+*
+*/
+.etec-mural-avi-fix p ,.etec-avi-sub-ocu p{
+font-size:13px;
+}
+}
+@media only screen and (max-width:380px){
+
+/*
+*
+//programaçao voltada para a pagina de mural de avisos
+*
+*/
+.etec-mural-avi-fix p ,.etec-avi-sub-ocu p{
+font-size:12px;
+}
+#mural-avi-separet{
+margin-bottom:20%;
+}
+}
+

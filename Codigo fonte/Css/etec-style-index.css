@@ -1,0 +1,502 @@
+@charset "utf-8";
+/*
+*
+//Programação voltada para a parte dos eventos
+*
+*/
+
+.etec-event-content-main{
+height:480px;
+}/*Container que vai armazenar todas as classe + informaçoes referentes aos eventos*/
+ .etec-event-index-rep{
+  display:none;
+ }
+ .etec-event-content-list{
+  width:40%;
+  float:left;
+  margin:3% 2% 0% 3%;
+ }/*container que esta armazendo alguns eventos que ja ocorerram na instituição*/
+  .etec-event-content-list h1{
+	margin-bottom:5%;
+	text-align:center;
+  }
+ .etec-eventos_index{
+  border-bottom:#000 solid 1px;
+ }
+  .etec-event-content-list-unit{
+   height:50px;
+   width:100%;
+   margin:1% 5% 4% 0%;
+   cursor:pointer;
+  }
+   .etec-event-content-list-unit-dia{
+    float:left;
+    width:12%;
+    margin:1% 2% 0% 8%;
+	background-color:rgba(246,134,109,1);
+	padding:10px;
+	color:#FFF;
+	border-radius:5px;
+	text-align:center;
+   }/*formataçoes aplicadas a classe pai que vai armazenar a data do evento*/
+     .event-content-list-unit-dia-dia ,.event-content-list-unit-dia-mes{
+      height:30px;
+      line-height:25px;
+	  color:#FFF;
+     }/*classes que estao armazenando respectivamente o dia e o mes do evento */
+   
+  .etec-event-content-list-unit-info{
+   float:left;
+   width:70%;
+   margin-left:1%;
+   line-height:60px;
+   height:60px;
+  }/*classe que vai armazenar asinformaçoes referente ao evento */
+  .etec-event-content-list-ver{
+   width:100%;
+   }/*conteiner que vai armazenar o botao de ver mais */
+    .etec-event-content-list-ver a{
+	 text-align:center;
+	 text-decoration:none;
+	 color:#FFF;
+	}
+  .etec-event-content-list-link{
+    width:40%;
+    float:right;
+    line-height:20px;
+    margin-top:5%;
+    color:rgba(246,134,109,1);
+    font-size:20px;
+	text-align:right;
+  }/*Container resposnavel por armazenar o botao de ver todos os eventos(classe que agrupa mais duas)*/
+    .etec-event-content-mais{
+	 width:18%;
+	 float:left;
+	 text-align:right;
+	 margin-right:2%;
+	}/*classe responsavel por estilirizar o "+" do links que leva para a pagina de eventos*/
+     
+	.etec-event-content-name{
+	 width:80%;
+	 float:left;
+	 text-align:left;
+	}
+    .etec-event-content-list-link:hover {
+     color:rgba(246,134,109,0.6);
+	}
+ 
+  .etec-event-content-list-ver a:hover  .etec-event-content-list-ver-mais-m , .etec-container-ver-mais a:hover .etec-event-content-list-ver-mais-m{
+   background-color:rgba(246,134,109,0.7);
+  }/*Faz com que o"LISTA COMPLETA" da parte de eventso tenha sua cor alterada ao passar o mouse sobre ela*/
+  
+   /*as classe a seguir saoresposnavel por mudar a cor e o fundo do texto ao passar o mouse por sima dos itens */
+  
+  .etec-event-content-list-unit:hover .etec-event-content-list-unit-dia  {
+    background-color:rgba(246,134,109,0.6);
+  }
+  .etec-event-content-list-unit:hover .etec-event-content-list-unit-info{
+	color:rgba(246,134,109,0.6);
+	  
+	 }
+  
+   .etec-event-inde-link{
+	color:#FFF;
+	}
+  .etec-event-content-img{
+   position:relative;
+   width:50%;
+   float:left;
+   height:400px;
+   margin-right:5%;
+   margin-top:3%;
+  }/*Container que ira armazenar pricipalmente a imagen pricipal do evento*/
+   .etec-event-content-img img {
+    width:100%;
+    height:100%;
+    margin-bottom:5%;
+   }/*Formataçoes que sao efetivadas nas imagens referentes aos eventos da instituição*/
+   
+   .etec-event-title{
+    width:80%;
+    height:60px;
+    bottom:5%;
+    right:0%;
+    line-height:60px;
+    position:absolute;
+    text-align:center;
+    margin-bottom:1%;
+    background-color:rgba(0,0,0,0.8);
+   }/*programaçao responsavel por esconder o titulo do evento*/
+      
+ .etec-event-content-list-pont{
+  display:none;
+ 
+  width:50%;
+  margin-left:42%;
+  margin-right:0%;
+ }/*classe resposnavel por armazenar a lista contendo os pontinhos que irao aparecer no modo reponsivo */
+  .etec-event-content-list-pont-unit{
+   width:5px;
+   height:5px;
+   float:left;
+   border-radius:100px;
+   border:#000 solid 1px;
+   margin:20px 5px 1% 10px;
+   background-color:#FFF;
+   margin-top:30px;
+    
+  }/*classe que armazena cada pontinho que esta referido a um evento */
+
+
+
+
+/*pag 2*//*------------------------------------------------------------------------------------------*//*pag 2*/
+
+/*
+*
+//programação voltada para a parte de programas relacionados 
+*
+*/
+
+/*Formataçao aplicada  aos programas vinculados com a escola*/
+
+.etec-main-conteiner-program-3 , .etec-main-conteiner-program-1 , .etec-main-conteiner-program-2{
+margin:5% 0% 5% 0%;
+height:400px;
+clear:left;
+background-color:rgba(0,0,0,0.1);}/*formataçoes aplicadas ao conteiner"pricipal" que guarda todas as tag relacionadas aos programas que tem vinculo com a escola*/
+
+ .etec-container-program-1{
+  width:50%;
+  margin:0% 25% 2% 25%;
+  }/*formataçoes que iram ocorrer quando tiver apenas um programa com relaçao a escola */
+ .etec-container-program-2{
+  width:42%;
+  float:left;
+  margin:2% 1% 2% 3%;	
+ }
+ .etec-container-program-3{
+  width:30%;
+  margin:2% 1% 2% 2%;
+  float:left;
+  height:auto;
+ }
+  .etec-container-program{
+   width:33.3%;
+   float:left;
+   }
+ .etec-programa_relacionado:hover{
+ opacity:0.8;
+ }
+
+ .etec-program-unit-1 ,.etec-program-unit-2{
+  width:100%;
+  height:200px;
+  margin:2% 0% 2% 0%;
+  }/*formataçoes que iram ocorrer no container que armazena a imagen  quando tiver  um ou dois  programa com relaçao a escola */
+  .etec-program-unit-3 {
+	width:100%;
+	
+  }
+ .etec-program-unit-1 img ,.etec-program-unit-2 img ,.etec-container-program-3 img{
+  width:60%;
+  height:100%;
+  margin:15% 20% 0% 20%;	
+  }
+  .etec-container-program-3 img{
+	max-height:200px; 
+	min-height:200px;
+	}
+ .etec-program-unit{
+  width:100%;
+  height:200px;
+  margin:25% 0% 25% 0%;
+ }
+ .etec-program-unit img {
+  width:65%;
+  height:100%;
+  margin:0% 20% 0% 20%;
+ }
+
+/*
+*
+//Programação voltada para o segmento de cursos
+*
+*/
+.etec-content-cursos  h1{
+margin:1% 0% 2% 3%;
+}  
+.etec-cursos{
+ overflow:hidden;
+ display: block;
+ width: 90% ;
+ float:left; 
+ } 
+ .etec-cursos_img{
+  width:1000%;
+  float:left; 
+  }/* formatacao dadiv que possui todos os eventos */ 
+ .etec-cursos_item{
+  display: block;
+  float: left;
+  height: auto;
+  margin:0% 20px 1% 0%;
+ }/* formatacao da linha que contem o evento*/ 
+ .etec-cursos_img img{
+   width: 100%;
+   height:200px;
+   display: block;
+   float: left;
+   padding-bottom:8px;
+ }/* formatacao da imagem */ 
+.nav-cursos{
+   width: 50px;
+   height: 50px;
+   text-align: center;
+   line-height: 40px;
+   border-radius: 100px;
+   position:absolute;
+   z-index: 99;
+}/* formatacao dos botoes*/ 
+.next-cursos{
+   right:15px;
+   left: auto;
+   z-index: 100;
+}/* formatacao do botao de avancar */ 
+.prev-cursos{
+	left:15px;
+}/* formatacao do botao de voltar */  
+.nav-cursos:hover{
+   background: rgba(0, 0, 0, 0.5);
+   transition-property: all;
+   transition-duration: .5s;
+   transition-timing-function: ease-out;
+   transition-delay: 0.2s;
+   cursor: pointer;
+}/* mudanca de cor do botao */
+
+.nav-cursos{
+   color:#fff;
+   font-size: 3em;
+   background: rgba(0, 0, 0, 0.3);
+}/* formatacao dos botoes*/ 
+.item-nun{
+background-color:rgba(255,55,45,1);
+}/*formataçao aplicada ao container que armazena o dia de uma data do calendario*/
+.select_pont{
+background-color:#000;
+}
+.nav-cursos{
+   font-size: 3em;
+}/* formatacao dos botoes parte de cursos OKS*/
+.selected_ev{
+color:#00F;
+}/*quando algo dos cursos for seleciondado (a parte de eventos tambem era igual a parte de cursos , so que como passar do tempo esse seguemento foi mudado)*/
+
+
+/*
+*
+//Programação aplicada a pagina de calendario e de quadro de avisos
+*
+*/
+  
+.etec-container-calendar-warnings{
+width:100%;
+clear:left;
+min-height:580px;
+background-color:rgba(0,255,0,0.3);
+overflow:hidden;
+}/*container que ira armazenar  os containes de calendario e de avisos*/
+  .etec-container-calendar , .etec-container-warning{
+   float:left;
+   width:44%;
+   margin:3% 0% 1% 4%;
+   height:auto;
+  }/*Programaçao aplicada ao calendario e ao quadro de avisos*/
+    .etec-calendar-title{
+     height:40px;
+    }/*conatainer que vai armazenar o titulo do calendario*/
+	.etec-calendar-title h1{
+	text-align:center;
+	}
+   .etec-calendar-iten{
+    margin-top:15px;
+    height:60px;
+   }/*div que armazena as infromaçoes referentes a data do evento */
+     .etec-item-nun{
+      width:11%;
+      border-radius:15px;
+      margin-top:2%;
+     }/*essa div ira armazenar um dia de um determinado acontecimento na escola*/
+	 .etec-iten-aling{
+       text-align:center;
+     }/* faza com que o texto tenha um alinhamento a esquerda*/
+     .etec-item-descricao{
+      width:88%;
+      text-align:left;
+     }/*esssa divi ira armazenar a descriaçao */
+	  .etec-calendar-iten a:hover .etec-item-descricao p{
+       color:rgba(42,90,255,1);
+       }/*Muda a cor do texto da descriçao ao passar o mouse por cima do link*/
+     .etec-conatiner-linha {
+      margin-top:3%;
+      border-bottom:1px solid #000;
+     }/*faz com que apareça uma pequena linha preta embaixo da div do item do calendario*/
+	  .etec-item-nun{
+       padding:22px 0px;
+       float:left;
+	   color:rgba(255,255,255,1);
+	   background-color:rgba(246,134,109,1);
+      }
+     .etec-item-descricao {
+      padding:0px 0px;
+      float:left;
+      margin-top:4%;
+      margin-left:1%;
+     }/*formataçoes aplicadas tanto ao titulo quanto ao conteudo da data*/
+  .etec-container-ver-mais{
+   margin:3% 3% 0% 0%;
+   width:100%;
+   height:50px;
+   float:right;
+  }/*container que lincara o home para a pagina do calendario*/
+  .etec-container-ver-mais a{
+	 text-decoration:none;
+	 color:rgba(246,134,109,1);
+	 font-size:19px;
+	 }
+	  .etec-container-ver-mais a:hover{
+	    color:rgba(246,134,109,0.6);
+	  }
+   .etec-ver-mais-tes{
+	  float:right;
+	  width:30%;
+   }
+    .etec-ver-mais-simb-mais{
+	 width:8%;
+	 margin-right:2%;
+	 float:left;
+	 text-align:right;
+	}
+	.etec-ver-mais-lis{
+	 width:89%;
+	 float:left;
+	 text-align:left;
+	 
+	}
+
+/*
+**programação voltada para a parte de mural de avisos
+*/
+ .etec-warning-title{
+  height:40px;
+  }/*define a altura do container que esta armazenado o titulo do mural de avisos*/
+   .etec-warning-title h1{
+	text-align:center;  
+	margin-top:1%;
+    }
+ .etec-container-warning{
+  background-color:#FFF;
+  
+  }/*defini a cor de fundo do container que vai armazenar o quadro de avissos*/
+ .etec-warning-content{
+  margin-bottom:10%;
+  height:auto;
+ }
+  .warning-sub-title{
+   padding:10px 0px;
+   margin-left:15px;
+  }
+  .etec-warning-sub-title p{
+   color:rgba(255,55,45,1);
+   font-size:20px;
+   margin-left:2%;
+ }/*defini as formataçoes que vao ocorer no tituo do mural de avisos*/
+
+ .etec-warning-unit{}
+  .etec-warning-iten-list {
+   margin:3% 5% 1% 5%;
+   word-wrap:break-word;
+   width:90%;
+   }/*defini uma margen entre os iten do mural de avisos*/
+    .etec-warning-iten-list img{
+     width:10px;
+     height:10px;
+    }/*define o tamanho das imagens que estao sendo usado no quadro de avisso "bolinhas pretas na frete do aviso"*/ 
+
+
+.warning-ver-mais{
+
+}/*Botao que redireciona o usuario para a pagina aonde conten todos os avisos do mural */
+
+
+
+
+
+/*
+*
+//programaçao voltada para a apagina de programas relacionados
+*
+*/
+.etec-program-main{
+width:100%;
+}/*container que armazena todas as informaçoes da primeria parte da pagina(nao conta  a parte das imagens que se encontra logo a abixo)*/
+ .etec-program-main-img{
+  width:30%;
+  margin:5%;
+  float:left;
+ }/*container reponsavel por armazenar a imagen em si */
+  .etec-program-main-img img{
+   width:100%;
+   height:200px;
+  }/*programaçao aplica a imagem principal que representa o programa em si*/
+ .etec-program-main-text{
+  width:60%;
+  float:left;
+  margin-top:5%;
+ }/*container reponsavel por armazenar todos os textos referentes ao programa vinculado a escola*/
+  .etec-program-main-text h1{
+   text-align:center;
+   }
+  .etec-program-main-text p{
+   width:95%;
+   margin:2% 5% 0% 0%;
+  }/*programaçao reponsavelel por colocar um espaçamento entre o texto e o titulo da pagina*/
+  .etec-program-unit-link{
+	 float:right;
+	 margin:5%;
+	 padding:5px;
+	 background-color:rgba(0,0,0,0.1);
+	 line-height:40px;
+	 height:40px;
+	 border-radius:5px;
+	 width:50%;
+	 text-align:center;
+  }
+  .etec-program-unit-link a{
+	text-decoration:none; 
+    color:rgba(0,0,204,1);
+   }
+.etec-program-main-imagens{
+ 
+ height:400px;
+}/*container principal que armazena todas as imagens referentes  ao programas**/
+ .etec-program-main-imagens h1{
+  margin:2% 0% 2% 5%;
+ }
+ .etec-program-main-imagens-img{
+  clear:both;
+  }/*Conatainer que organiza todas as imagens referentes a escola*/
+ .etec-program-main-imagens-img-unit{
+  width:30%;
+  float:left;
+  margin:1% 1% 2% 2%; 
+  border-bottom:1px solid #CCC;
+ }
+  .etec-program-main-imagens-img-unit img{
+   width:100%;
+   height:300px;
+  }
+
+
+

@@ -1,0 +1,525 @@
+/*Nota do Programador */
+/*
+Esse Documento é exclusivo para  formataçoes de texto que estao presente no projeto .. eu optei por colocar aqui todas as classe que fazem mudanças no tamanho do texto em sua cor e é cores de fundo de algum determinado elemento
+ Nessa pagina so conteram esses tipos de tags ,entao no outro documento elas nao deve esta presente.. foi usado o mesmo esquema de separaçao de tags do outro documento "Style-contente"
+ Nesse Documento foram criados alguns padores de cores que vao ser usados no Documento inteiro 
+
+*/
+
+/*--Equema de pagina ---*/
+/*
+
+pag 0 = *Todas as pagina do sit*      -*-
+pag 1 = *algumas paginas do sit*      -!-
+
+pag 2 = home "index.php"              -!-
+pag 34 = Programas relacionado "programas-relacionados.php"  -!-
+
+        Escolaetec-cont-class-download
+pag 3 = APM "APM.php"                 -!-
+pag 4 = Mural de avisos "mural-avisos.php" -*-
+pag 5 = eventos "Eventos.php"    -*-
+pag 6 = eventos iten "Evento-iten.php " -!-
+pag 7 = conselho "conselho.php"  -"Reaproveitamento de codigo"-
+pag 8 = corpo docente "corpo-docente.php" -"Reaproveitamento de codigo"-
+pag 9 = direção "direcao.php" -!-
+pag 10 = diretoria de serviçoes"diretoria-servico.php" -!-
+pag 11 = historia "historia.php" -!- 
+pag 37 = Alanos Graduados "graduaçoes.php" -!-
+        
+		 Serviços
+pag 12 = Biblioteca "biblioteca.php" -!-
+pag 13 = Conselho de classe"conselho-classe.php" -!-
+pag 14 = Cordenação "cordenacao.php"  -!-
+pag 15 = Emprego e serviço "emprego-servico.php" -*-
+pag 16 = parceria microsoft "parceria-microsoft.php"-*-
+pag 17 = Secretaria academica "secretaria-academica.php" -*-
+pag 18 = Refeitorio "Refeitório" -*-
+
+         Informações
+pag 19 = Calendario escolar "calendario-escolar.php " -*-
+pag 20 = Gremio Estudantil "gremio-estudantil.php" -!-
+pag 21 = Horario das aulas "horario-aulas.php" -*-
+pag 22 = Normas de convivencia "normas-convivencia.php" -"Reaproveitamento de codigo"-
+pag 23 = Plano plurial de gestao "plano-plurianal.php" -!-
+pag 24 = Regimento escolar "regimento.php"   -!-
+pag 25 = Vestibulinho "vestibulinho.php" -!-
+pag 26 = Inova paulo souza "inova-paulo-souza.php" -*-
+   
+        Fotos
+pag 27 = Fotos "Fotos.php" -*-
+pag 28 = Albuns "Albun.php" -!-    ---erro falta de css ----
+       
+	   Apostilas
+pag 29 = Apostilas "apostilas.php" -*-
+
+       Cursos
+pag 30 = Ensino medio "cursos-medio.php" -*-
+pag 31 = Cursos modulares "cursos-modulares.php" -*-
+pag 32 = Cursos Integrados "cursos-integrados.php" "reaproveitamento de codigo"
+  
+       Contato 
+Pag 33 = Contato "contato.php"
+
+       pagina em contrução
+pag 35 = pagina em contruçao "pagina_contrucao.php" -!-
+
+       pagina de erro 
+pag 36 = erro404 "erro404" -!-
+
+      Paginas ADM(administrativas)
+pag 38 = login "login.php" -!-
+pag 39 = paginas de cadastro e ediçao(Todas a programaçao da pagina de cadastro e ediçao sao similares)
+pag 40 = pagina dos dados do adm "my-dados.php"
+pag 41 = paginas que fazem algum tipo de exibiçao de dados 
+
+pag 42 = classe de rodape e menu
+*/
+
+/*Tages que vao fazer parte de varias paginas */
+.cont-title ,.cont-title-left {
+color:rgba(62,0,223,1);
+font-size:27px;
+}/*Classes usadas em titulos*/
+.cont-sub-title{
+color:rgba(62,0,223,1);
+font-size:20px;
+}/*Classe usadas em sub titulos */
+.cont-title-reduses {
+font-size:18px;
+color:rgba(62,0,223,1);
+}
+.cont-title-sub{
+color:rgba(20,20,20,1);
+font-size:22px;
+font-family:Optima, sans-serif ;
+}/*Classe que defini uma estelirizaçao diferente para alguns titulos da pagina*/
+.cont-vari-fonts{
+font-family:Optima, sans-serif;
+}/*Define uma variante de fonte para um determinado elemento CSS*/
+
+.cont-btn{
+background-color:rgba(255,55,45,1);
+color:#FFF;
+}/*Classe usadas em botoes*/
+
+.cont-btn a:hover{
+color:rgba(62,0,223,1);
+}/*classe que ira definir uma formataçoa quando um link tiver o mouse sobre ele*/
+
+.cont-a-black a{
+color:#000;
+}/*faz com que o link fique preto*/
+.cont-a-true-wri a{
+color:#FFF;
+}/*faz com que o link fique branco*/
+.cont-a-vinho a{
+color:rgba(255,55,45,1);
+font-size:18px;
+}/* faz com que o link fique com vinho */
+
+/*COR padrao usada em titulos (62,0,223)*/
+
+.container-indicator ,.container-indicator-adm{
+
+}/*defini a cor de fundo da bara de navegaçao*/
+.container-indicator-item ,.container-indicator-item-quebre{
+
+}/*aplica tamanho e cor ao texto*/
+*Programaçao aplicada as tabelas do site*/
+.cont-table-bibli caption,.cont-table caption{
+font-size:20px;
+}/*formataçao aplicada ao titulo da tabela*/
+.cont-table tr:nth-child(2n+1) td {
+background-color:rgba(230,230,230,1);
+} 
+#cont-table-cap-bib tr:nth-child(2n+1) td {
+background-color:#FFF;
+}
+.cont-class-text {
+font-size:18px;
+}/*container filho que ira armazenar o texto*/
+
+#cont-table-title td{
+background-color:rgba(252,144,58,1);
+color:rgba(40,40,40,1);
+}/*id que muda o titulo das tabelas*/
+.cont-division{
+color:#FFF;
+margin:1% 0% 1% 0%;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+																
+/***************laranja padrao  'background-color:rgba(252,144,58,1); "*********************/
+
+/*Classes que vao receber a cor de fundo Laranja */
+.event-content-list-unit-dia,.event-content-list-ver-mais-m , .item-nun ,.eve-content-unit-ler-mais ,.cal-sub-data ,.horario-aulas-download-a,.cont-class-download-a ,.eve-imgs-btn {
+
+}
+
+/*Classes que vao receber a cor de texto laranja*/
+.event-content-list-ver-mais ,.ver-mais-tes ,.warning-sub-title ,.cont-a-orage a ,.cont-divisor-text h1{
+color:rgba(252,144,58,1);
+}
+
+
+/**************Azul Padrao "background-color:rgba(28,21,255,1);" ***/
+/*Classes que tem evento "hover" azul */
+.cont-a-orage a:hover{
+color:rgba(28,21,255,1);
+}
+.event-content-list-unit:hover .event-content-list-unit-dia {
+background-color:rgba(28,21,255,1);
+}
+.event-content-list-ver:hover .event-content-list-ver-mais{
+color:rgba(28,21,255,1);
+}
+.event-content-list-ver:hover .event-content-list-ver-mais-m{
+background-color:rgba(28,21,255,1);
+}
+.container-ver-mais:hover .ver-mais-tes{
+color:rgba(28,21,255,1);
+}
+.container-ver-mais:hover  .event-content-list-ver-mais-m{
+background-color:rgba(28,21,255,1);
+}
+.eve-content-unit-ler a:hover .eve-content-unit-ler-mais{
+background-color:rgba(28,21,255,1);
+}/*ao passar o mouse sobre o botao esse troca sua cor de fundo*/
+.horario-aulas-download a:hover .horario-aulas-download-a {
+background-color:rgba(28,21,255,1);
+}/*Formataçao aplicada a passagem do mouse sobre o botao*/
+.cont-class-download a:hover .cont-class-download-a{
+background-color:rgba(28,21,255,1);
+}
+.curso-integrad-ler-mais a:hover .curso-integrad-ler-mais {}
+
+}
+
+/**********************Classes que recebem cor branca *******************/
+/*Classes que vao receber a cor de texto branca */
+.event-content-list-unit-dia ,.event-content-list-ver-mais-m {
+color:#FFF;
+}
+
+
+
+
+/*pag 1*//*------------------------------------------------------------------------------------------------------------------------------------*//*pag 1*/
+
+
+
+
+.cont-title {
+font-size:25px;
+}/*titulo principal de uma pagina*/
+
+.cont-title-left{
+font-size:25px;
+}/*titulo Principal de uma pagina alinhado a esquerda*/
+
+.cont-title-reduses{
+font-size:18px;
+
+}/*Formatação usada em titulos com tamanho reduzido */
+
+.cont-sub-title ,.curso-uni-duracao h1 ,.eve-iten h1 ,{
+font-size:25px;
+color:rgba(28,21,255,1);
+}/*Sub titulo de uma pagina*/
+
+.cont-title-left ,.cont-title-h2 ,.cont-iten-title ,.cont-sub-title ,.program-unit section ,.cont-title   ,.cont-emprego-op-text h1 ,.cont-conselho-title,.cont-title-reduses{
+color:rgba(28,21,255,1);
+
+
+
+} /*formataçoes aplicadas as principais tags de estilizaçao de titulo referentes ao projeto ,essa tags se referem a diversas pagina do projeto*/
+
+.cont-title-h2{
+font-size:19px;
+}/*formataçoes aplicadas aos titulos com h2*/
+/*CLasse de fonte que sao usadas  em diferentes paginas*/
+.cont-text-font17{
+font-size:17px;
+}/*Classe que altera o tamanho de  todo o texto atingindo */
+/*Classe de links*/
+.cont-text-font12{
+font-size:5px;
+}
+.cont-a-true-wri a {
+color:#FFF;
+}
+.cont-a-black a{
+color:#000;
+}
+.cont-a-red a{
+color:#F00;
+}
+.cont-a-true a ,.cont-a-hover-orage a:hover{
+color:rgba(255,74,39,1);
+}
+.cont-a-true-wri a:hover{
+color:#F00;
+}
+.cont-a-hover-red a:hover{
+color:#F00;
+}
+.cont-a-hover-blue a:hover{
+color:#00F;
+}
+.cont-a-hover-red a:hover{
+color:rgba(251,12,12,1);
+}
+
+/*classe aplicadas a todas as paginas */
+
+
+/*conjuto de classe que sao reponsaveis por organizar uma imagen pareada com um texto , essa programaçao é usada nas paginas "plano-plurial.php" "regimento.php"*/
+
+
+/
+/*pag 2//**//*pag 2*/
+                                          
+												   
+.cont-iten-title{
+font-size:21px;
+}/* formatacao do titulo */ 
+.cont-iten-subtitle{
+color:rgba(58,74,159,1);
+font-size:16px;
+}
+.cont-iten-descri{
+color:rgba(12,12,12,1);
+font-size:18px;
+}
+.nav{
+color:#fff;
+font-size: 3em;
+}
+/*.calendar-iten p , .calendar-iten h1 ,.ver-mais-tes p{
+color:rgba(28,21,255,1);
+}*/
+.container-ver-mais a:hover{
+color:rgba(FF5047);
+}
+.warning-iten-list a{
+color:#000;
+
+}
+.warning-sub-title {
+font-size:19px;
+}
+
+.warning-content ,.container-warning{
+background-color:rgba(246,255,245,1);
+}/*define uma cor de fundo para o mural de avisos*/
+
+.warning-iten-list a:hover{
+color:rgba(42,90,255,1);
+}/*ao passar o mouse sobre um aviso este troca de cor*/
+
+
+/*pag 4*//*----------------------------------------------------------------------------------------------------------------------------------*//*pag 4*/
+.btn-ver label:hover {
+background-color:rgba(250,250,250,1);
+}
+.mural-avi-fix p ,.avi-sub-ocu p{
+font-size:18PX;
+}
+
+/*pag 5*//*-----------------------------------------------------------------------------------------------------------------------------------*//*pag 5*/
+
+
+/*pag 6*//*--------------------------------------------------------------------------------------------------------------------------------------*//*pag 6*/
+.eve-iten-text{
+font-size:19px;
+}/*container que vai armazenar o texto referente ao evento*/
+.eve-iten-text h1{
+font-size:19px;
+}/*formataçao aplica ao titulo */
+.eve-imgs-mais{
+
+}/*container que vai armazenar botao que vai liberar mais imagens*/
+.eve-imgs-btn{
+font-size:19px;
+}
+.eve-iten-text{
+font-size:19px;
+}/*container que vai armazenar o texto referente ao evento*/
+.eve-iten-text h1{
+font-size:21px;
+}/*formataçao aplica ao titulo */
+
+/*pag 9*//*-----------------------------------------------------------------------------------------------------------------------------------*//*pag 9*/
+.cont-foto-name{
+font-size:20px;
+}
+.cont-direcao-funçao{
+font-size:28px;
+}
+
+
+/*pag 10*//*---------------------------------------------------------------------------------------------------------------------------------*//*pag 10*/
+
+                                                
+.cont-td-nun {
+font-size:25px;
+
+}
+.cont-td-doc{
+font-size:18px;
+}
+.diretoria-btn a{
+color:#000;
+background-color:rgba(247,65,04,1);
+}/*Define formataçoes aplicadas ao textodos botoes de Download*/
+.diretoria-btn a:hover{
+color:#F00;
+}/*mudar a cor do botao ao passar o mouse por cima dele*/
+
+
+/*pag 11*//*---------------------------------------------------------------------------------------------------------------------------------*//*pag 11*/
+                                                
+.cont-td-nun {
+font-size:25px;
+
+}
+.cont-td-doc{
+font-size:18px;
+}
+.diretoria-btn a{
+color:#000;
+background-color:rgba(247,65,04,1);
+}/*Define formataçoes aplicadas ao textodos botoes de Download*/
+.diretoria-btn a:hover{
+color:#F00;
+}/*mudar a cor do botao ao passar o mouse por cima dele*/
+#cont-table-title td{
+background-color:rgba(252,144,58,1);
+color:rgba(40,40,40,1);
+}/*id que muda o titulo das tabelas*/
+
+
+/*pag 12*//*----------------------------------------------------------------------------------------------------------------------------*//*pag 12*/
+
+/*pag 13*//*---------------------------------------------------------------------------------------------------------------------------*//*pag 13*/
+                                                         
+.cont-conselho-title{
+font-size:20px;
+}/*formataçoes aplicas aos titulos da pagina do conselho de class*/
+.cont-conselho-subtitle{
+color:#999;
+font-size:17px;
+}
+.cont-conselho-btn{
+color:#000;
+font-size:17px;
+}
+.cont-conselho-btn{
+background-color:rgba(247,65,04,1);
+}/*Formataçoes aplicadas aos Botoes de Downloads de toda a pagina*/
+
+/*pag 14*//*--------------------------------------------------------------------------------------------------------------------------------*//*pag 14*/
+
+/*pag 15*//*--------------------------------------------------------------------------------------------------------------------------------*//*pag 15*/
+
+.cont-emprego-empre-text ,.cont-emprego-op-text{
+font-size:18px;
+}
+.cont-emprego-op-text h1{
+font-size:22px;
+}/*formataçoes aplicadas aos titulos na pagina de emprego e servico*/
+
+/*pag 16*//*----------------------------------------------------------------------------------------------------------------------------------*//*pag 16 */
+.cont-parceria-content-text{
+font-size:18px;
+}
+/**pag 17//*----------------------------------------------------------------------------------------------------------------------------------*//*pag 17*/
+
+/*pag 18*//*----------------------------------------------------------------------------------------------------------------------------------*//*pag 18*/
+
+
+/*pag 19*//*----------------------------------------------------------------------------------------------------------------------------------*//*pag 19*/
+
+.cal-sub-iten{
+background-color:rgba(50,50,50,1);
+}/*container que armazena  uma data referente ha uma ocasiao especificada do mes em que ela esta vinculada*/
+
+/*pag 20*//*----------------------------------------------------------------------------------------------------------------------------------*//*pag 20*/
+                    
+.gremio-title-funcao{
+font-size:23px;
+color:rgba(86,86,86,1);
+}
+.composit-gremir-nome{
+font-size:18px;
+}/*Formataçoes aplicada ao nome de cada menbro do gremio estudantil*/
+
+/*pag 21*//*----------------------------------------------------------------------------------------------------------------------------------*//*pag 21*/
+.cont-horario-aulas-title{
+font-size:22px;
+}
+.horario-aulas-text {
+font-size:18px;
+}/*Formataçoes aplicadas ao texto que se encontra ao lado da imagen*/
+.horario-aulas-download-a{
+font-size:19px;
+}/*Formataçao aplicaca ao botao em si de Download*/
+
+/*pag 22*//*----------------------------------------------------------------------------------------------------------------------------------*//*pag 22*/
+.normas-conviven-text{
+font-size:19px;
+}
+
+/*pag 26*//*----------------------------------------------------------------------------------------------------------------------------------*//*pag 26*/
+.contant-inova-text{
+font-size:18px;
+}/*COntainer que esta armazenado  o texo referente ao evento */
+/*pag 27*//*----------------------------------------------------------------------------------------------------------------------------------*//*pag 27*/
+
+/*pag 28*//*----------------------------------------------------------------------------------------------------------------------------------*//*pag 28*/
+/*pag 29*//*----------------------------------------------------------------------------------------------------------------------------------*//*pag 29*/
+/*pag 30*//*----------------------------------------------------------------------------------------------------------------------------------*//*pag 30*/
+.curso-integrad-unit-text h1{
+font-size:22px;
+color:rgba(50,50,50,1);
+}/*Formataçoes aplicadas ao titulo do container text*/
+.curso-integrad-unit-text p{
+color:rgba(100,100,100,1);
+}/*Formataçoes aplicada ao paragrado do container text*/
+
+
+}/*ao passar o mouse sobre o  botao esse tera o seu texto alterado*/
+/*pag 31*//*----------------------------------------------------------------------------------------------------------------------------------*//*pag 31*/
+
+/*pag 32*//*--------------------------------------------------------------------------------------------------------------------------------*//*pag 32*/
+
+
+/*pag 36*//*--------------------------------------------------------------------------------------------------------------------------------*//*pag 36*/	
+	.main-erro-404 h1{
+font-size:30px;
+}
+.main-erro-404 h2{
+font-size:18px;
+}
+.main-erro-404 p{
+font-size:18px;
+}
+			
+/*pag 39*//*--------------------------------------------------------------------------------------------------------------------------------*//*pag 39*/                                                   
+.cont-cadastre-form textarea {
+font-size:14px;
+}
+.event-content-list-unit-dia{
+font-size:18px;
+}
+
+
